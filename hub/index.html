@@ -38,37 +38,303 @@ footer{color:var(--gray);font-size:.8rem;text-align:center;padding:2rem}
 
 <h2>Weekly schedule</h2>
 <p>Holidays: Labor Day Mon Sep 7 · Veterans Day Wed Nov 11. Rounds are due at the Wednesday class unless noted; project assignments (PAs) are due Sundays 11:59 PM.</p>
-<table><tr><th>Wk</th><th>Mon — Lecture</th><th>Wed — Hands-on</th><th>Rounds</th><th>Due</th></tr><tr><td><strong>1</strong></td><td>Aug 24 — What is marketing research + the course arc</td><td>Aug 26 · App onboarding; teams + case assignment</td><td>r01–r02 (Wed)</td><td><strong>PA0/PA1; PA2 briefed</strong></td></tr><tr><td><strong>2</strong></td><td>Aug 31 — Secondary data</td><td>Sep 2 · <strong>Guest: research librarian</strong> + PA2 team time</td><td>r03–r04</td><td><strong></strong></td></tr><tr><td><strong>3</strong></td><td><s>Sep 7</s> Labor Day — —</td><td>Sep 9 · Problem definition + client video (lecture)</td><td>—</td><td><strong>PA2 · Sun Sep 13</strong></td></tr><tr><td><strong>4</strong></td><td>Sep 14 — r15 debrief; Cases 1 &amp; 3; PA3 workshop</td><td>Sep 16 · <strong>Work day</strong> — interview extraction + PA3 drafting</td><td>r15 (Mon)</td><td><strong>PA3 · Sun Sep 20</strong></td></tr><tr><td><strong>5</strong></td><td>Sep 21 — Qualitative research + focus groups (+PA2 debrief)</td><td>Sep 23 · Live focus-group role-play; Case 2</td><td>r06 (r07 assigned)</td><td><strong></strong></td></tr><tr><td><strong>6</strong></td><td>Sep 28 — Questionnaire design + measurement (+PA3 debrief)</td><td>Sep 30 · Worksheet A/B clinic; item repair; Case 5</td><td>r07–r09</td><td><strong>PA4 · Sun Oct 4</strong></td></tr><tr><td><strong>7</strong></td><td>Oct 5 — Sampling: theory, size, implementation</td><td>Oct 7 · Fielding QA + consent; Case 6; pitch rehearsal</td><td>r10</td><td><strong>PA5 · Sun Oct 11 · PA5.5 opens</strong></td></tr><tr><td><strong>8</strong></td><td>Oct 12 — Descriptives + the data analysis plan (+PA4/PA5 debrief)</td><td>Oct 14 · RQ-card clinic; open-end coding</td><td>r11</td><td><strong>PA6 briefed</strong></td></tr><tr><td><strong>9</strong></td><td>Oct 19 — t-tests + effect sizes</td><td>Oct 21 · t-test lab + hand calculation</td><td>r13 (part)</td><td><strong>PA6 · Sun Oct 25</strong></td></tr><tr><td><strong>10</strong></td><td>Oct 26 — AI in marketing research + disclosure ethics</td><td>Oct 28 · AI survey-analysis lab</td><td>—</td><td><strong>PA5.5 closes Sun Nov 1</strong></td></tr><tr><td><strong>11</strong></td><td>Nov 2 — Chi-square + cross-tabs (+PA6 debrief)</td><td>Nov 4 · r13; Case 7; PA7 workshop</td><td>r13 (complete)</td><td><strong>PA7 · Sun Nov 8</strong></td></tr><tr><td><strong>12</strong></td><td>Nov 9 — Positioning &amp; perceptual maps — lab kickoff</td><td><s>Nov 11</s> Veterans Day — lab launches async</td><td>r14 (by Mon Nov 16)</td><td><strong></strong></td></tr><tr><td><strong>13</strong></td><td>Nov 16 — <strong>Guest: MR industry expert on AI</strong> (+PA7 debrief)</td><td>Nov 18 · Perceptual-map lab work session</td><td>—</td><td><strong>Lab · Sun Nov 22</strong></td></tr><tr><td><strong>14</strong></td><td>Nov 23 — Insights &amp; report writing</td><td>Nov 25 · Report workshop; r12; PA8 outline</td><td>r12</td><td><strong></strong></td></tr><tr><td><strong>15</strong></td><td>Nov 30 — Course synthesis + exam review (+lab debrief)</td><td>Dec 2 · <strong>Final presentations (PA8)</strong></td><td>(all closed)</td><td><strong>PA9 → finals</strong></td></tr><tr><td><strong>Finals</strong></td><td>Dec 7–13 — Final exam (registrar's M/W 2:30 slot)</td><td>—</td><td>—</td><td><strong>PA9 due at exam</strong></td></tr></table>
+<table><tr><th>Wk</th><th>Mon — Lecture</th><th>Wed — Hands-on</th><th>Rounds</th><th>Due</th></tr><tr><td><strong>1</strong></td><td>Aug 24 — What is marketing research + the course arc</td><td>Aug 26 · App onboarding; teams + case assignment</td><td>r01–r02 (Wed)</td><td><strong>PA0/PA1; PA2 briefed</strong></td></tr><tr><td><strong>2</strong></td><td>Aug 31 — Secondary data</td><td>Sep 2 · <strong>Guest: research librarian</strong> + PA2 team time</td><td>r03–r04</td><td><strong></strong></td></tr><tr><td><strong>3</strong></td><td><s>Sep 7</s> Labor Day — —</td><td>Sep 9 · Problem definition + client video (lecture)</td><td>—</td><td><strong>PA2 · Sun Sep 13</strong></td></tr><tr><td><strong>4</strong></td><td>Sep 14 — r15 debrief; Cases 1 &amp; 3; PA3 workshop</td><td>Sep 16 · <strong>Work day</strong> — interview extraction + PA3 drafting</td><td>r15 (Mon)</td><td><strong>PA3 · Sun Sep 20</strong></td></tr><tr><td><strong>5</strong></td><td>Sep 21 — Qualitative research + focus groups (+PA2 debrief)</td><td>Sep 23 · Live focus-group role-play; Case 2</td><td>r06 (r07 assigned)</td><td><strong></strong></td></tr><tr><td><strong>6</strong></td><td>Sep 28 — Questionnaire design + measurement (+PA3 debrief)</td><td>Sep 30 · RQ→Item Map clinic; item repair; Case 5</td><td>r07–r09</td><td><strong>PA4 · Sun Oct 4</strong></td></tr><tr><td><strong>7</strong></td><td>Oct 5 — Sampling: theory, size, implementation</td><td>Oct 7 · Fielding QA + consent; Case 6; pitch rehearsal</td><td>r10</td><td><strong>PA5 · Sun Oct 11 · PA5.5 opens</strong></td></tr><tr><td><strong>8</strong></td><td>Oct 12 — Descriptives + the data analysis plan (+PA4/PA5 debrief)</td><td>Oct 14 · RQ-card clinic; open-end coding</td><td>r11</td><td><strong>PA6 briefed</strong></td></tr><tr><td><strong>9</strong></td><td>Oct 19 — t-tests + effect sizes</td><td>Oct 21 · t-test lab + hand calculation</td><td>r13 (part)</td><td><strong>PA6 · Sun Oct 25</strong></td></tr><tr><td><strong>10</strong></td><td>Oct 26 — AI in marketing research + disclosure ethics</td><td>Oct 28 · AI survey-analysis lab</td><td>—</td><td><strong>PA5.5 closes Sun Nov 1</strong></td></tr><tr><td><strong>11</strong></td><td>Nov 2 — Chi-square + cross-tabs (+PA6 debrief)</td><td>Nov 4 · r13; Case 7; PA7 workshop</td><td>r13 (complete)</td><td><strong>PA7 · Sun Nov 8</strong></td></tr><tr><td><strong>12</strong></td><td>Nov 9 — Positioning &amp; perceptual maps — lab kickoff</td><td><s>Nov 11</s> Veterans Day — lab launches async</td><td>r14 (by Mon Nov 16)</td><td><strong></strong></td></tr><tr><td><strong>13</strong></td><td>Nov 16 — <strong>Guest: MR industry expert on AI</strong> (+PA7 debrief)</td><td>Nov 18 · Perceptual-map lab work session</td><td>—</td><td><strong>Lab · Sun Nov 22</strong></td></tr><tr><td><strong>14</strong></td><td>Nov 23 — Insights &amp; report writing</td><td>Nov 25 · Report workshop; r12; PA8 outline</td><td>r12</td><td><strong></strong></td></tr><tr><td><strong>15</strong></td><td>Nov 30 — Course synthesis + exam review (+lab debrief)</td><td>Dec 2 · <strong>Final presentations (PA8)</strong></td><td>(all closed)</td><td><strong>PA9 → finals</strong></td></tr><tr><td><strong>Finals</strong></td><td>Dec 7–13 — Final exam (registrar's M/W 2:30 slot)</td><td>—</td><td>—</td><td><strong>PA9 due at exam</strong></td></tr></table>
 
 <h2>Term project — assignment briefs</h2>
 <p>Click any assignment to read the full brief. The Canvas assignment page is always the submission point and the version of record for due dates.</p>
-<details id="pa0-pa1"><summary><span>PA0-PA1 — Getting Started — Bio, Teams & Case Draw</span><span class="due">Week 1</span></summary><div class="pa-body"><p>Submit your short bio + photo on Canvas (PA0). In Wednesday's class you'll form project teams and draw your mini-case — your team's case number is your team identity for the term (PA1). Create your simternship account and finish rounds r01–r02 before Wednesday.</p></div></details><details id="pa2"><summary><span>PA2 — Secondary Research — AI Market Scan + Source Audit</span><span class="due">Sun Sep 13</span></summary><div class="pa-body"><h1>PA2 — Secondary Research: AI-Assisted Market Scan + Source Audit (Team)</h1>
-<blockquote>
-<p><strong>New FA26 assignment (2026-08-05).</strong> Due <strong>Sunday Sep 13, 11:59 PM</strong> (end of week 3) — <strong>before</strong> you conduct the PA3 client interview. Professionals never walk into a client conversation cold: you do the desk research first, so your interview questions probe what the public record <em>cannot</em> answer. Rehearsed by simternship rounds <strong>r03</strong> (Neo RFP) and <strong>r04</strong> (secondary research), both due at the week-3 class.</p>
-</blockquote>
-<h2>The situation</h2>
-<p>Neo Smart Living is preparing to launch the <strong>Tahoe Mini</strong>, a prefab backyard studio at roughly <strong>$23,000 installed</strong>. Before anyone designs a survey or talks to the founder, your team builds the picture that already exists in public and library sources: what this product category is, who competes in it, what substitutes for it, what it costs elsewhere, who buys it, and what rules govern putting one in a Southern California backyard.</p>
-<p>You will do this <strong>the modern way and the traditional way, and reconcile the two</strong>:</p>
-<ul>
-<li><strong>Part A</strong> — an AI deep-research pass (fast, broad, and <em>unverified until you audit it</em>).</li>
-<li><strong>Part B</strong> — one manual pass through the <strong>CPP Library's licensed databases</strong> (e.g., a <strong>Mintel</strong>, IBISWorld, or Statista report), the way researchers worked before AI — and the way you still verify market sizes today.</li>
-<li><strong>Part C</strong> — a <strong>source audit</strong> that decides which claims from either pass are safe to put in front of a client.</li>
-</ul>
-<p>The course's standing rule applies to secondary research too: <em>AI writes the first draft; verified sources get the final word.</em></p>
-<hr />
-<h2>Part A — AI deep research (the first draft)</h2>
-<p>Use a deep-research-capable AI tool (ChatGPT Deep Research, Gemini Deep Research, Claude, or Perplexity). Run <strong>at least two scoped research prompts</strong> and keep the full transcripts/links for your AI disclosure.</p>
-<p><strong>Your report must cover these areas</strong> (one section each):</p>
+<details id="pa0-pa1"><summary><span>PA0-PA1 — Getting Started — Bio, Teams & Case Draw</span><span class="due">Week 1</span></summary><div class="pa-body"><p>Submit your short bio + photo on Canvas (PA0). In Wednesday's class you'll form project teams and draw your mini-case — your team's case number is your team identity for the term (PA1). Create your simternship account and finish rounds r01–r02 before Wednesday.</p></div></details><details id="pa2"><summary><span>PA2 — Secondary Research — AI Market Scan + Source Audit</span><span class="due">Sun Sep 13</span></summary><div class="pa-body"><h1>PA2 — Secondary Research &amp; Source Audit</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Points</td>
+<td>100 (term-project component)</td>
+</tr>
+<tr>
+<td>Due</td>
+<td>Sunday Sep 13, 11:59 PM</td>
+</tr>
+<tr>
+<td>Work</td>
+<td>Team</td>
+</tr>
+<tr>
+<td>Submit</td>
+<td>Canvas — one PDF (memo, ≤ 6 pages) + the filled Source Audit Form from Appendix A</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Where this fits:</strong> Lecture — Session 2.1 <em>Secondary Research</em> (week 2) + the librarian guest visit Wednesday Sep 2 → Practice — Summit Point rounds <strong>r03</strong> (<em>Neo RFP</em>) and <strong>r04</strong> (<em>Analyze secondary research</em>) → Now the real thing: the desk-research memo that precedes the PA3 client interview. Professionals never walk into a client conversation cold.</p>
+<h2>The gist</h2>
+<p>Neo Smart Living is launching the <strong>Tahoe Mini</strong>, a prefab backyard studio at roughly <strong>$23,000 installed</strong>. Before anyone designs a survey or talks to the founder, your team builds the picture the public record already holds: what the category is, who competes, what substitutes, where $23K sits, and what California lets you put in a backyard. You do it the modern way (AI deep research), the traditional way (a licensed library report), and then run the source audit that decides which claims are safe to put in front of a client.</p>
+<h2>Steps</h2>
 <ol>
-<li><strong>Category definition &amp; size.</strong> What is the prefab backyard studio / "space pod" category? How is it different from ADUs (accessory dwelling units), tiny homes, and sheds? Any category size/growth estimates you find — <em>with the audit treatment below; market-size numbers are where AI hallucinates most.</em></li>
-<li><strong>Regulatory snapshot (California).</strong> Permitting rules for small detached backyard structures vs. ADUs in California — when is a permit required, what does the under-120-sq-ft exemption actually exempt, and why does "no plumbing" matter? This is decision-relevant: it defines what the Tahoe Mini legally is.</li>
-<li><strong>Direct competitors.</strong> A comparison matrix of prefab backyard studio makers: product, size, <strong>advertised price vs. realistic completed cost</strong>, positioning claim, and buying model (online configurator vs. consultant-led). Minimum four direct competitors.</li>
-<li><strong>Substitutes &amp; adjacent categories.</strong> What else solves the same problem — room additions, garage conversions, finished shed kits, expandable/container tiny homes, coworking memberships? Note at least one <em>price trap</em>: a product whose price looks Tahoe-comparable but sits in a different category (kitchen/bath, permits, foundations).</li>
-<li><strong>Customer evidence.</strong> What the public record says about who buys backyard studios and why (remote work, guest space, rental, wellness). Distinguish vendor marketing claims from independent evidence.</li>
-<li><strong>Pricing landscape.</strong> Where does $23K installed sit in the distribution of advertised prices <em>and</em> completed costs?</li>
-<li><strong>Implications → your interview plan.</strong> The bridge to PA3: <strong>five interview questions for the founder that secondary research cannot answer</strong>, and <strong>three hypotheses</strong> your primary research (focus groups, survey) should test. Each must cite the section that motivated it.</li>
+<li><strong>Run Part A — AI deep research.</strong> Use a deep-research-capable tool with at least two scoped prompts (samples in Appendix B); keep full transcripts and links. Iterate — demand a citation for every claim, and treat every output as <em>unverified draft</em> until Part C.</li>
+<li><strong>Write the memo</strong> (≤ 6 pages incl. tables): category definition &amp; size (studio pod vs. ADU vs. tiny home vs. shed — and why); a California regulatory snapshot (when a permit is required, what the under-120-sq-ft exemption actually exempts, why "no plumbing" matters); ≥ 4 direct competitors with advertised price <strong>and what it excludes</strong>; substitutes with at least one price trap; customer evidence (vendor claims vs. independent); and where $23K sits among <em>completed costs</em>, not headlines.</li>
+<li><strong>Do Part B — the library pass.</strong> Through the CPP Library database portal (not Google), retrieve one licensed industry report — Mintel, IBISWorld, or Statista; ask a librarian if unsure which fits. Extract <strong>three findings that appeared nowhere in your AI pass</strong>.</li>
+<li><strong>Write the AI-vs-library comparison</strong> (half a page): what the licensed report had that the open web didn't, where the two <em>disagreed</em>, which you trust for what — plus one line on your search path (databases tried, librarian consulted).</li>
+<li><strong>Audit every number — Part C.</strong> Fill the Source Audit Form (Appendix A) for ≥ 12 claims, including <strong>every number in the memo</strong>: publisher type, date, who collected it and why, the method behind the number, corroboration, verdict, action taken.</li>
+<li><strong>Push until something breaks.</strong> A clean audit is a failed audit: we expect <strong>≥ 2 rows rated Unverified or Contradicted</strong>, each with a real action (claim cut, ranged, or downgraded to "vendor-claimed"). If everything verified cleanly, you didn't push hard enough.</li>
+<li><strong>Build the interview bridge.</strong> Close the memo with <strong>five founder questions secondary research cannot answer</strong> and <strong>three hypotheses</strong> for your primary research — each citing the section that motivated it. This is your PA3 interview prep.</li>
 </ol>
-<h3>Sample deep-research prompts (adapt, don't copy blindly)</h3>
+<h2>What to submit</h2>
+<ul>
+<li>[ ] Secondary research memo (≤ 6 pages): every factual claim cited (source name + link); every less-than-Verified number flagged in the text</li>
+<li>[ ] Library block inside the memo: full report citation (database, title, publisher, date) + three findings + comparison paragraph + search path</li>
+<li>[ ] Filled Source Audit Form (Appendix A): ≥ 12 rows, ≥ 2 Unverified/Contradicted with actions</li>
+<li>[ ] Interview bridge: 5 founder questions + 3 hypotheses, each traced to its section</li>
+<li>[ ] AI reflection (below), with tools, actual prompts, and transcript links</li>
+</ul>
+<h2>How you'll be graded</h2>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Weight</th>
+<th>Strong work looks like</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Category &amp; regulatory picture</td>
+<td>25%</td>
+<td>Category line drawn correctly (studio pod ≠ ADU ≠ tiny home ≠ shed, with the plumbing/permit/foundation logic); the 120-sq-ft exemption stated <strong>with</strong> its electrical-permit caveat; every market-size number carries publisher + year + verdict</td>
+</tr>
+<tr>
+<td>Competitors, substitutes &amp; interview bridge</td>
+<td>25%</td>
+<td>≥ 4 competitors with advertised prices and stated exclusions; ≥ 1 price trap correctly placed in substitutes with the category logic; five founder questions a web search demonstrably cannot answer</td>
+</tr>
+<tr>
+<td>Source audit</td>
+<td>25%</td>
+<td>Every memo number has a row; verdicts justified by the who/why/when/how columns, not decorative; ≥ 2 Unverified/Contradicted rows with actions visible in the memo — a clean audit is a failed audit</td>
+</tr>
+<tr>
+<td>Library pass &amp; comparison</td>
+<td>15%</td>
+<td>Licensed report properly cited; 3 findings genuinely absent from the AI pass; comparison names a disagreement or capability difference, not "both were useful"</td>
+</tr>
+<tr>
+<td>Process &amp; AI reflection</td>
+<td>10%</td>
+<td>Human-first question list and outline documented; the four reflection prompts answered specifically, not generically</td>
+</tr>
+</tbody>
+</table>
+<h2>AI reflection (required)</h2>
+<p><strong>Human first.</strong> In PA2 the AI use <em>is</em> the assignment — so your human-first artifact is your own question list and section outline, written BEFORE you run any deep research. That order is the point: it is the only way to see what AI actually adds — or quietly subtracts. Then run and iterate your prompts, and answer the four prompts below (2–4 sentences each, specific to THIS assignment):</p>
+<p>(a) The most important change we made after using AI was…
+(b) We accepted this change because…
+(c) We rejected or substantially revised the AI suggestion that…
+(d) One uncertainty or question that remains is…</p>
+<p>List the tools you used and for what. Generic answers ("AI helped us improve clarity") score zero on this category; name the actual change.</p>
+<!--appendix-->
+<h2>Appendix A — Source Audit Form (fill this out)</h2>
+<p>One row per audited claim; <strong>every number in your memo needs a row</strong>; minimum 12. The verdict vocabulary is fixed — use exactly these four: <strong>Verified</strong> (two independent sources agree, method visible) · <strong>Partially verified</strong> (one credible source, or agreement with caveats) · <strong>Unverified</strong> (single source, method invisible, or the AI could not produce a checkable source) · <strong>Contradicted</strong> (credible sources disagree, or the claim collapsed on inspection). An AI summary is not a source — audit whatever it cites.</p>
+<!--landscape-->
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Claim (as used in memo)</th>
+<th>Source (name + URL)</th>
+<th>Publisher type (gov / trade assoc. / research firm / vendor / news / blog)</th>
+<th>Date</th>
+<th>Who collected it &amp; why (their incentive)</th>
+<th>Method behind the number</th>
+<th>Corroborating source (or "none found")</th>
+<th>Verdict</th>
+<th>Action taken in memo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Worked row — audit your claims to this standard:</strong></p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Claim</th>
+<th>Source</th>
+<th>Publisher type</th>
+<th>Date</th>
+<th>Who &amp; why</th>
+<th>Method</th>
+<th>Corroboration</th>
+<th>Verdict</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>E1</td>
+<td>"Kanga Modern Kwik Room 10×12 costs $18,900"</td>
+<td>Kanga Room Systems product page</td>
+<td><strong>Vendor</strong></td>
+<td>current</td>
+<td>Manufacturer pricing its own product — incentive to headline the lowest number</td>
+<td>Advertised price. Reading the page: $18,900 is the <strong>shell kit only</strong>; installed shell ≈ $24,700; <strong>turnkey ≈ $40,600, offered in Texas only</strong>; foundation, electrical, and interior finish excluded from the headline</td>
+<td>Independent prefab-buyer's-guide article listing completed costs</td>
+<td><strong>Partially verified</strong></td>
+<td>Memo reports the <em>range</em> ("$18.9K shell → ~$40.6K turnkey, TX") and never uses the bare $18,900 as a comparable to Tahoe's installed price</td>
+</tr>
+</tbody>
+</table>
+<!--/landscape-->
+
+<p>The lesson in E1: advertised price ≠ completed cost — always ask what the headline excludes, and compare only inside the category.</p>
+<h2>Appendix B — Sample deep-research prompts (adapt, don't copy blindly)</h2>
 <p><strong>Prompt 1 — category scan:</strong></p>
 <blockquote>
 <p>You are a marketing research analyst preparing a secondary-research memo for a client that sells a prefab backyard studio (~100 sq ft, no plumbing, ~$23,000 installed) in Southern California. Produce a structured brief covering: (1) how this product category is defined and how it differs from ADUs, tiny homes, and sheds; (2) any available estimates of category size or growth in the US and California, <strong>with the publisher and year of every estimate</strong>; (3) California permitting rules for detached accessory structures under 120 sq ft vs. ADUs, citing the actual code or a government source. Rules: cite a source (name + URL) for <strong>every factual claim</strong>; if you cannot find a verifiable source, say "no reliable source found" instead of estimating; flag any source older than 3 years; do not use vendor blogs as evidence for market-level claims.</p>
@@ -77,398 +343,1507 @@ footer{color:var(--gray);font-size:.8rem;text-align:center;padding:2rem}
 <blockquote>
 <p>Build a comparison table of companies selling prefab backyard studios / office pods in the US (no plumbing, roughly 90–200 sq ft). Columns: company, product, floor area, <strong>advertised base price</strong>, what that price excludes (delivery, foundation, electrical, installation), estimated completed cost if reported anywhere, buying model, and warranty. Separate a second table for <em>adjacent</em> products that look price-comparable but are a different category (expandable container homes, foldable ADUs, travel trailers). Cite the specific product page or article for every price, with the date you accessed it. Where prices conflict between sources, show both and note the conflict.</p>
 </blockquote>
-<p><strong>What good AI use looks like here:</strong> you iterate (the first output will miss exclusions and mix categories), you demand per-claim citations, and you treat everything as <em>unverified draft</em> until Part C. Your AI disclosure (tool, prompts, what you verified and how) is graded.</p>
-<hr />
-<h2>Part B — The traditional pass: one library source, obtained manually</h2>
-<p>AI cannot access the sources professionals actually pay for. Complete <strong>one manual retrieval</strong> through the <strong>CPP University Library</strong>:</p>
-<ol>
-<li>Go through the library's database portal (not Google) and retrieve <strong>one licensed industry report</strong> relevant to this category — e.g., a <strong>Mintel</strong> report (home &amp; garden / smart home / home improvement), <strong>IBISWorld</strong> (prefabricated home manufacturing, or landscaping/outdoor structures), or <strong>Statista</strong> dossier. If you're unsure which database fits, <strong>ask a librarian</strong> (chat, email, or the business liaison librarian) — note in your submission who/what you consulted and what they pointed you to.</li>
-<li>From that report, extract <strong>three findings that did not appear anywhere in your AI pass</strong> (a market size with a stated methodology, a segmentation, a trend forecast, a consumer-attitude statistic…).</li>
-<li>Write a short <strong>AI vs. library comparison</strong> (half a page): what did the licensed report have that the open web didn't? Where did the two <em>disagree</em>, and which do you trust for what?</li>
-</ol>
-<p><strong>Deliverable for Part B:</strong> full citation of the report (database, title, publisher, date), the three findings, the comparison paragraph, and one line on your search path (databases tried, librarian consulted if any).</p>
-<hr />
-<h2>Part C — The source audit (what makes your report <em>correct</em>)</h2>
-<p>Complete the <strong>Source Audit Form</strong> (template + worked example: <code>PA2_Source_Audit_Form.md</code>, posted with this assignment) for <strong>at least 12 claims</strong>, including <strong>every number that appears in your report</strong> (market sizes, growth rates, prices, percentages). For each claim you record: the source, publisher type, date, <em>who collected it and why</em>, the method behind the number, a corroborating second source (or the failure to find one), a <strong>verdict</strong> — <code>Verified / Partially verified / Unverified / Contradicted</code> — and the action you took in the report.</p>
-<p>Two honesty rules, both graded:</p>
-<ul>
-<li><strong>Every number in the report body must have an audit row.</strong> A number without an audit row costs points — that's how unverified claims reach clients.</li>
-<li><strong>A clean audit is a failed audit.</strong> Real secondary research always surfaces problems — advertised prices that exclude half the cost, market sizes three sources disagree on, "category" statistics that quietly include a different category. We expect <strong>at least two claims rated <code>Unverified</code> or <code>Contradicted</code></strong>, with what you did about them (cut the claim, ranged it, downgraded it to "vendor-claimed"). If everything verified cleanly, you didn't push hard enough.</li>
-</ul>
-<hr />
-<h2>What to submit (one PDF + one spreadsheet/table)</h2>
-<ol>
-<li><strong>Secondary research memo</strong> (≤ 6 pages incl. tables): sections 1–7 above, every factual claim cited (source name + link), numbers marked with their audit verdict where less than Verified (e.g., "<em>vendor-claimed</em>").</li>
-<li><strong>Part B block</strong> (inside the memo): library report citation + three findings + comparison paragraph + search path.</li>
-<li><strong>Source Audit Form</strong> (appendix or separate sheet): ≥ 12 rows.</li>
-<li><strong>AI disclosure</strong> (course standard): tools, the actual prompts used, and how outputs were validated.</li>
-</ol>
-<h2>Grading (100 pts — rubric in <em>(posted on Canvas)</em>)</h2>
-<p>Category &amp; regulatory sections 20 · competitor/substitute analysis 20 · <strong>source audit quality 25</strong> · library source + AI-vs-library comparison 15 · implications &amp; interview bridge 10 · AI research process + disclosure 10. Key deductions: number without an audit row −2 each · zero Unverified/Contradicted rows −5 · price quoted without stating exclusions −2 · category confusion (ADU/tiny-home stats presented as studio-pod stats) −5.</p>
-<h2>Why this comes before the interview</h2>
-<p>Your PA3 interview is only as good as what you already know. After PA2 you'll ask the founder about the things the public record can't tell you — his actual segment mix, his channel economics, his positioning intent — instead of asking questions a web search answers. Section 7 of this memo <em>is</em> your interview prep.</p></div></details><details id="pa3"><summary><span>PA3 — Problem Definition, Objectives & Research Questions</span><span class="due">Sun Sep 20</span></summary><div class="pa-body"><h1>PA3: Define the Marketing Problem and Conduct Primary or Secondary Research</h1>
-<hr />
-<h2>Deliverables</h2>
-<ol>
-<li><strong>Research objectives and research questions</strong> </li>
-<li><strong>Simulated interview and reflection</strong> </li>
-<li><strong>AI disclosure</strong> </li>
-</ol>
-<hr />
-<h2>Part 1: Research Objectives and Research Questions</h2>
-<p>Note: This assignment is highly similar to our CE1 discussion <em>(link on Canvas)</em>.</p>
-<p>Your project topic is typical of the kind of problem or decision facing a local business or organization. Your group's role is to act as <strong>marketing consultants</strong> to the business described by your topic.</p>
-<p>Based on your knowledge of marketing, business principles, and the target market, you will develop research objectives and research questions that your project will answer. Your assignment should include the following elements:</p>
-<h3>Elements (1)–(4): Problem Context</h3>
-<p><strong>(1)</strong> A general statement of the <strong>client's problem</strong> that the client hopes to solve with the information you will provide in your report.</p>
-<p><strong>(2)</strong> The <strong>decision(s) to be made</strong> by your client based on your research, and the <strong>decision alternatives</strong>.</p>
-<p><strong>(3)</strong> The <strong>target for the decision(s)</strong> — is the goal to increase satisfaction/patronage of existing customers, or is it to bring new customers to the business? You <strong>must</strong> choose ONE of these; for this project, you cannot do both.</p>
-<p><strong>(4)</strong> The client's <strong>managerial objectives</strong> for the research project (may overlap with 1 and 2 above).</p>
-<blockquote>
-<p><strong>NOTE — Managerial vs. Research Objectives:</strong>
-A managerial objective is what the client hopes will result from the research project. Examples:
-- "To develop a more effective advertising campaign"
-- "To increase the number of local homeowners who visit our showroom"</p>
-<p>A research objective is different. Your research objective should be <strong>to provide information</strong> that will help your client reach the managerial objective. For example, if the managerial objective is "to develop a more effective advertising campaign," a good research objective might be "to determine which media the target audience is exposed to most frequently, and which media most strongly influence their purchase behavior."</p>
-<p>You must provide both a managerial objective (in part 4) and research objectives (in part 5).</p>
-</blockquote>
-<h3>Element (5): Research Objectives</h3>
-<p>Your project's <strong>research objectives</strong>. You need <strong>at least two research objectives</strong>.</p>
-<p>Some examples of well-formed research objectives:</p>
-<ul>
-<li>Assess Southern California homeowners' awareness and knowledge of compact prefab backyard structures.</li>
-<li>Identify the most effective media for a local business to use to increase awareness among its target market.</li>
-<li>Determine whether potential customers prefer a particular product positioning over alternatives.</li>
-<li>Identify which product features or benefits are most important to the target segment.</li>
-</ul>
-<h3>Element (6): Research Questions</h3>
-<p>A list of <strong>research questions</strong> for each objective in (5).</p>
-<blockquote>
-<p><strong>IMPORTANT:</strong> Organize this assignment so that <strong>each objective is followed by the research questions</strong> designed to meet that objective. Number the research questions so they are easy to refer to.</p>
-</blockquote>
-<hr />
-<h2>Minimum Requirements</h2>
+<p>The first output will miss exclusions and mix categories — good AI use here means you iterate, demand per-claim citations, and treat everything as unverified draft until it survives your audit.</p></div></details><details id="pa3"><summary><span>PA3 — Problem Definition, Objectives & Research Questions</span><span class="due">Sun Sep 20</span></summary><div class="pa-body"><h1>PA3 — Define the Research Problem &amp; Research Questions</h1>
 <table>
 <thead>
 <tr>
-<th>Requirement</th>
-<th>Minimum</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Points</td>
+<td>100 (term-project component)</td>
+</tr>
+<tr>
+<td>Due</td>
+<td>Sunday Sep 20, 11:59 PM</td>
+</tr>
+<tr>
+<td>Work</td>
+<td>Team</td>
+</tr>
+<tr>
+<td>Submit</td>
+<td>Canvas — one PDF: cascade + objectives + typed RQ list (Appendix A) with both interview logs (Appendix B) attached</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Where this fits:</strong> Lecture — Session 1.2 <em>Problem Definition &amp; the Research Process</em> (week 3) → Practice — Summit Point round <strong>r15</strong> (<em>Define the Research Problem</em> — you turned Dana's discovery-call notes into objectives and RQs for a fictional client) → Now the real thing: Neo Smart Living's recorded client visit.</p>
+<h2>The gist</h2>
+<p>You translate Neo Smart Living's situation into a researchable design: the problem cascade, at least two research objectives, and at least ten typed research questions your survey will answer. Two interviews feed it — the recorded client visit and a customized GPT standing in for the founder. Done well, PA4's questionnaire writes itself: every item will trace back to an RQ you number here.</p>
+<h2>Steps</h2>
+<ol>
+<li><strong>Work the cascade</strong> (Appendix A): symptom → underlying problem → decision alternatives → information needs. Pick ONE decision target — existing customers or new customers — not both.</li>
+<li><strong>Write ≥ 2 research objectives.</strong> Managerial objectives are the client's hoped-for results ("increase showroom visits"); research objectives <em>provide information</em> toward them ("determine which media most influence the target market's purchase behavior"). State both, clearly separated.</li>
+<li><strong>Draft ≥ 10 research questions</strong>, numbered and grouped under the objective each serves — third person, survey-answerable, specific to the Tahoe Mini ($23K, 117 sq ft, permit-light). RQs are the <em>manager's</em> questions, not questionnaire questions.</li>
+<li><strong>Label every RQ's type</strong> — Descriptive, Difference (a grouping variable + an analysis variable, one comparison per question), or Association (two continuous/ordinal variables). At least one Difference and one Association; Appendix C shows the bar.</li>
+<li><strong>Interview the recording.</strong> Draft your full question list <em>first</em> (start from PA2's interview bridge), then work through the client-visit video/transcript on Canvas: log each answer with an approximate timestamp, and keep the list of questions the recording never answers — those often become RQs.</li>
+<li><strong>Interview the GPT.</strong> Build a client persona from the client background PDF on Canvas, run the same question list you used on the recording, and keep a shareable transcript link. Note where the GPT was fluent but wrong — that's prompt (c) material.</li>
+<li><strong>Assemble and submit:</strong> cascade + objectives + typed RQ list in the body; both interview logs (Appendix B) attached.</li>
+</ol>
+<h2>What to submit</h2>
+<ul>
+<li>[ ] Filled cascade (Appendix A) with ONE decision target chosen</li>
+<li>[ ] ≥ 2 research objectives, each followed by its numbered RQs</li>
+<li>[ ] ≥ 10 RQs, every one type-labeled; ≥ 1 Difference and ≥ 1 Association</li>
+<li>[ ] Recorded-visit interview log (Appendix B): question list, answers + timestamps, unanswered list</li>
+<li>[ ] GPT interview: persona prompt + shareable transcript link</li>
+<li>[ ] AI reflection (below)</li>
+</ul>
+<h2>How you'll be graded</h2>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Weight</th>
+<th>Strong work looks like</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Research objectives</td>
-<td><strong>At least 2</strong></td>
+<td>20%</td>
+<td>≥ 2 clear, specific, information-providing objectives that together cover demand, segments, and positioning — none generic, none merged into one unwieldy objective</td>
 </tr>
 <tr>
-<td>Research questions (total)</td>
-<td><strong>At least 10</strong></td>
+<td>RQ formation &amp; alignment</td>
+<td>30%</td>
+<td>Every RQ a genuine question (not an "Identify…" directive), third person, one comparison per question, answerable in one survey, and sitting under the objective it serves</td>
 </tr>
 <tr>
-<td>Differences RQ</td>
-<td><strong>At least 1</strong> (clearly labeled)</td>
+<td>Type diversity &amp; labeling</td>
+<td>25%</td>
+<td>All three types present and every RQ explicitly, accurately labeled; the Difference RQ names its grouping variable, the Association RQ its two continuous/ordinal variables</td>
 </tr>
 <tr>
-<td>Association/Relationship RQ</td>
-<td><strong>At least 1</strong> (clearly labeled)</td>
+<td>Client alignment &amp; specificity</td>
+<td>15%</td>
+<td>RQs use the client's own decision architecture — the $23K price, 117 sq ft / permit-light sizing, named value drivers and positioning concepts; nothing that would fit any modular-home company</td>
 </tr>
 <tr>
-<td>Type label on every RQ</td>
-<td><strong>Required</strong> — label each RQ as Descriptive, Differences, or Association</td>
+<td>Process &amp; AI reflection</td>
+<td>10%</td>
+<td>Human-first draft documented; the four reflection prompts answered specifically, not generically</td>
 </tr>
 </tbody>
 </table>
-<hr />
-<h2>Research Question Types</h2>
-<p>Your research questions should include a mix of the following three types. Refer to <a href="link">Materials Related to Types of Research Question</a> for definitions and examples.</p>
-<h3>1. Descriptive</h3>
-<p>Most of your research questions will be this type. You will describe characteristics of your respondents — such as how interested they are in a product, which features they prefer, or what barriers reduce their purchase likelihood.</p>
-<h3>2. Differences</h3>
-<p>In this type, you examine whether <strong>subgroups</strong> of your sample differ on some characteristic. A differences RQ has both:
-- A <strong>grouping variable</strong> that divides your sample into subgroups (e.g., remote vs. non-remote workers; under 45 vs. 45+; club members vs. non-members)
-- An <strong>analysis variable</strong> that you compare the subgroups on (e.g., purchase intention, preferred use case)</p>
-<p><em>Example:</em> "Do homeowners who work remotely differ from non-remote workers in their purchase intention for the product?"</p>
-<h3>3. Association (Relationship)</h3>
-<p>This type asks whether there is a <strong>relationship or correlation</strong> between two variables — both of which are continuous or ordinal. You are looking for whether one variable increases or decreases as the other increases.</p>
-<p><em>Example:</em> "What is the relationship between household income level and willingness to purchase the product?"</p>
-<blockquote>
-<p><strong>Association vs. Differences:</strong> The key distinction is that association analysis involves two continuous/ordinal variables (e.g., income level and purchase interest), while differences analysis involves splitting the sample into discrete subgroups and comparing them. Association analysis is a special case of differences analysis.</p>
-</blockquote>
-<p><strong>You must clearly label each research question with its type</strong> (Descriptive, Differences, or Association).</p>
-<hr />
-<h2>Important Reminders</h2>
+<h2>AI reflection (required)</h2>
+<p><strong>Human first.</strong> Draft or plan this assignment yourselves before any AI touches it. That order is the point: it is the only way to see what AI actually adds — or quietly subtracts. Then use AI to improve your draft, and answer the four prompts below (2–4 sentences each, specific to THIS assignment):</p>
+<p>(a) The most important change we made after using AI was…
+(b) We accepted this change because…
+(c) We rejected or substantially revised the AI suggestion that…
+(d) One uncertainty or question that remains is…</p>
+<p>List the tools you used and for what. Generic answers ("AI helped us improve clarity") score zero on this category; name the actual change.</p>
+<!--appendix-->
+<h2>Appendix A — Cascade → RQ template (fill this out)</h2>
+<p><strong>A1. Problem-definition cascade</strong></p>
+<table>
+<thead>
+<tr>
+<th>Cascade element</th>
+<th>Your entry</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Symptom (what the client observes)</td>
+<td></td>
+</tr>
+<tr>
+<td>Underlying problem (what actually needs solving)</td>
+<td></td>
+</tr>
+<tr>
+<td>Decision target — existing customers OR new customers (pick ONE)</td>
+<td></td>
+</tr>
+<tr>
+<td>Decision alternatives (the concrete options on the table)</td>
+<td></td>
+</tr>
+<tr>
+<td>Managerial objective(s) (what the client hopes results)</td>
+<td></td>
+</tr>
+<tr>
+<td>Information needs (what the research must supply)</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>A2. Research objectives</strong></p>
+<table>
+<thead>
+<tr>
+<th>RO #</th>
+<th>Research objective (information-providing, not managerial)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RO1</td>
+<td></td>
+</tr>
+<tr>
+<td>RO2</td>
+<td></td>
+</tr>
+<tr>
+<td>RO3 (optional)</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>A3. Numbered research questions</strong> — group each RQ under the objective it serves; label every type.</p>
+<table>
+<thead>
+<tr>
+<th>RQ #</th>
+<th>Serves RO #</th>
+<th>Research question (third person, verbatim)</th>
+<th>Type (Descriptive / Difference / Association)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>9</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>11</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>Appendix B — Interview-notes template (one copy for the recording, one for the GPT)</h2>
+<p>Draft the Question column <em>before</em> watching or chatting. Unanswered questions are valuable — they often become research questions.</p>
+<!--landscape-->
+<table>
+<thead>
+<tr>
+<th>Question (drafted first)</th>
+<th>Asked of (Recording / GPT)</th>
+<th>Answer (+ approx. timestamp for the recording)</th>
+<th>Unanswered? — and what you did with it</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<!--/landscape-->
+
+<h2>Appendix C — One strong RQ vs. one weak RQ</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Research question</th>
+<th>Why</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Strong</strong></td>
+<td><strong>(Difference)</strong> Do homeowners who work remotely differ from non-remote workers in their purchase intention for the Tahoe Mini?</td>
+<td>Third person; one grouping variable (remote vs. not) compared on one analysis variable (purchase intention); type-labeled; answerable in one survey; anchored to this client's product</td>
+</tr>
+<tr>
+<td><strong>Weak</strong></td>
+<td>How interested are you in our product?</td>
+<td>Second person — that's questionnaire wording, not a manager's question; no type label; no named variables; generic enough to fit any company</td>
+</tr>
+</tbody>
+</table></div></details><details id="pa4"><summary><span>PA4 — Design a Questionnaire (+ PA4.5 Revise & Resubmit)</span><span class="due">Sun Sep 27</span></summary><div class="pa-body"><h1>PA4 — Design a Questionnaire (+ PA4.5 Revise &amp; Resubmit)</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Points</td>
+<td>100 (term-project component)</td>
+</tr>
+<tr>
+<td>Due</td>
+<td>Sunday Oct 4, 11:59 PM (PA4.5 revision: date announced on Canvas, ~1 week after feedback)</td>
+</tr>
+<tr>
+<td>Work</td>
+<td>Team</td>
+</tr>
+<tr>
+<td>Submit</td>
+<td>Canvas — one PDF (invitation + questionnaire) + the filled RQ → Item Map from Appendix A</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Where this fits:</strong> Lecture — Session 2.3 <em>Questionnaire Design + Measurement</em> (week 6) → Practice — Summit Point rounds <strong>r08</strong> (<em>TrailTonic's survey</em>) and <strong>r09</strong> (<em>Build Neo's product survey</em>) → Now the real thing. At Summit Point you assembled surveys for fictional clients with instant feedback; this instrument goes in front of real respondents.</p>
+<h2>The gist</h2>
+<p>You design the questionnaire your team will actually field for Neo Smart Living: an invitation message, screeners, the items that answer your PA3 research questions, and a demographic block. The RQ → Item Map (Appendix A) is the discipline at the center — every question earns its place by answering a numbered RQ, screening, or classifying, and every RQ gets a question that truly measures it.</p>
+<h2>Steps</h2>
+<ol>
+<li><strong>Start from your PA3 research questions</strong> (revised per feedback). Number them; the map keys on those numbers.</li>
+<li><strong>Draft items yourselves first</strong> — one or more questions per RQ, plus screeners (homeowner / usable outdoor space) and a demographic block at the end. Choose each scale deliberately: a 5-point-or-more Likert counts as interval data later; the two items answering your <strong>difference RQ</strong> must both be in the instrument.</li>
+<li><strong>Fill the RQ → Item Map</strong> (Appendix A) as you go, both directions: does every question have a purpose, and does every RQ have a question that actually measures it? Fix what the Evaluation column exposes.</li>
+<li><strong>Write the invitation message</strong> using the seven-component checklist (Appendix B). It goes on its own page, before the questionnaire.</li>
+<li><strong>Build it in Google Forms</strong>, matching your paper draft; export to PDF.</li>
+<li><strong>Pretest with two potential customers</strong> — friends or family who plausibly fit the target market (Path A). Note anything unclear, unanswerable, or missing, plus their interest in a showroom visit or purchase. <em>Path B (alternative): pretest against two contrasting AI personas instead — submit the persona prompts and transcripts, plus 2–3 sentences on what an AI pretest can and cannot catch.</em></li>
+<li><strong>Revise, then submit.</strong> For <strong>PA4.5</strong>, you'll revise again using instructor feedback and the class's consolidated instrument — highlight every change in green and pretest the shortened version once more.</li>
+</ol>
+<h2>What to submit</h2>
 <ul>
-<li>
-<p><strong>Research questions are NOT questionnaire questions.</strong> Questionnaire questions are what you ask the consumer on a survey. Research questions are the questions the <strong>manager</strong> wants answered. Include only research questions in this assignment.</p>
-</li>
-<li>
-<p><strong>Research questions should not include second-person pronouns</strong> (you, your). Write them in the third person (e.g., "What proportion of homeowners..." not "How interested are you...").</p>
-</li>
-<li>
-<p><strong>Research questions should be very specific</strong> — tied to the client's product, price, target market, and decision alternatives. Generic questions that could apply to any business earn less credit.</p>
-</li>
-<li>
-<p>You may include a few additional, lower-priority research questions in case there is space for them in the project.</p>
-</li>
-<li>
-<p>Review lecture materials and CE1 discussion <em>(link on Canvas)</em> to make sure your research questions are phrased appropriately.</p>
-</li>
-<li>
-<p>You can also look at example term projects <em>(link on Canvas)</em> to see examples of research questions.</p>
-</li>
+<li>[ ] Invitation message (own page; all 7 components identifiable)</li>
+<li>[ ] Questionnaire PDF (Google Forms export): screeners → body → demographics</li>
+<li>[ ] Filled <strong>RQ → Item Map</strong> (Appendix A), covering every question and every RQ</li>
+<li>[ ] Pretest notes (2 interviews, Path A or B), including revisions you made because of them</li>
+<li>[ ] AI reflection (below)</li>
 </ul>
-<hr />
-<h2>Grading Criteria — Part 1: Research Objectives and Research Questions (100 points)</h2>
+<h2>How you'll be graded</h2>
 <table>
 <thead>
 <tr>
 <th>Category</th>
-<th style="text-align: center;">Points</th>
-<th>What is evaluated</th>
+<th>Weight</th>
+<th>Strong work looks like</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>1. RO Clarity &amp; Actionability</strong></td>
-<td style="text-align: center;">20</td>
-<td>Are objectives clear, specific, and actionable? Do they collectively cover the client's core needs?</td>
+<td>RQ → item traceability</td>
+<td>30%</td>
+<td>Map complete in both directions; no orphan questions, no unanswered RQs; difference-RQ pair present and identified</td>
 </tr>
 <tr>
-<td><strong>2. RQ Formation &amp; Alignment</strong></td>
-<td style="text-align: center;">30</td>
-<td>Are RQs specific, answerable via a survey, and logically aligned with their stated objective?</td>
+<td>Item quality &amp; measurement</td>
+<td>30%</td>
+<td>No leading/double-barreled/vague items; scale type matches the planned analysis (5+-point Likert where means are needed); honest response options</td>
 </tr>
 <tr>
-<td><strong>3. RQ Type Diversity &amp; Labeling</strong></td>
-<td style="text-align: center;">25</td>
-<td>Does the set include descriptive, differences, and association types? Is every RQ explicitly labeled with its type?</td>
+<td>Invitation &amp; instrument flow</td>
+<td>15%</td>
+<td>All 7 invitation components; screeners first, demographics last; logical section order with a stimulus photo before concept questions</td>
 </tr>
 <tr>
-<td><strong>4. Client Alignment &amp; Specificity</strong></td>
-<td style="text-align: center;">25</td>
-<td>Do the ROs/RQs address the client's actual decision needs? Do they reference specific client details (product, price, features, positioning concepts)?</td>
+<td>Pretesting</td>
+<td>15%</td>
+<td>Two documented pretests with specific findings and visible revisions — not "they said it was fine"</td>
+</tr>
+<tr>
+<td>Process &amp; AI reflection</td>
+<td>10%</td>
+<td>Human-first draft documented; the four reflection prompts answered specifically, not generically</td>
 </tr>
 </tbody>
 </table>
-<hr />
-<hr />
-<h2>Part 2: Real and Simulated Client Interviews</h2>
-<p>This part has two components: a <strong>client interview based on the recorded client visit</strong> and a <strong>simulated interview using a customized GPT</strong>. You will then compare the two to reflect on the role of AI in the client discovery process.</p>
-<blockquote>
-<p><strong>FA26 format (2026-08-04):</strong> the default client source is the <strong>recorded client visit</strong> (video + transcript, posted on Canvas) — the course does not require a live client. Your team "interviews" the client by working through the recording with your prepared question list, extracting his answers, and noting which of your questions the recording does <strong>not</strong> answer (those unanswered questions are valuable — they often become research questions). If a live client visit is scheduled in a given term, it replaces the recording for 2A and the requirements below apply unchanged.</p>
-</blockquote>
-<hr />
-<h3>2A. Client Interview (Recorded Visit)</h3>
-<p>Using the recorded client visit (video + transcript), your team will gather the information needed to define the marketing problem (Elements 1–4 in Part 1) and to inform your research objectives and questions.</p>
-<p><strong>Preparation:</strong> Complete <strong>PA2 (Secondary Research)</strong> first — your interview question list starts from PA2 Section 7 (the five questions the public record could not answer). Draft the full list <strong>before</strong> watching, then mark each question as answered (with the client's answer and an approximate timestamp) or unanswered. Your team has flexibility in how you organize and present the information. Using tables and figures is encouraged.</p>
-<p><strong>Key topics to cover during the interview:</strong></p>
+<h2>AI reflection (required)</h2>
+<p><strong>Human first.</strong> Draft or plan this assignment yourselves before any AI touches it. That order is the point: it is the only way to see what AI actually adds — or quietly subtracts. Then use AI to improve your draft, and answer the four prompts below (2–4 sentences each, specific to THIS assignment):</p>
+<p>(a) The most important change we made after using AI was…
+(b) We accepted this change because…
+(c) We rejected or substantially revised the AI suggestion that…
+(d) One uncertainty or question that remains is…</p>
+<p>List the tools you used and for what. Generic answers ("AI helped us improve clarity") score zero on this category; name the actual change.</p>
+<!--appendix-->
+<h2>Appendix A — RQ → Item Map (fill this out)</h2>
+<p>One row per questionnaire question. Screeners and demographics have no RQ — put "—" in the RQ column and name their Purpose. A difference RQ needs <strong>two</strong> question numbers (the measured item and the grouping item).</p>
+<!--landscape-->
+<table>
+<thead>
+<tr>
+<th>RQ #</th>
+<th>Research question (verbatim, numbered)</th>
+<th>RQ type (Descriptive / Difference / Association)</th>
+<th>Q #(s)</th>
+<th>Questionnaire question wording</th>
+<th>Purpose (Answer RQ # / Screener / Classify)</th>
+<th>Evaluation — does the wording actually measure the RQ?</th>
+<th>Revision (if needed)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<!--/landscape-->
+
+<h2>Appendix B — Invitation message: the seven components</h2>
+<p>Your invitation must contain all seven, in any natural order: <strong>(1) who you are</strong> (credentials — student research team, course, university); <strong>(2) purpose</strong> of the survey; <strong>(3) who qualifies</strong> to take it; <strong>(4) how the data will be used</strong>; <strong>(5) confidentiality</strong> promise; <strong>(6) time required and deadline</strong>; <strong>(7) incentive</strong> (if any). One short paragraph plus a link line usually covers all seven.</p>
+<h2>Appendix C — Worked example (jeans study, from class)</h2>
+<table>
+<thead>
+<tr>
+<th>RQ #</th>
+<th>Research question</th>
+<th>RQ type</th>
+<th>Q #(s)</th>
+<th>Questionnaire question wording</th>
+<th>Purpose</th>
+<th>Evaluation</th>
+<th>Revision</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>How many stores do students typically visit before buying jeans?</td>
+<td>Descriptive</td>
+<td>2</td>
+<td>"How many stores did you shop at before buying these jeans?"</td>
+<td>Answer RQ #1</td>
+<td>Measures it directly</td>
+<td>—</td>
+</tr>
+<tr>
+<td>6</td>
+<td>How often do students shop for food items?</td>
+<td>Descriptive</td>
+<td>6</td>
+<td>"How often do you shop at this store?"</td>
+<td>Answer RQ #6</td>
+<td><strong>Mismatch</strong> — asks about one store, not food shopping in general</td>
+<td>Reword: "How often do you shop for food items, at any store?"</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Is there a difference between younger and older customers in price paid?</td>
+<td>Difference</td>
+<td>8 + 12</td>
+<td>"How much did the jeans cost?" (Q8) · "What is your age?" (Q12)</td>
+<td>Answer RQ #10</td>
+<td>Two items: measured + grouping — both present</td>
+<td>—</td>
+</tr>
+<tr>
+<td>—</td>
+<td>(screener)</td>
+<td>—</td>
+<td>1</td>
+<td>"Have you purchased jeans in the past 6 months?"</td>
+<td>Screener</td>
+<td>Terminates non-buyers before wasting their time</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<p>The Q6 row is the map doing its job: a grammatical, plausible question that does <strong>not</strong> measure its RQ. Your Evaluation column exists to catch exactly this.</p></div></details><details id="pa5"><summary><span>PA5 — Sampling Plan (Group)</span><span class="due">Sun Oct 11</span></summary><div class="pa-body"><h1>PA5 — Design the Sampling Plan</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Points</td>
+<td>100 (term-project component)</td>
+</tr>
+<tr>
+<td>Due</td>
+<td>Sunday Oct 11, 11:59 PM</td>
+</tr>
+<tr>
+<td>Work</td>
+<td>Team</td>
+</tr>
+<tr>
+<td>Submit</td>
+<td>Canvas — one PDF: the filled fielding grid (Appendix A) + the written analysis</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Where this fits:</strong> Lecture — Sessions 3.1–3.2 <em>Sampling</em> (week 7) → Practice — Summit Point round <strong>r10</strong> (<em>Select the sampling plan</em>) → Now the real thing: the plan your team actually fields for PA5.5.</p>
+<h2>The gist</h2>
+<p>You plan exactly where, when, and from whom your team will collect its completed surveys — target: <strong>5 × team size</strong> qualified completes. The buyer is a Southern California homeowner with usable outdoor space weighing a $23,000 backyard unit; a plan built around campus and classmates fields fast and answers nothing. The grade currency here is honesty: named places, realistic yields, and a straight account of what a convenience sample can and cannot claim.</p>
+<h2>Steps</h2>
 <ol>
-<li><strong>Product/service overview</strong> — What is the product or service being provided? What are its key features, specifications, and price point?</li>
-<li><strong>Differentiation</strong> — What makes this product/service unique compared to alternatives? How does the client describe their competitive advantage?</li>
-<li><strong>Competitive landscape</strong> — Who are the direct competitors? What about substitute products? <em>(For example, if your client sells a prefab backyard unit, substitutes might include traditional room additions, ADUs, or converted sheds.)</em></li>
-<li><strong>Customer profile</strong> — Who are the client's current and target customers? Describe their demographics, motivations, and usage patterns.</li>
-<li><strong>Customer perceptions</strong> — How do different customer groups perceive the product/service? Are there common misconceptions?</li>
-<li><strong>Research priorities</strong> — What specific questions or information does the client want from this project? How should these be prioritized?</li>
-<li><strong>Decisions and alternatives</strong> — What decisions will the client make using this information? Get specific alternatives from the client. <em>(For example, if the client is considering social media advertising, which platforms — Facebook, Instagram, TikTok — should they prioritize? If they are choosing between positioning concepts, which ones are they considering?)</em></li>
-<li><strong>Marketing channels and partnerships</strong> — What marketing channels is the client currently using? Are there specific partnership or sponsorship opportunities being evaluated?</li>
+<li><strong>Start from the buyer, not the venue.</strong> Who plausibly spends $23K on a backyard unit? Homeowners with yards — DIY and garden-center shoppers, farmers-market regulars, outdoor-event attendees — not students between classes.</li>
+<li><strong>Choose 4–6 named physical locations</strong> (plus at most one friends-and-family supplemental row). At least one location should be a term event from the events list on Canvas — or say explicitly why you're skipping the events.</li>
+<li><strong>Fill the fielding grid</strong> (Appendix A): specific dates (not "flexible"), realistic time blocks, a target-segment rationale for every location, and an assigned team member on every row.</li>
+<li><strong>Estimate completes honestly.</strong> Benchmarks: one member doing in-person intercepts completes roughly 5–15 surveys per hour in a high-traffic spot; an unpaid social post typically yields under 20 total. Plan a buffer above the 5 × team size target to absorb disqualifications.</li>
+<li><strong>Plan motivation:</strong> the 15-second opening pitch, a product visual (tablet or printed Tahoe Mini image), a short mobile survey via QR code, and any incentive (instant thank-you + gift-card drawing).</li>
+<li><strong>Analyze representativeness:</strong> for every location, one <em>specific</em> advantage for reaching the target and one <em>specific</em> bias risk (age, income, gender, geography, renter mix) — then ≥ 2 concrete mitigations (screener questions, per-location caps, live quota tracking).</li>
+<li><strong>Name the method honestly:</strong> convenience sampling with a 50/50 gender quota and a homeowner / usable-outdoor-space screener — plus one sentence on why the results still cannot generalize to all SoCal homeowners.</li>
 </ol>
-<p><strong>Sample interview questions</strong> (adapt to your client):</p>
+<h2>What to submit</h2>
+<ul>
+<li>[ ] Filled fielding grid (Appendix A): every column, every row</li>
+<li>[ ] Per-location estimate justifications + motivation plan</li>
+<li>[ ] Representativeness analysis: one advantage + one bias risk per location, ≥ 2 mitigations</li>
+<li>[ ] Sampling-method statement: convenience + gender quota + screeners, with limits stated</li>
+<li>[ ] AI reflection (below)</li>
+</ul>
+<h2>How you'll be graded</h2>
 <table>
 <thead>
 <tr>
 <th>Category</th>
-<th>Example Question</th>
+<th>Weight</th>
+<th>Strong work looks like</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>Situational analysis</strong></td>
-<td>How would you describe the competitive landscape for your product category? What key trends or changes do you anticipate?</td>
+<td>Fielding grid specificity</td>
+<td>30%</td>
+<td>All seven columns on every row; concrete dates, named venues ("Home Depot, Rancho Cucamonga" — not "a store"), realistic time blocks; a term event used or its skip justified</td>
 </tr>
 <tr>
-<td><strong>Competitive advantage</strong></td>
-<td>What are the foundations of your competitive advantage? What do customers say is the main reason they choose your product over alternatives?</td>
+<td>Realistic yields</td>
+<td>20%</td>
+<td>Per-location estimates justified against the intercept benchmarks; total hits 5 × team size with a buffer; no 800-completes-from-one-social-post fantasies</td>
 </tr>
 <tr>
-<td><strong>Positioning</strong></td>
-<td>Based on how you present your brand (retail experience, messaging, product features), how is the brand currently positioned?</td>
+<td>Representativeness reasoning</td>
+<td>25%</td>
+<td>A specific advantage and a specific bias risk for every location, tied to the homeowner target — plus ≥ 2 concrete mitigations, not "we'll try to be diverse"</td>
 </tr>
 <tr>
-<td><strong>Future strategy</strong></td>
-<td>As competitors enter this space, what changes are you considering to maintain your position? What are your top 2–3 strategic options right now?</td>
+<td>Method &amp; quota honesty</td>
+<td>15%</td>
+<td>Convenience + 50/50 gender quota + screener named and justified; the plan states plainly what a non-probability sample cannot claim</td>
+</tr>
+<tr>
+<td>Process &amp; AI reflection</td>
+<td>10%</td>
+<td>Human-first draft documented; the four reflection prompts answered specifically, not generically</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Deliverable:</strong> Include the <strong>interview notes</strong> as an appendix to your submission (not in the main report body). Notes must show your question list, the client's answers (with approximate timestamps when working from the recording), and a short list of questions the client could not or did not answer.</p>
-<hr />
-<h3>2B. Simulated Interview Using Customized GPT</h3>
-<p>Before or after the real client interview, conduct a <strong>simulated client interview</strong> using a customized GPT that role-plays as your client.</p>
-<p><strong>Reference:</strong> See <a href="https://www.notion.so/Customized-GPT-for-Learning-Business-Case-2640c52fba5b8095b298d8ee3ef55b8b?pvs=21">Example 1.5 in Customized GPT for Learning Business Case</a> for setup guidance.</p>
-<p><strong>Steps:</strong></p>
-<ol>
-<li>
-<p><strong>Design your GPT persona.</strong> Document the prompt and instructions you used to configure the customized GPT to simulate your client. Your prompt should include enough context about the client's business, product, market, and competitive situation for the GPT to give realistic answers.</p>
-</li>
-<li>
-<p><strong>Conduct the simulated interview.</strong> Ask the GPT the same (or similar) questions you asked the real client. Cover the key topics listed in Section 2A.</p>
-</li>
-<li>
-<p><strong>Save the transcript.</strong> Copy and paste the full conversation into a Google Doc. Set sharing to <strong>"Anyone with the link can view."</strong></p>
-</li>
-</ol>
-<p><strong>Deliverable:</strong> Include the following in your submission:
-- Your GPT prompt/configuration (the instructions you gave the GPT)
-- A link to the Google Doc containing the full simulated interview transcript</p>
-<hr />
-<h3>2C. Comparison and Reflection</h3>
-<p>After completing both the real and simulated interviews, write a <strong>reflection</strong> (approximately 1–2 pages) addressing the following:</p>
-<ol>
-<li><strong>Accuracy</strong> — How close were the simulated client's answers to the real client's answers? Where did the GPT get it right, and where did it diverge?</li>
-<li><strong>Gaps</strong> — What information did the real client provide that the GPT could not have known or guessed? <em>(For example, specific internal data, upcoming decisions, partnership opportunities, or personal priorities.)</em></li>
-<li><strong>Strengths</strong> — In what areas was the simulated interview surprisingly useful? Did it help you prepare better questions for the real interview?</li>
-<li><strong>Limitations</strong> — Can simulated interviews replace part of the marketing research client discovery process? Why or why not?</li>
-<li><strong>Recommendation</strong> — Based on your experience, how would you recommend integrating AI-simulated interviews into the client discovery workflow? Before the real interview? After? As a supplement?</li>
-</ol>
-<hr />
-<h2>Part 3: AI Disclosure</h2>
-<p>Disclose any use of AI tools (ChatGPT, Claude, Gemini, Copilot, etc.) in preparing your research objectives, research questions, or other parts of this assignment. For each use, briefly describe:</p>
-<ul>
-<li>Which AI tool was used</li>
-<li>What task it was used for (e.g., brainstorming RQs, refining wording, checking RQ types)</li>
-<li>How you modified or validated the AI output</li>
-</ul></div></details><details id="pa4"><summary><span>PA4 — Design a Questionnaire (+ PA4.5 Revise & Resubmit)</span><span class="due">Sun Sep 27</span></summary><div class="pa-body"><h1>PA4 — Design a Questionnaire (+ PA4.5 Revise &amp; Resubmit)</h1>
-<blockquote>
-<p><strong>FA26 standalone assignment doc</strong> (2026-08-04), extracted from the term-project master document (<em>(posted on Canvas)</em>) so every PA folder carries its own brief. Content unchanged except: (a) worksheet/example links point to course-folder copies, (b) an <strong>AI-assisted pretest alternative</strong> is added for the two pretest interviews.</p>
-</blockquote>
-<p><strong>IMPORTANT:</strong> build on the ideal research objectives and questions from PA3 (<em>(posted on Canvas)</em>, posted after PA3 grading).</p>
-<p>The questionnaire is one of the most important parts of the project. Example questionnaires for wording/format/layout ideas are in <em>(posted on Canvas)</em>: <code>9-running shoe Qnaire.pdf</code> (Nike), <code>9-dishwasher Qnaire.pdf</code>, <code>9-USPS survey.pdf</code>, plus <code>Questionnaire Design Cheat sheet_v3.docx</code>.</p>
-<p>Complete all steps of the questionnaire design process as covered in class (Session 2.3). Your questionnaire must be <strong>pretested and revised</strong> before submission — turn in your final, best work.</p>
-<h2>Submit on Canvas</h2>
-<ol>
-<li>The <strong>participation/invitation message</strong> — on a separate page from the questionnaire (see the 7-component invitation checklist from class).</li>
-<li>Your <strong>questionnaire</strong> (Google Form export, PDF or Word).</li>
-<li>Your final <strong>project objectives and numbered research-question list</strong>.</li>
-<li>Completed <strong>Worksheet A</strong> (<em>(posted on Canvas)</em>).</li>
-<li>Completed <strong>Worksheet B</strong> (<em>(posted on Canvas)</em>).</li>
-<li><strong>Pretest interview notes</strong> (see below).</li>
-</ol>
-<p>The questionnaire must include screener questions (if relevant), <strong>the two items that answer your difference research question</strong>, and a complete demographic block appropriate to your respondents.</p>
-<h2>Pretesting (choose one path; notes required either way)</h2>
-<ul>
-<li><strong>Path A — human pretest (default):</strong> conduct at least two interviews with potential customers (friends or family) using your research questions. Goal: confirm each question is meaningful, answerable, and clear before it becomes a questionnaire item. In the notes, record any question that is unclear, unanswerable, or inappropriate, plus suggested additions — and note the respondent's interest in visiting the Neo Smart Living showroom or making a purchase.</li>
-<li><strong>Path B — AI-persona pretest (sanctioned alternative):</strong> run the same protocol against <strong>two distinct AI respondent personas</strong> (e.g., the customized GPT persona from PA3 Part 2B plus one contrasting persona — different income band or use case). Submit the persona prompts, the transcript links, and the same style of notes. <strong>Add 2–3 sentences on what an AI pretest can and cannot catch</strong> (it finds ambiguity and logic gaps; it cannot feel survey fatigue or real privacy discomfort) — this is graded as part of pretest quality. Disclose per the course AI policy.</li>
-</ul>
-<h2>PA4.5 — Revise and Resubmit</h2>
-<p>Revise PA4 using instructor feedback and the class's consolidated survey. <strong>Highlight all changes in green</strong> on the questionnaire and both worksheets; submit the Google Form and the worksheets. The class instrument is intentionally over-long — decide what to cut to create your fieldable short version, pretest that version (two potential customers, Path A or B), and submit the PDF in PA4.5.</p>
-<h2>Grading</h2>
-<p>100 pts — rubric, A-level answer key, and 13 common-mistake repairs in <em>(posted on Canvas)</em>. Prior-client survey references (Up Energy Protein Popcorn, SWB AI Usage) are linked in the term-project master document.</p></div></details><details id="pa5"><summary><span>PA5 — Sampling Plan (Group)</span><span class="due">Sun Oct 11</span></summary><div class="pa-body"><p>PA5 - Design a sampling plan (Group).</p>
-<p>Create a time and location grid in Excel as demonstrated in class.</p>
-<p>How many surveys do you estimate can be collected from each location? How will you motivate people to complete your survey? We need high-quality responses and sufficient sample sizes for our real clients. Let&#x27;s demonstrate the creativity, diligence and quality of CPP students&#x27; consulting work!</p>
-<p>Analyze the advantages and disadvantages of obtaining representative samples from your chosen locations.</p>
-<p>Sampling Method to collect data</p>
-<p>•	convience sampling (quota sampling. gender 50% vs. 50%) - friends and family</p>
-<p>•	Special event location for data collection - IE MTB St Patricks ride &amp; BBQ, Overlanding</p>
-<p>Update</p>
-<p>For PA5, there is another concurrent event you can use to collect data. The Overlanding Expo—one of the world&#x27;s largest overlanding (e.g., camper, off-roading) events—will be held March 14–15 at Costa Mesa. Neo Smart Living will attend the event. The client might be able to sponsor tickets for a few students to attend, have fun, and collect surveys in person. If you are interested in this option or the IE MTB event on March 15th in Loma Linda, please note them in your submission so I can coordinate with event organizers and sponsors.</p>
-<p>Example: Every n person to be surveyed. The event can allow 1-2 per team to attend. 11 a.m. BBQ &amp; Ride.</p></div></details><details id="pa5.5"><summary><span>PA5.5 — Complete Data Collection (Individual, 5 surveys)</span><span class="due">Opens Wk 7 · closes Sun Nov 1</span></summary><div class="pa-body"><h1>PA5.5 — Complete Data Collection + Results Report (Individual)</h1>
-<blockquote>
-<p><strong>FA26 version of record</strong> (2026-08-04). Supersedes <code>PA5.5- complete data collection.docx</code> (Spring 2026, 10-survey quota — kept for reference). Key change: <strong>quota reduced to 5 qualified surveys per student.</strong></p>
-</blockquote>
-<h2>What you do</h2>
-<p>Use Dr. Lin's official survey link (posted on Canvas). Ask each respondent to select <strong>your name</strong> at the end so you receive credit toward your quota.</p>
-<ul>
-<li><strong>Individual quota: 5 completed, qualified surveys.</strong> Qualified = passes the screeners (homeowner / usable outdoor space). Respondents who terminate at a screener are useful contacts but do not count toward your 5.</li>
-<li>Review the PA5 sample answer first and adjust your team's sampling plan; your personal collection should follow the plan's time × location grid.</li>
-<li>Recruiting materials (flyer, QR code) are on Canvas.</li>
-</ul>
-<p><strong>Class total context:</strong> with 5 surveys per student, the class adds roughly 150 new responses. Analysis in PA6/PA7 draws on the <strong>combined pool</strong> — your new wave + the packaged prior-cohort dataset (<code>student_CLEAN.csv</code>) + the professional aytm benchmark (n = 600) — so your analysis never depends on the size of the new wave alone. Collecting beyond 5 is welcome and strengthens the team pool, but is not required.</p>
-<h2>What you submit (individual report, ~1 page)</h2>
-<ol>
-<li><strong>Data-collection process.</strong> Your method, with specifics: named venues, dates/time blocks, channels (intercept, referral, online share), and how you screened for the target market.</li>
-<li><strong>The four numbers</strong> (keep them distinct): contacts made (estimates OK) → qualified (passed screeners) → completes → counted toward your quota (selected your name). Compute your <strong>response rate = completes ÷ contacts</strong>.</li>
-<li><strong>Reflections and suggestions:</strong> what worked, what you would change, and one concrete suggestion for improving the fielding process.</li>
-</ol>
-<h2>Grading (100 pts — rubric in <em>(posted on Canvas)</em>)</h2>
-<p>Method specificity &amp; effort 20 · target-market awareness / screening logic 20 · contacts &amp; response rate 20 · reflection quality 40 (self-assessment + actionable suggestions). See <em>(posted on Canvas)</em> for an A-level model — note how it keeps the four numbers distinct.</p></div></details><details id="pa6"><summary><span>PA6 — Data Analysis Plan</span><span class="due">Sun Oct 25</span></summary><div class="pa-body"><h1>PA6 — Data Analysis Plan</h1>
-<p><em>IBM 3302 Marketing Research — Neo Smart Living / Tahoe Mini project</em></p>
-<p><strong>Weight:</strong> 100 points
-<strong>Format:</strong> PDF submission (embedded tables only — no external links)
-<strong>Companion files:</strong> <code>PA6_Template.md</code>, <code>PA6_Analysis_Test_Cheatsheet.md</code></p>
-<hr />
-<h2>1. Purpose</h2>
-<p>You and your team have collected data from two primary sources:</p>
-<ol>
-<li><strong>Student-administered Google Forms survey</strong> of homeowners in your network.</li>
-<li><strong>aytm professional online panel</strong> — the class-shared dataset <code>survey-760085</code> (n ≈ 600 US homeowners, Dr. Lin's revised instrument).</li>
-<li><strong>AI-simulated respondents</strong> — synthetic responses generated from the same instrument.</li>
-</ol>
-<p>Your job in PA6 is to produce a <strong>typed Data Analysis Plan (DAP)</strong> that maps each of your research questions to the specific descriptive statistic or statistical test you will run, using the actual aytm instrument question numbers. The DAP is the bridge between your research questions and the analysis you will report in PA7.</p>
-<hr />
-<h2>2. What to submit</h2>
-<p>A single PDF with the following five sections, in order:</p>
+<h2>AI reflection (required)</h2>
+<p><strong>Human first.</strong> Draft or plan this assignment yourselves before any AI touches it. That order is the point: it is the only way to see what AI actually adds — or quietly subtracts. Then use AI to improve your draft, and answer the four prompts below (2–4 sentences each, specific to THIS assignment):</p>
+<p>(a) The most important change we made after using AI was…
+(b) We accepted this change because…
+(c) We rejected or substantially revised the AI suggestion that…
+(d) One uncertainty or question that remains is…</p>
+<p>List the tools you used and for what. Generic answers ("AI helped us improve clarity") score zero on this category; name the actual change.</p>
+<!--appendix-->
+<h2>Appendix A — Fielding grid (fill this out)</h2>
+<!--landscape-->
 <table>
 <thead>
 <tr>
-<th style="text-align: center;">#</th>
-<th>Section</th>
-<th style="text-align: center;">Points</th>
+<th>Date</th>
+<th>Day</th>
+<th>Time block</th>
+<th>Location (named, specific)</th>
+<th>Target-segment rationale</th>
+<th>Estimated completes</th>
+<th>Assigned member</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: center;">1</td>
-<td>Final Research Objectives (3–5 bullets)</td>
-<td style="text-align: center;">8</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
-<td style="text-align: center;">2</td>
-<td>Numbered Research Question list with Type labels (≥ 10 RQs; ≥ 1 Difference; ≥ 1 Association)</td>
-<td style="text-align: center;">10</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
-<td style="text-align: center;">3</td>
-<td><strong>Data Analysis Plan</strong> — one RQ card per research question</td>
-<td style="text-align: center;">30 (coverage) + 20 (instrument alignment)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
-<td style="text-align: center;">4</td>
-<td><strong>Cross-Source Comparison Plan</strong> (4 required elements)</td>
-<td style="text-align: center;">25</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
-<td style="text-align: center;">5</td>
-<td>AI Disclosure</td>
-<td style="text-align: center;">7</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
-<p>Use the provided template (<code>PA6_Template.md</code>) as your scaffold. Submit as a single PDF.</p>
-<hr />
-<h2>3. Core rules (read before you start)</h2>
+<p><strong>Two example rows — this is the level of specificity expected (invent your own venues):</strong></p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Day</th>
+<th>Time block</th>
+<th>Location</th>
+<th>Target-segment rationale</th>
+<th>Estimated completes</th>
+<th>Assigned member</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Oct 17</td>
+<td>Saturday</td>
+<td>8:30–11:30 AM</td>
+<td>Claremont Farmers &amp; Artisans Market</td>
+<td>Weekend-morning shoppers skew toward established local homeowners; leisure setting raises the stop rate</td>
+<td>8</td>
+<td>Member B</td>
+</tr>
+<tr>
+<td>Oct 24</td>
+<td>Saturday</td>
+<td>1:00–4:00 PM</td>
+<td>Home Depot, Rancho Cucamonga</td>
+<td>DIY homeowners mid-backyard-project — high product fit; task-focused shoppers refuse more, so pitch at the exit, not the entrance</td>
+<td>10</td>
+<td>Member D</td>
+</tr>
+</tbody>
+</table>
+<!--/landscape--></div></details><details id="pa5.5"><summary><span>PA5.5 — Complete Data Collection (Individual, 5 surveys)</span><span class="due">Opens Wk 7 · closes Sun Nov 1</span></summary><div class="pa-body"><h1>PA5.5 — Complete Your Data Collection</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Points</td>
+<td>100 (term-project component)</td>
+</tr>
+<tr>
+<td>Due</td>
+<td>Window opens week 7; closes Sunday Nov 1, 11:59 PM</td>
+</tr>
+<tr>
+<td>Work</td>
+<td>Individual</td>
+</tr>
+<tr>
+<td>Submit</td>
+<td>Canvas — one ~1-page report incl. the funnel table from Appendix A</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Where this fits:</strong> Lecture — Sessions 3.1–3.2 <em>Sampling</em> (week 7) → Practice — Summit Point round <strong>r10</strong>'s fielding-QA block → Now the real thing: your own five respondents.</p>
+<h2>The gist</h2>
+<p>You personally field <strong>5 completed, qualified surveys</strong> following your team's PA5 plan, then report how it actually went. The core of the report is four numbers kept distinct — contacts → qualified → completes → counted — and the response rate they imply. Your five join the combined pool (this class's wave + the existing student survey + the aytm n = 600 benchmark) that your PA6/PA7 analysis runs on.</p>
+<h2>Steps</h2>
 <ol>
-<li><strong>Embed everything in the PDF.</strong> External Excel or Google Sheets links will not be graded.</li>
-<li><strong>Use Dr. Lin's aytm instrument question numbers</strong> (file: <code>survey-760085-2026-03-25-summary.pdf</code>). Do not use your Google Forms survey numbering — it does not match the shared aytm dataset.</li>
-<li><strong>Portrait orientation only.</strong> Use the vertical RQ card format in the template if a wide table will not fit.</li>
-<li><strong>Label every RQ with its Type:</strong> Descriptive, Difference, or Association.</li>
-<li><strong>Minimum RQs:</strong> ≥ 10 total, with ≥ 1 Difference and ≥ 1 Association. Descriptive-only plans will lose points under Completeness.</li>
-<li><strong>Likert rule:</strong> treat Likert-style scales with <strong>5 or more points</strong> as <strong>Interval</strong> (mean, SD, t-test, Pearson correlation are OK). Scales with <strong>4 or fewer points</strong> are <strong>Ordinal</strong> (report frequency / percentage; do not report a mean).</li>
-<li><strong>Course convention — two-way chi-square is a Difference test.</strong> When both variables are categorical, phrase the RQ as "Does [outcome] <strong>differ</strong> between [groups]?" and label it Difference. Association RQs in this class use <strong>Pearson correlation with two continuous variables only</strong>.</li>
+<li><strong>Use Dr. Lin's official survey link on Canvas</strong>, and ask every respondent to select <strong>your name</strong> at the end — that is how completes count toward your quota. Recruiting materials (flyer, QR code) are on Canvas.</li>
+<li><strong>Field per your team's PA5 grid.</strong> Screen <em>before</em> you pitch: qualified = passes the screeners (homeowner / usable outdoor space). Respondents who terminate at a screener are useful contacts but do not count toward your 5. Collecting beyond 5 is welcome — it strengthens the team pool.</li>
+<li><strong>Track the four numbers as you go:</strong> contacts made (estimates OK) → qualified (passed screeners) → completes → counted toward your quota (selected your name). They are four different numbers — keep them distinct, per channel where you can.</li>
+<li><strong>Compute your response rate</strong> = completes ÷ contacts (Appendix A shows the arithmetic).</li>
+<li><strong>Write the report (~1 page):</strong> your method with named venues, dates/time blocks, channels, and the screener wording you used; the funnel table; then your reflection — what worked, what surprised you, and one concrete suggestion (a mechanism, not a wish) for improving the fielding process.</li>
 </ol>
-<hr />
-<h2>4. Descriptive statistic vs. statistical test</h2>
-<p>Every RQ card must specify one of these:</p>
+<h2>What to submit</h2>
 <ul>
-<li><strong>Descriptive RQ → Descriptive statistic:</strong> percent, frequency, mean, SD, median, mode. Summarizes one variable. No p-value.</li>
-<li><strong>Difference RQ → Statistical test:</strong> two-way chi-square (categorical DV) or independent-samples t-test (continuous DV). Produces a test statistic and p-value.</li>
-<li><strong>Association RQ → Statistical test:</strong> Pearson correlation (both variables continuous). Produces r and p.</li>
+<li>[ ] Method: named venues, dates/time blocks, channels, screener wording used</li>
+<li>[ ] Filled four-number funnel + response rate (Appendix A)</li>
+<li>[ ] Reflection: what worked, what didn't (specific observations — including the channel that underperformed), one concrete suggestion</li>
+<li>[ ] AI reflection (below)</li>
 </ul>
-<blockquote>
-<p><strong>"Mean" is not a statistical test.</strong> If your RQ compares means across groups, the test is an independent-samples t-test. The group means are reported alongside the t, p, and Cohen's d — but the mean itself does not test a hypothesis.</p>
-</blockquote>
-<p>See <code>PA6_Analysis_Test_Cheatsheet.md</code> for the full decision table and worked examples.</p>
-<hr />
-<h2>5. RQ card structure (Section 3)</h2>
-<p>Each research question gets one self-contained card with these seven fields:</p>
+<h2>How you'll be graded</h2>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Weight</th>
+<th>Strong work looks like</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Method specificity</td>
+<td>25%</td>
+<td>Named venues with a rationale for each, dates/time blocks, per-channel approach — details a supervisor could audit, not "shared with friends and family"</td>
+</tr>
+<tr>
+<td>Screening &amp; target awareness</td>
+<td>20%</td>
+<td>Screened before the ask, with the verbal screener wording stated; channels chosen for homeowner fit, not convenience alone</td>
+</tr>
+<tr>
+<td>The four numbers &amp; response rate</td>
+<td>25%</td>
+<td>Contacts → qualified → completes → counted kept distinct (per channel where possible); response rate computed correctly</td>
+</tr>
+<tr>
+<td>Reflection quality</td>
+<td>20%</td>
+<td>Honest, disconfirming observations beat self-praise; suggestions name a mechanism ("completion window + scheduled follow-up text"), not a wish ("reach more people")</td>
+</tr>
+<tr>
+<td>Process &amp; AI reflection</td>
+<td>10%</td>
+<td>Human-first draft documented; the four reflection prompts answered specifically, not generically</td>
+</tr>
+</tbody>
+</table>
+<h2>AI reflection (required)</h2>
+<p><strong>Human first.</strong> Draft or plan this assignment yourself before any AI touches it. That order is the point: it is the only way to see what AI actually adds — or quietly subtracts. Then use AI to improve your draft, and answer the four prompts below (2–4 sentences each, specific to THIS assignment):</p>
+<p>(a) The most important change I made after using AI was…
+(b) I accepted this change because…
+(c) I rejected or substantially revised the AI suggestion that…
+(d) One uncertainty or question that remains is…</p>
+<p>List the tools you used and for what. Generic answers ("AI helped me improve clarity") score zero on this category; name the actual change.</p>
+<!--appendix-->
+<h2>Appendix A — Four-number funnel (fill this out)</h2>
+<table>
+<thead>
+<tr>
+<th>Channel</th>
+<th>Contacts</th>
+<th>Qualified (passed screeners)</th>
+<th>Completes</th>
+<th>Counted (selected your name)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Response rate = total completes ÷ total contacts = ______ %</strong></p>
+<p><strong>Worked example</strong> (a real A-level report from a prior term, when the quota was 10 — your quota is 5; the arithmetic discipline is the same):</p>
+<table>
+<thead>
+<tr>
+<th>Channel</th>
+<th>Contacts</th>
+<th>Qualified</th>
+<th>Completes</th>
+<th>Counted</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Farmers market + Nextdoor + family texts</td>
+<td>27</td>
+<td>19</td>
+<td>11</td>
+<td>10</td>
+</tr>
+</tbody>
+</table>
+<p>Response rate = 11 ÷ 27 = <strong>40.7%</strong>. Four different numbers: 8 contacts never qualified, 8 qualified people never finished, and one complete skipped the name question — so only 10 counted. Keep yours this distinct.</p></div></details><details id="pa6"><summary><span>PA6 — Data Analysis Plan</span><span class="due">Sun Oct 25</span></summary><div class="pa-body"><h1>PA6 — Data Analysis Plan</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Points</td>
+<td>100 (term-project component)</td>
+</tr>
+<tr>
+<td>Due</td>
+<td>Sunday Oct 25, 11:59 PM</td>
+</tr>
+<tr>
+<td>Work</td>
+<td>Team</td>
+</tr>
+<tr>
+<td>Submit</td>
+<td>Canvas — one PDF: numbered RQ list + filled RQ cards (Appendix A) + comparison plan (Appendix B)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Where this fits:</strong> Lecture — Session 4.1 <em>Descriptives + the Data Analysis Plan</em> (week 8) → Practice — Summit Point round <strong>r13</strong> (<em>Analyze the Neo Survey</em> — the Analysis pack's pick-the-test-per-RQ page) → Now the real thing: the plan you will execute on Neo Smart Living's actual data in PA7.</p>
+<h2>The gist</h2>
+<p>Before anyone runs a single number, write down — for every research question — which aytm item, which variables, which level of measurement, and which descriptive statistic or statistical test will answer it. The plan spans both data sources: the <strong>aytm professional panel (n = 600)</strong> and your <strong>student-collected Google Forms survey</strong>. A tight plan makes PA7 an execution exercise; a loose one is where teams lose the most points in the whole project.</p>
+<h2>The course conventions (your plan is graded against these)</h2>
+<table>
+<thead>
+<tr>
+<th>Convention</th>
+<th>Rule</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Likert levels</td>
+<td><strong>5+ points = Interval</strong> (mean, SD, t-test, Pearson OK); <strong>≤ 4 points = Ordinal</strong> (frequencies / %, no mean)</td>
+</tr>
+<tr>
+<td>Two-way chi-square</td>
+<td>A <strong>Difference</strong> test — phrase the RQ "Does [outcome] <strong>differ</strong> between [groups]?"</td>
+</tr>
+<tr>
+<td>Association</td>
+<td><strong>Pearson correlation, two continuous variables only</strong></td>
+</tr>
+<tr>
+<td>"Mean"</td>
+<td>A descriptive statistic, <strong>never a test</strong> — comparing group means ⇒ independent-samples t-test</td>
+</tr>
+<tr>
+<td>Question numbers</td>
+<td>Always the <strong>aytm Q#</strong> (instrument on Canvas) — never your own Form's numbering</td>
+</tr>
+</tbody>
+</table>
+<h2>Steps</h2>
+<ol>
+<li><strong>Number your research questions</strong> (revised per PA3 feedback): ≥ 10 total, each labeled Descriptive / Difference / Association, with ≥ 1 Difference and ≥ 1 Association.</li>
+<li><strong>Fill one RQ card per question</strong> (Appendix A): aytm Q#, variables — grouping vs. analysis separated for Difference RQs — level of measurement, the descriptive statistic OR statistical test, and the expected output.</li>
+<li><strong>Plan the two-source comparison</strong> (Appendix B): 3–5 metrics measurable in both sources, the statistic to report per metric, and <strong>≥ 3 numeric convergence thresholds</strong> (e.g., means within ± 0.5; same top-ranked category; top-category % within ± 10 points).</li>
+<li><strong>State the instrument differences</strong> and which RQs they touch: aytm is PII-free (no demographics), national, screened for outdoor space; your survey is convenience-based, SoCal, with wording tweaks.</li>
+<li><strong>Audit every card against the conventions table</strong> above — the grader will.</li>
+</ol>
+<h2>What to submit</h2>
+<ul>
+<li>[ ] Numbered RQ list with Type labels (≥ 10 RQs; ≥ 1 Difference; ≥ 1 Association)</li>
+<li>[ ] One completed RQ card per research question (Appendix A)</li>
+<li>[ ] Two-source comparison plan (Appendix B) + instrument-differences paragraph naming the affected RQs</li>
+<li>[ ] AI reflection (below)</li>
+</ul>
+<h2>How you'll be graded</h2>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Weight</th>
+<th>Strong work looks like</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RQ cards &amp; test mapping</td>
+<td>35%</td>
+<td>Every RQ carded; test matches RQ type; grouping vs. analysis variables separated; expected output names the specific table, chart, or statistic</td>
+</tr>
+<tr>
+<td>Conventions compliance</td>
+<td>20%</td>
+<td>Likert rule applied; no "mean" listed as a test; Association rows pair two continuous variables; chi-square RQs phrased as Difference</td>
+</tr>
+<tr>
+<td>Two-source comparison plan</td>
+<td>20%</td>
+<td>3–5 Q-numbered metrics, a statistic per metric, ≥ 3 numeric thresholds, instrument differences tied to specific RQs</td>
+</tr>
+<tr>
+<td>Completeness &amp; instrument alignment</td>
+<td>15%</td>
+<td>RQ minimums met; every Q# and variable name matches the aytm instrument</td>
+</tr>
+<tr>
+<td>Process &amp; AI reflection</td>
+<td>10%</td>
+<td>Human-first draft documented; the four reflection prompts answered specifically, not generically</td>
+</tr>
+</tbody>
+</table>
+<h2>AI reflection (required)</h2>
+<p><strong>Human first.</strong> Draft or plan this assignment yourselves before any AI touches it. That order is the point: it is the only way to see what AI actually adds — or quietly subtracts. Then use AI to improve your draft, and answer the four prompts below (2–4 sentences each, specific to THIS assignment):</p>
+<p>(a) The most important change we made after using AI was…
+(b) We accepted this change because…
+(c) We rejected or substantially revised the AI suggestion that…
+(d) One uncertainty or question that remains is…</p>
+<p>List the tools you used and for what. Generic answers ("AI helped us improve clarity") score zero on this category; name the actual change.</p>
+<!--appendix-->
+<h2>Appendix A — RQ cards (fill one row per research question)</h2>
+<!--landscape-->
+<table>
+<thead>
+<tr>
+<th>RQ</th>
+<th>Type</th>
+<th>aytm Q#</th>
+<th>Variables (grouping vs. analysis)</th>
+<th>Level of measurement</th>
+<th>Descriptive stat OR test</th>
+<th>Expected output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3>Filled example cards — one per RQ type</h3>
+<table>
+<thead>
+<tr>
+<th>RQ</th>
+<th>Type</th>
+<th>aytm Q#</th>
+<th>Variables (grouping vs. analysis)</th>
+<th>Level of measurement</th>
+<th>Descriptive stat OR test</th>
+<th>Expected output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>What is the distribution of purchase interest at the ~$23,000 price point?</td>
+<td>Descriptive</td>
+<td>Q6</td>
+<td>Purchase interest at $23K (single variable)</td>
+<td>Interval (1–5 Likert → 5+ rule)</td>
+<td>Descriptive statistic: mean, SD, frequency distribution</td>
+<td>Mean interest (e.g., "M = 2.34, SD = 1.32"); % rating 4–5 (top-2 box); bar chart of the distribution</td>
+</tr>
+<tr>
+<td>Does purchase interest (Q6) differ between HOA members and non-members?</td>
+<td>Difference</td>
+<td>Q6 × Q35</td>
+<td><strong>Grouping:</strong> HOA membership (Q35, Nominal, Yes / No — exclude "Not sure"). <strong>Analysis:</strong> purchase interest (Q6, Interval)</td>
+<td>Interval × Nominal</td>
+<td>Statistical test: independent-samples t-test</td>
+<td>Group means ± SD (descriptive support); t, df, p, Cohen's d (test output); bar chart of means by group</td>
+</tr>
+<tr>
+<td>Is there a positive relationship between general interest in a backyard unit (Q3) and purchase likelihood (Q7)?</td>
+<td>Association</td>
+<td>Q3 × Q7</td>
+<td>General interest (Interval) × purchase likelihood (Interval) — both continuous</td>
+<td>Interval × Interval</td>
+<td>Statistical test: Pearson correlation</td>
+<td>r and p (e.g., "r = .54, p &lt; .001"); scatter plot; direction + strength interpretation</td>
+</tr>
+</tbody>
+</table>
+<!--/landscape-->
+
+<h2>Appendix B — Two-source comparison plan (fill this table)</h2>
+<p>"Value-to-be" cells stay descriptive in PA6 — name the statistic you will compute in PA7 (e.g., "mean + top-2-box %" or "% per category + modal category"), not a number. Cross-source comparison in this course is descriptive only: no inferential test across sources.</p>
+<!--landscape-->
+<table>
+<thead>
+<tr>
+<th>Metric</th>
+<th>aytm Q#</th>
+<th>Statistic</th>
+<th>aytm value-to-be</th>
+<th>Student value-to-be</th>
+<th>Convergence threshold (numeric)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<!--/landscape--></div></details><details id="pa7"><summary><span>PA7 — Data Analysis Report</span><span class="due">Sun Nov 8</span></summary><div class="pa-body"><h1>PA7 — Data Analysis Report</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Points</td>
+<td>100 (term-project component)</td>
+</tr>
+<tr>
+<td>Due</td>
+<td>Sunday Nov 8, 11:59 PM</td>
+</tr>
+<tr>
+<td>Work</td>
+<td>Team</td>
+</tr>
+<tr>
+<td>Submit</td>
+<td>Canvas — one numbered PDF per team</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Where this fits:</strong> Lecture — Sessions 4.3 <em>t-tests + effect sizes</em> (week 9) and 4.2 <em>Chi-square + cross-tabs</em> (week 11) → Practice — Summit Point round <strong>r13</strong> <em>Analyze the Neo Survey</em> (the income cross-tab, topline reads, and defensible-findings tasks) → Now the real thing: your PA6 plan, executed on the real datasets.</p>
+<h2>The gist</h2>
+<p>This is the analytical heart of the project: run every research question from your PA6 plan on the actual data, prove you can do the two workhorse tests by hand, and put the two sources side by side to see which findings Neo Smart Living can trust. The cleaned datasets and the column-mapping file are posted on Canvas.</p>
+<h2>About the two samples</h2>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>aytm panel</th>
+<th>Student survey</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>n</td>
+<td>600</td>
+<td>varies by team</td>
+</tr>
+<tr>
+<td>Geography</td>
+<td>National US</td>
+<td>SoCal (Inland Empire / eastern LA)</td>
+</tr>
+<tr>
+<td>Screened for outdoor space</td>
+<td>Yes — pre-screened</td>
+<td>No — unscreened</td>
+</tr>
+<tr>
+<td>Recruitment</td>
+<td>Professional homeowner panel</td>
+<td>Friends &amp; family who own homes or land</td>
+</tr>
+<tr>
+<td>Racial composition</td>
+<td>86% White</td>
+<td>Majority Hispanic/Latino and Asian-American</td>
+</tr>
+<tr>
+<td>Researched the product before</td>
+<td>27%</td>
+<td>10%</td>
+</tr>
+</tbody>
+</table>
+<p>These differences explain most of the divergences you will find — always tie your interpretation back to them.</p>
+<h2>Steps</h2>
+<ol>
+<li><strong>Analyze each RQ</strong> per its PA6 card and write one results block (Appendix A): the statistic or test output, a labeled chart (charts, not just tables), and 2–4 sentences on what the answer means for the client.</li>
+<li><strong>Hand-calculate one independent-samples t-test</strong> on a Difference RQ, using real data: hypotheses, group means and SDs, standard error, t, df, p, plain-language conclusion — every arithmetic step shown (checklist in Appendix A).</li>
+<li><strong>Hand-calculate one two-way chi-square:</strong> observed crosstab, expected frequency per cell (E = row total × column total ÷ n), cell-by-cell (O − E)²/E, χ², df, p, conclusion. After both hand tests, you may scale the remaining analyses with AI — note which tests were manual vs. delegated.</li>
+<li><strong>Match the columns</strong> with the mapping file posted on Canvas, then compare <strong>≥ 5 metrics</strong> side by side (Appendix B), with a Convergent? verdict per row.</li>
+<li><strong>Chart the comparison:</strong> ≥ 2 charts showing the same metric across both sources, one consistent color per source throughout (e.g., always blue = aytm, orange = student).</li>
+<li><strong>Interpret in 1–2 pages:</strong> where the sources converge (findings Neo can act on with confidence), where they diverge (explained through the samples table above), and what that says about the SoCal market vs. the national one.</li>
+</ol>
+<h2>What to submit</h2>
+<ul>
+<li>[ ] Results block for every RQ (Appendix A format) — pages numbered, charts labeled and consistently styled</li>
+<li>[ ] Two hand calculations (one t-test, one chi-square) with every step shown, on real data</li>
+<li>[ ] Side-by-side metrics table (Appendix B, ≥ 5 metrics) + ≥ 2 comparison charts</li>
+<li>[ ] 1–2 page two-source interpretation</li>
+<li>[ ] AI reflection (below)</li>
+</ul>
+<h2>How you'll be graded</h2>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Weight</th>
+<th>Strong work looks like</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Per-RQ analysis</td>
+<td>40%</td>
+<td>Correct test per RQ type, run on the real data; a labeled chart per RQ; each finding stated as a client takeaway, not just a statistic</td>
+</tr>
+<tr>
+<td>Hand calculations</td>
+<td>20%</td>
+<td>Both tests fully worked: hypotheses, all arithmetic (including the expected-frequency table and cell contributions), a numeric p, a plain-language conclusion</td>
+</tr>
+<tr>
+<td>Two-source comparison</td>
+<td>25%</td>
+<td>≥ 5 metrics with actual numbers from both sources; ≥ 2 comparison charts; interpretation explains divergence through sampling differences</td>
+</tr>
+<tr>
+<td>Presentation &amp; format</td>
+<td>5%</td>
+<td>Numbered pages, report organized by RQ, consistent chart styling</td>
+</tr>
+<tr>
+<td>Process &amp; AI reflection</td>
+<td>10%</td>
+<td>Human-first draft documented; the four reflection prompts answered specifically, not generically</td>
+</tr>
+</tbody>
+</table>
+<h2>AI reflection (required)</h2>
+<p><strong>Human first.</strong> Draft or plan this assignment yourselves before any AI touches it. That order is the point: it is the only way to see what AI actually adds — or quietly subtracts. Then use AI to improve your draft, and answer the four prompts below (2–4 sentences each, specific to THIS assignment):</p>
+<p>(a) The most important change we made after using AI was…
+(b) We accepted this change because…
+(c) We rejected or substantially revised the AI suggestion that…
+(d) One uncertainty or question that remains is…</p>
+<p>List the tools you used and for what. Generic answers ("AI helped us improve clarity") score zero on this category; name the actual change.</p>
+<!--appendix-->
+<h2>Appendix A — Results-block template (copy one per RQ)</h2>
 <table>
 <thead>
 <tr>
@@ -478,950 +1853,728 @@ A managerial objective is what the client hopes will result from the research pr
 </thead>
 <tbody>
 <tr>
-<td>Research question</td>
-<td>heading</td>
+<td>Research question (number + verbatim text)</td>
+<td></td>
 </tr>
 <tr>
-<td>Type of RQ</td>
+<td>Type</td>
 <td>Descriptive / Difference / Association</td>
 </tr>
 <tr>
-<td>Questionnaire Question (aytm Q#)</td>
-<td>cite aytm Q# (e.g., Q6, Q7, Q9 SQ1–SQ7, Q14–Q28, Q34)</td>
+<td>aytm Q#</td>
+<td></td>
 </tr>
 <tr>
-<td>Variable(s)</td>
-<td>named clearly; for Difference RQs list grouping + analysis separately</td>
+<td>Test or statistic</td>
+<td></td>
 </tr>
 <tr>
-<td>Level of Measurement</td>
-<td>Nominal / Ordinal / Interval / Ratio (apply the 5+ point Likert rule)</td>
+<td>Result sentence with statistics</td>
+<td>e.g., "Mean purchase interest is 2.34 (SD = 1.32, n = 600); only 23.4% rated 4–5."</td>
 </tr>
 <tr>
-<td>Descriptive Statistic OR Statistical Test</td>
-<td>pick based on RQ type</td>
+<td>Practical meaning for Neo</td>
+<td>2–4 sentences: what should the client do differently because of this?</td>
 </tr>
 <tr>
-<td>Expected Output</td>
-<td>1–2 sentences describing the specific table, chart, or statistic</td>
+<td>Chart</td>
+<td>[insert labeled chart — title, axis labels, legend if needed]</td>
 </tr>
 </tbody>
 </table>
-<p>Copy the blank card in the template for each of your RQs.</p>
-<hr />
-<h2>6. Cross-Source Comparison Plan (Section 4)</h2>
-<p>You must compare findings across <strong>student Google Forms data</strong>, <strong>aytm (n ≈ 600)</strong>, and <strong>AI-simulated respondents</strong>. All four elements below are required:</p>
+<h3>Hand-calculation checklist — independent-samples t-test</h3>
+<ul>
+<li>[ ] H₀ and H₁ stated; α = .05, two-tailed</li>
+<li>[ ] Group means and SDs computed for both subgroups (show n per group)</li>
+<li>[ ] Standard error and t-statistic computed, formula and arithmetic shown</li>
+<li>[ ] df = n₁ + n₂ − 2</li>
+<li>[ ] Numeric p-value, compared to α</li>
+<li>[ ] Plain-language conclusion: is there a significant difference between the groups?</li>
+</ul>
+<h3>Hand-calculation checklist — two-way chi-square</h3>
+<ul>
+<li>[ ] H₀ (variables independent) and H₁ stated</li>
+<li>[ ] Observed frequency table (crosstab) built from real data</li>
+<li>[ ] Expected frequency per cell: E = (row total × column total) / n — full table shown</li>
+<li>[ ] Cell-by-cell (O − E)²/E contributions shown, summed to χ²</li>
+<li>[ ] df = (rows − 1) × (columns − 1)</li>
+<li>[ ] Numeric p-value vs. α; plain-language conclusion: associated or independent?</li>
+</ul>
+<h2>Appendix B — Side-by-side metrics table (fill this out)</h2>
+<!--landscape-->
 <table>
 <thead>
 <tr>
-<th>Element</th>
-<th>Expectation</th>
-<th style="text-align: center;">Points</th>
+<th>Metric</th>
+<th>aytm Q#</th>
+<th>aytm value (n = 600)</th>
+<th>Student value (n = ___)</th>
+<th>Difference</th>
+<th>Convergent? (Y/N)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>4.1 Key metrics (3–5)</strong></td>
-<td>Identify 3–5 variables comparable across all three sources. Tie each to a specific aytm Q#.</td>
-<td style="text-align: center;">6</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
-<td><strong>4.2 Descriptive statistic per metric</strong></td>
-<td>Specify the <strong>descriptive statistic</strong> to report side-by-side per source (e.g., mean + SD + % top-2-box for Likert items; % per category + modal category for nominal items). Cross-source comparison in this course is <strong>descriptive only — no inferential tests required</strong>. Do not list only "bar chart."</td>
-<td style="text-align: center;">7</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
-<td><strong>4.3 Convergence thresholds</strong></td>
-<td>Define what "convergent" means across sources using descriptive criteria. Include at least three — e.g., means within ± 0.5 on Likert, top-ranked category agreement, percentage on top category within ± 10 points.</td>
-<td style="text-align: center;">6</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
-<td><strong>4.4 Instrument differences</strong></td>
-<td>Acknowledge specific differences: aytm removed all PII (no demographics), student sample is convenience-based with possible wording adjustments, AI simulation produces synthetic responses. Identify which RQs are affected.</td>
-<td style="text-align: center;">6</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
-<hr />
-<h2>7. AI Disclosure (Section 5)</h2>
-<p>For every AI tool used while working on this assignment, provide:</p>
+<!--/landscape--></div></details><details id="pa8"><summary><span>PA8 — Term Project Presentation (7 min + Q&A)</span><span class="due">In class Wed Dec 2</span></summary><div class="pa-body"><h1>PA8 — Term Project Presentation</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Points</td>
+<td>100 (term-project component)</td>
+</tr>
+<tr>
+<td>Due</td>
+<td>Presented in class Wednesday Dec 2 — recording URL + deck on Canvas one day before</td>
+</tr>
+<tr>
+<td>Work</td>
+<td>Team</td>
+</tr>
+<tr>
+<td>Submit</td>
+<td>Canvas — YouTube URL (unlisted or public, never private) + slide deck</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Where this fits:</strong> Lecture — Session 5.4 <em>Insights &amp; Report Writing</em> (week 14) → Practice — Summit Point round <strong>r12</strong> (the final report + the 13-minute Teach/Warn/Show/Advise outline) → Now the real thing: the same four beats, scaled to 7 minutes, delivered to Neo Smart Living in front of the class.</p>
+<h2>The gist</h2>
+<p>A 7-minute recorded team presentation plus a 3-minute live Q&amp;A: teach the client what you found, warn them what the data cannot claim, show the evidence, and advise them what to do. Findings appear as charts, not tables; every recommendation traces to a number you showed.</p>
+<h2>Steps</h2>
+<ol>
+<li><strong>Outline with the beat sheet</strong> (Appendix A) before opening any slideware: Teach ≈ 2:10, Warn ≈ 1:40, Show ≈ 2:05, Advise ≈ 1:05. When a deck runs long, Warn is the beat teams cut — and the one the client most needs. Scale beats down; never cut one.</li>
+<li><strong>Build ≤ 11 slides:</strong> charts not tables, percents not counts, one spoken takeaway per chart.</li>
+<li><strong>Dedicate 1–2 slides to the source comparison (aytm vs. student survey):</strong> a samples table (n, geography, screening, recruitment), one side-by-side chart showing a convergence AND a divergence, and the practical implication — which findings Neo can act on, and where the SoCal picture differs.</li>
+<li><strong>Record it</strong> as a screen recording (voice-over narration alone is not acceptable), with every team member's face on camera. Editing to improve quality is fine.</li>
+<li><strong>Upload to YouTube set to unlisted or public — never private</strong> (a private video is inaccessible and counts as late). Submit the URL and the deck on Canvas one day before Dec 2.</li>
+<li><strong>Rehearse the Q&amp;A:</strong> every member ready to go one level deeper than the slides — the n behind a chart, why that test, why that recommendation over the alternative.</li>
+</ol>
+<h2>What to submit</h2>
 <ul>
-<li><strong>Tool name</strong> (ChatGPT, Claude, Gemini, etc.)</li>
-<li><strong>Purpose / task</strong> (e.g., "help classify level of measurement for each RQ")</li>
-<li><strong>Example prompt</strong> (paste the exact prompt you used)</li>
-<li><strong>How you validated the output</strong> (e.g., "cross-checked against the course cheat sheet")</li>
+<li>[ ] YouTube URL on Canvas (unlisted or public), one day before Dec 2</li>
+<li>[ ] Slide deck (PowerPoint or Google Slides) on Canvas</li>
+<li>[ ] Completed beat sheet (Appendix A)</li>
+<li>[ ] AI reflection (below)</li>
 </ul>
-<p>Disclosure must relate directly to this PA6 assignment. Unrelated AI conversations will not count.</p>
-<hr />
-<h2>8. Grading rubric summary (100 points)</h2>
+<h2>How you'll be graded</h2>
 <table>
 <thead>
 <tr>
 <th>Category</th>
-<th>Sub-criterion</th>
-<th style="text-align: center;">Pts</th>
+<th>Weight</th>
+<th>Strong work looks like</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>1. RQ-to-Test Mapping (30)</strong></td>
-<td>1a Coverage — all RQs mapped with type labels; mix of types</td>
-<td style="text-align: center;">15</td>
+<td>Content &amp; organization</td>
+<td>30%</td>
+<td>All four beats present and timed; opens with the client's decision, not the course assignment; runs 6:30–7:30; recommendations name a segment, a concept, a price stance, and a channel</td>
 </tr>
 <tr>
-<td></td>
-<td>1b Technical accuracy — correct level of measurement, correct stat/test, expected output described</td>
-<td style="text-align: center;">15</td>
+<td>Findings &amp; source comparison</td>
+<td>25%</td>
+<td>2–3 findings stated as takeaways with real numbers; dedicated comparison slide(s) show a convergence and a divergence and say what each means for trusting the results</td>
 </tr>
 <tr>
-<td><strong>2. Cross-Source Comparison (25)</strong></td>
-<td>2a Key metrics (3–5, tied to aytm Q#)</td>
-<td style="text-align: center;">6</td>
+<td>Visual aids</td>
+<td>20%</td>
+<td>Every slide legible at recording resolution; sorted, axis-labeled charts with percents; 8–11 slides for 7 minutes; consistent style</td>
 </tr>
 <tr>
-<td></td>
-<td>2b Descriptive statistic per metric (no inferential test required)</td>
-<td style="text-align: center;">7</td>
+<td>Delivery &amp; style</td>
+<td>15%</td>
+<td>Rehearsed, not read; clean audio; smooth speaker handoffs; all faces on camera; direct, accurate Q&amp;A answers</td>
 </tr>
 <tr>
-<td></td>
-<td>2c Convergence thresholds (≥ 3 criteria)</td>
-<td style="text-align: center;">6</td>
-</tr>
-<tr>
-<td></td>
-<td>2d Instrument differences acknowledged</td>
-<td style="text-align: center;">6</td>
-</tr>
-<tr>
-<td><strong>3. Completeness (25)</strong></td>
-<td>3a ≥ 10 RQs with ≥ 1 Difference and ≥ 1 Association</td>
-<td style="text-align: center;">10</td>
-</tr>
-<tr>
-<td></td>
-<td>3b Supporting documents (objectives, numbered RQs, checklist items)</td>
-<td style="text-align: center;">8</td>
-</tr>
-<tr>
-<td></td>
-<td>3c AI disclosure (tool, task, prompt, validation)</td>
-<td style="text-align: center;">7</td>
-</tr>
-<tr>
-<td><strong>4. Instrument Alignment (20)</strong></td>
-<td>4a aytm Q numbers match the actual instrument</td>
-<td style="text-align: center;">12</td>
-</tr>
-<tr>
-<td></td>
-<td>4b Variable names consistent with the instrument</td>
-<td style="text-align: center;">8</td>
+<td>Process &amp; AI reflection</td>
+<td>10%</td>
+<td>Human-first draft documented; the four reflection prompts answered specifically, not generically</td>
 </tr>
 </tbody>
 </table>
-<hr />
-<h2>9. Common mistakes to avoid (from prior-semester submissions)</h2>
+<h2>AI reflection (required)</h2>
+<p><strong>Human first.</strong> Draft or plan this assignment yourselves before any AI touches it. That order is the point: it is the only way to see what AI actually adds — or quietly subtracts. Then use AI to improve your draft, and answer the four prompts below (2–4 sentences each, specific to THIS assignment):</p>
+<p>(a) The most important change we made after using AI was…
+(b) We accepted this change because…
+(c) We rejected or substantially revised the AI suggestion that…
+(d) One uncertainty or question that remains is…</p>
+<p>List the tools you used and for what. Generic answers ("AI helped us improve clarity") score zero on this category; name the actual change.</p>
+<!--appendix-->
+<h2>Appendix A — Beat sheet (fill before building slides)</h2>
+<p>One row per beat. "What's said" = the takeaway sentence spoken aloud, not the slide title. "Evidence cited" = the specific chart or number (e.g., "purchase funnel: 44.7% → 23.3% → 13.0%"). Use the blank rows to split a beat across slides.</p>
+<table>
+<thead>
+<tr>
+<th>Beat</th>
+<th>Time budget</th>
+<th>Slide(s)</th>
+<th>What's said</th>
+<th>Evidence cited</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Teach — client, problem, method</td>
+<td>~2:10 (0:00–2:10)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Warn — limitations + where the sources disagree</td>
+<td>~1:40 (2:10–3:50)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Show — the 2–3 findings that drive the decision</td>
+<td>~2:05 (3:50–5:55)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Advise — recommendations traced to shown numbers</td>
+<td>~1:05 (5:55–7:00)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div></details><details id="pa9"><summary><span>PA9 — Written Report (SlideDocs)</span><span class="due">Finals week, at the exam</span></summary><div class="pa-body"><h1>PA9 — Final Written Report</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Points</td>
+<td>100 (term-project component)</td>
+</tr>
+<tr>
+<td>Due</td>
+<td>Finals week (Dec 7–13) — at your final-exam session; exact slot on Canvas</td>
+</tr>
+<tr>
+<td>Work</td>
+<td>Team</td>
+</tr>
+<tr>
+<td>Submit</td>
+<td>Canvas — one PDF (SlideDocs report) + the filled skeleton checklist from Appendix A</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Where this fits:</strong> Lecture — Session 5.4 <em>Insights &amp; Report Writing</em> (week 14) → Practice — Summit Point round <strong>r12</strong> (<em>Build the final report</em> — Dana's House Reporting Standard) → Now the real thing: the document Neo Smart Living keeps after your team walks away.</p>
+<h2>The gist</h2>
+<p>This is the engagement's permanent artifact: a client-ready SlideDocs report. Everything the project produced — RQs, instrument, fielding, analysis — either survives in this document or disappears. Done well, it stands alone: a manager who never met you can find any RQ's answer by page number, and every recommendation traces to a finding.</p>
+<h2>Steps</h2>
 <ol>
-<li><strong>Using your own Google Forms Q numbers.</strong> The DAP must reference the aytm instrument. Five of six teams last semester lost 9+ points on Category 4 for this.</li>
-<li><strong>Submitting the DAP as an external Excel link.</strong> The rubric requires embedding — external files lose the full Categories 1 and 4 (50 points).</li>
-<li><strong>Listing "Mean" as a test.</strong> Mean is a descriptive statistic. For group comparisons, the test is a t-test; for ranking concepts, report means descriptively without calling it a test.</li>
-<li><strong>Using a t-test on 3+ groups.</strong> Independent-samples t-test is for exactly 2 groups. Collapse categories into two meaningful groups or see footnote ² in the cheat sheet for ANOVA.</li>
-<li><strong>Submitting all Descriptive RQs.</strong> The minimum is ≥ 1 Difference and ≥ 1 Association.</li>
-<li><strong>Omitting the instrument differences section</strong> of the Cross-Source Comparison Plan. Saying "there shouldn't be a difference" is the opposite of what the rubric asks for.</li>
-<li><strong>Pasting an irrelevant AI transcript.</strong> The disclosure must relate to this assignment.</li>
+<li><strong>Assemble the skeleton first</strong> (Appendix A): title page, table of contents, separate Table of RQs with page numbers, then the sections in order. Fill the RQ ↔ Question table (Appendix B) — it fixes the Results order before you write a word.</li>
+<li><strong>Reserve 2–3 pages for the Executive Summary — but write it LAST.</strong> It must stand alone in third person: background, methods, key findings, recommendations, leading with the decision-relevant finding, not a project chronology.</li>
+<li><strong>Write Methods as past-tense prose with the numbers:</strong> invitations → refusals → nonqualified → final n, the response rate, demographics, and an honest representativeness assessment for both samples (aytm n = 600 and your student survey).</li>
+<li><strong>Build Results one block per RQ:</strong> a ≤5-word heading, the full RQ, the questionnaire item(s), a plain-language finding with a client takeaway, and a percent-based chart on the same or next page. At least one difference RQ with χ² or t, df, and p in a footnote.</li>
+<li><strong>Write limitations as inference boundaries</strong> — coverage, nonresponse, convenience limits, single wave — never project problems ("we ran late" is not a limitation).</li>
+<li><strong>Tie every recommendation to evidence:</strong> bullets, each with action + rationale + the finding it rests on. A recommendation no result supports doesn't belong in the report.</li>
+<li><strong>Assemble the appendix</strong> — verbatim fielded questionnaire, the RQ ↔ Question table, analysis output keyed to each RQ — then write the Executive Summary and proof the whole document against the house-rules table below.</li>
 </ol>
-<hr />
-<h2>10. Submission checklist</h2>
-<p><code>☐ Section 1: Final Research Objectives (3–5 bullets)
-☐ Section 2: Numbered Research Questions with Type labels
-    ☐ ≥ 10 RQs
-    ☐ ≥ 1 Difference RQ
-    ☐ ≥ 1 Association RQ
-☐ Section 3: RQ card for every research question (all 7 fields filled)
-    ☐ aytm Q# cited (not your own Google Forms numbering)
-    ☐ Variable(s) named clearly
-    ☐ Level of Measurement applied correctly (5+ point Likert = Interval)
-    ☐ Descriptive statistic used for Descriptive RQs
-    ☐ Statistical test used for Difference and Association RQs (not "mean" alone)
-    ☐ Expected Output described in 1–2 sentences
-☐ Section 4: Cross-Source Comparison Plan with all 4 elements
-    ☐ 3–5 key metrics tied to aytm Q#
-    ☐ Statistical test per metric
-    ☐ Convergence thresholds (≥ 3 criteria)
-    ☐ Instrument differences (3 sources)
-☐ Section 5: AI Disclosure — tool, task, prompt, validation
-☐ All content embedded in submitted PDF (no external links)
-☐ Portrait orientation; readable font (≥ 10pt)</code></p>
-<hr />
-<h2>11. Reference files in this shared folder</h2>
-<table>
-<thead>
-<tr>
-<th>File</th>
-<th>Use for</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>PA6_Assignment_Description.md</code></td>
-<td>This document — read first</td>
-</tr>
-<tr>
-<td><code>PA6_Template.md</code></td>
-<td>Scaffold for your five sections; blank RQ card to copy</td>
-</tr>
-<tr>
-<td><code>PA6_Analysis_Test_Cheatsheet.md</code></td>
-<td>Decision table and worked examples for choosing a test</td>
-</tr>
-<tr>
-<td><code>survey-760085-2026-03-25-summary.pdf</code></td>
-<td>aytm instrument question numbers (reference these in Section 3)</td>
-</tr>
-<tr>
-<td><code>aytm Survey #760085 (Neo Smart Living — Tahoe Mini Survey).docx</code></td>
-<td>Full aytm questionnaire text</td>
-</tr>
-<tr>
-<td><em>(posted on Canvas)</em></td>
-<td>Optional worksheet (for drafting only; final submission must be in the PDF)</td>
-</tr>
-</tbody>
-</table></div></details><details id="pa7"><summary><span>PA7 — Data Analysis Report</span><span class="due">Sun Nov 8</span></summary><div class="pa-body"><p>IBM3302 Marketing Research</p>
-<p><strong>PA7</strong></p>
-<p>Data Analysis Report</p>
-<p>Course: <strong>IBM 3302 Marketing Research</strong></p>
-<p>Client: <strong>Neo Smart Living — Tahoe Mini ($23,000 prefab backyard unit, 117 sq ft)</strong></p>
-<p>Due Date: <strong>see canvas</strong></p>
-<p>Submission: <strong>Upload to Canvas</strong></p>
-<h1><strong>Objective</strong></h1>
-<p>Analyze your survey data to answer each research question, present results with supporting visualizations, and conduct a cross-source comparison across both data sources: the student-collected Google Forms survey and the aytm professional panel survey.</p>
-<h1><strong>Deliverables Checklist</strong></h1>
-<p>Submit <strong>one numbered PDF document per team</strong> on Canvas containing all items below:</p>
+<h2>What to submit</h2>
 <ul>
-<li>
-<p>Analysis results for every research question (organized by RQ — see template below)</p>
-</li>
-<li>
-<p>Bar charts or tables visualizing the results for each RQ</p>
-</li>
-<li>
-<p>Hand calculations for one independent t-test and one two-way chi-square test (Part 2)</p>
-</li>
-<li>
-<p>Two-Source Comparison chapter: metrics table, at least two comparison charts, and written interpretation (see Part 3)</p>
-</li>
-<li>
-<p>AI Disclosure documenting any AI tools used in the analysis</p>
-</li>
+<li>[ ] One PDF: SlideDocs report, ≤13-pt font, third person and past tense throughout</li>
+<li>[ ] Front matter: title page · table of contents · separate Table of RQs with page numbers</li>
+<li>[ ] Results: one block per RQ, including ≥1 difference RQ with footnoted statistics</li>
+<li>[ ] Appendix: verbatim questionnaire + filled RQ ↔ Question table (Appendix B)</li>
+<li>[ ] Filled report-skeleton checklist (Appendix A)</li>
+<li>[ ] AI reflection (below)</li>
 </ul>
-<h1><strong>Instructions</strong></h1>
-<h2><strong>Part 1: Research Question Analysis</strong></h2>
-<p>Organize your report <strong>by research question</strong>. For each RQ, use the following structure:</p>
+<h2>House rules (the graded mechanics)</h2>
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">Element</th>
-<th style="text-align: left;">What to Include</th>
+<th>Area</th>
+<th>Rule</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><strong>Research Question</strong></td>
-<td style="text-align: left;">Write out the full RQ text with its number and type label.</td>
+<td>Front matter</td>
+<td>Separate Table of RQs, with page numbers</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Questionnaire Item(s)</strong></td>
-<td style="text-align: left;">Identify the specific questionnaire question(s) used to answer this RQ by number.</td>
+<td>Executive summary</td>
+<td>2–3 pages, standalone, third person</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Statistical Test</strong></td>
-<td style="text-align: left;">State the test used (percentage, mean, crosstabulation, t-test, chi-square, correlation, etc.).</td>
+<td>Methods</td>
+<td>Past-tense prose with sample size, response rate, representativeness</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Results Summary</strong></td>
-<td style="text-align: left;">Briefly describe the answer to the research question in 2–4 sentences. State the key finding and its practical meaning for the client.</td>
+<td>Results headings</td>
+<td>≤5 words per RQ; chart on the same or next page</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Supporting Evidence</strong></td>
-<td style="text-align: left;">Include the relevant output (e.g., frequency table, crosstab, test statistic and p-value). Copy and paste from your analysis tool.</td>
+<td>Charts</td>
+<td>No pie charts; percents, not counts</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Visualization</strong></td>
-<td style="text-align: left;">Include a bar chart, pie chart, or other appropriate visualization. Label axes clearly. Use consistent formatting across all charts.</td>
+<td>Statistics</td>
+<td>≥1 difference RQ with χ²/t, df, p in a footnote</td>
+</tr>
+<tr>
+<td>Limitations</td>
+<td>Inference boundaries, not project problems</td>
+</tr>
+<tr>
+<td>Recommendations</td>
+<td>Each cites the finding it rests on</td>
+</tr>
+<tr>
+<td>Appendix</td>
+<td>Verbatim questionnaire + RQ ↔ Question table</td>
+</tr>
+<tr>
+<td>Format</td>
+<td>SlideDocs, ≤13-pt font, third person</td>
 </tr>
 </tbody>
 </table>
-<h3><strong>Analysis Guidance</strong></h3>
-<p>Consult the following resources as you conduct your analyses:</p>
-<ol>
-<li>
-<p><a href="https://www.notion.so/AI-Powered-Survey-Data-Analysis-and-Visualization-1d10c52fba5b806e9ceafc29977b57a3?pvs=21">GenAI-powered survey data analysis guide</a> (Notion) — primary workflow reference</p>
-</li>
-<li>
-<p>Descriptive Statistics lecture slides <em>(link on Canvas)</em> (Google Drive) — means, frequencies, crosstabs</p>
-</li>
-<li>
-<p>Excel helpsheet <em>(link on Canvas)</em> (Google Drive) — step-by-step Excel formulas</p>
-</li>
-<li>
-<p><a href="https://mailmissouri-my.sharepoint.com/:x:/g/personal/ylb3c_umsystem_edu/EeYgQWvbg3NHsFYaKMe4hqMBRXjaRjkU3IJ7W57lZMwyFA?e=ySDwtD">Analysis techniques spreadsheet</a> — reference for selecting the right test</p>
-</li>
-<li>
-<p>Level of measurement common issues <em>(link on Canvas)</em> (Google Drive) — check your variable classifications</p>
-</li>
-<li>
-<p>Sample student projects <em>(link on Canvas)</em> (Google Drive) — see the <strong>Results section</strong> (pages 29–49) for expected output format and level of detail</p>
-</li>
-</ol>
-<h3><strong>Formatting Requirements</strong></h3>
-<ul>
-<li>
-<p>Number all pages</p>
-</li>
-<li>
-<p>Use an outline format organized by research question</p>
-</li>
-<li>
-<p>Include bar charts for every research question (not just tables)</p>
-</li>
-<li>
-<p>Label all charts with a title, axis labels, and legend where applicable</p>
-</li>
-<li>
-<p>Use consistent chart styling across the entire report</p>
-</li>
-</ul>
-<h1><strong>Part 2: Hand Calculations</strong></h1>
-<p>The goal of this section is to build your conceptual understanding of two key statistical tests <em>before</em> scaling your full analysis with generative AI. You will perform the calculations by hand for one selected research question of each type.</p>
-<p><strong>Reference:</strong> Chapter 12 — Difference Tests: Two-Way Chi-Square and Independent T-Test (lecture slides)</p>
-<h2><strong>Required Hand Calculations</strong></h2>
-<h3><strong>A. Independent Samples T-Test (one Differences RQ)</strong></h3>
-<p>Select one Differences research question where the analysis variable is interval/ratio (e.g., a mean rating). Using your raw data:</p>
-<ol>
-<li><strong>State the hypotheses.</strong> Write the null hypothesis (H₀) and alternative hypothesis (H₁).</li>
-<li><strong>Calculate group means and standard deviations</strong> for each subgroup.</li>
-<li><strong>Compute the t-statistic</strong> using the formula covered in Chapter 12.</li>
-<li><strong>Determine degrees of freedom</strong> (df = n₁ + n₂ − 2).</li>
-<li><strong>Look up or calculate the p-value</strong> and compare to α = 0.05.</li>
-<li><strong>State your conclusion</strong> in plain language: is there a statistically significant difference between groups?</li>
-</ol>
-<p>Show all arithmetic steps. A table or organized layout is encouraged.</p>
-<h3><strong>B. Two-Way Chi-Square Test (one Differences RQ)</strong></h3>
-<p>Select one Differences research question where both variables are nominal/categorical (e.g., a crosstabulation). Using your raw data:</p>
-<ol>
-<li><strong>State the hypotheses.</strong> Write H₀ (the two variables are independent) and H₁.</li>
-<li><strong>Construct the observed frequency table</strong> (crosstab).</li>
-<li><strong>Calculate expected frequencies</strong> for each cell: E = (row total × column total) / n.</li>
-<li><strong>Compute the chi-square statistic</strong> (χ²) by summing (O − E)² / E across all cells.</li>
-<li><strong>Determine degrees of freedom</strong> (df = (rows − 1) × (columns − 1)).</li>
-<li><strong>Look up or calculate the p-value</strong> and compare to α = 0.05.</li>
-<li><strong>State your conclusion</strong> in plain language: are the two variables associated or independent?</li>
-</ol>
-<p>Show all arithmetic steps including the full expected-frequency table and the cell-by-cell χ² contributions.</p>
-<h2><strong>AI Scaling Note</strong></h2>
-<p>After completing your hand calculations, you may use generative AI to run the remaining Differences and Association analyses at scale. In your AI Disclosure section, note which test types were verified manually and which were delegated to AI.</p>
-<h1><strong>Part 3: Cross-Source Comparison</strong></h1>
-<blockquote>
-<p><strong>Two data sources for this project:</strong>
-1. Your team's <strong>student-collected Google Forms survey</strong> — SoCal homeowners and landowners recruited through students' personal networks
-2. The <strong>aytm professional panel survey</strong> (survey-760085, n = 600 US homeowners, fielded March 2026)</p>
-</blockquote>
-<p>All pre-processed files for this section are in the <strong>shared Google Drive folder</strong>: [SHARED FOLDER LINK PLACEHOLDER]</p>
+<h2>How you'll be graded</h2>
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">File</th>
-<th style="text-align: left;">What it contains</th>
+<th>Category</th>
+<th>Weight</th>
+<th>Strong work looks like</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><code>aytm_CLEAN.csv</code></td>
-<td style="text-align: left;">aytm panel data — single header row, demographics collapsed, metadata removed</td>
+<td>Results quality</td>
+<td>30%</td>
+<td>Every RQ: own ≤5-word heading, item identified, finding with a client takeaway, percent chart on the same/next page; difference RQ with footnoted test statistics; no pies, no count charts</td>
 </tr>
 <tr>
-<td style="text-align: left;"><code>student_CLEAN.csv</code></td>
-<td style="text-align: left;">Your student survey data — columns prefixed with the matching aytm question number (e.g., <code>aytm:Q6 \|</code>)</td>
+<td>Methods &amp; front matter</td>
+<td>20%</td>
+<td>Front matter complete incl. Table of RQs; numbered RQ list in Results order; Methods in past-tense prose with full response-rate arithmetic and a representativeness assessment</td>
 </tr>
 <tr>
-<td style="text-align: left;"><code>Question_Mapping.csv</code></td>
-<td style="text-align: left;">Full crosswalk: which aytm column matches which student column, and which questions are unique to each source</td>
-</tr>
-</tbody>
-</table>
-<h2><strong>About the Two Samples</strong></h2>
-<p>Before comparing results, understand what each source represents:</p>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Attribute</th>
-<th style="text-align: left;">aytm Panel</th>
-<th style="text-align: left;">Student Survey</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">n</td>
-<td style="text-align: left;">600</td>
-<td style="text-align: left;">varies by team</td>
+<td>Executive summary</td>
+<td>15%</td>
+<td>2–3 pages a client could read standalone — background, methods, findings, recommendations — led by the decision-relevant finding</td>
 </tr>
 <tr>
-<td style="text-align: left;">Geography</td>
-<td style="text-align: left;">National US</td>
-<td style="text-align: left;">SoCal (Inland Empire / eastern LA)</td>
+<td>Limitations, findings &amp; recommendations</td>
+<td>25%</td>
+<td>≥3 limitations that bound inference (not project mishaps); findings tied to objectives; every recommendation cites a finding; appendix complete and keyed to RQs</td>
 </tr>
 <tr>
-<td style="text-align: left;">Screened for outdoor space?</td>
-<td style="text-align: left;">Yes — pre-screened</td>
-<td style="text-align: left;">No — unscreened</td>
-</tr>
-<tr>
-<td style="text-align: left;">Recruitment</td>
-<td style="text-align: left;">Professional homeowner panel</td>
-<td style="text-align: left;">Students' friends and family who own homes or land</td>
-</tr>
-<tr>
-<td style="text-align: left;">Racial composition</td>
-<td style="text-align: left;">86% White</td>
-<td style="text-align: left;">Majority Hispanic/Latino and Asian-American</td>
-</tr>
-<tr>
-<td style="text-align: left;">Prior product research</td>
-<td style="text-align: left;">27% actively researched</td>
-<td style="text-align: left;">10% actively researched</td>
+<td>Process &amp; AI reflection</td>
+<td>10%</td>
+<td>Human-first draft documented; the four reflection prompts answered specifically, not generically</td>
 </tr>
 </tbody>
 </table>
-<p>These differences explain many of the divergences you will find. Always connect your interpretation back to these sampling differences.</p>
-<h2><strong>Two-Source Comparison Requirements</strong></h2>
-<h3><strong>A. Column Matching</strong></h3>
-<p>Use <code>Question_Mapping.csv</code> to identify which questions you can compare directly. Focus your comparison on the <strong>matched</strong> questions. Note any questions that are unique to one source.</p>
-<p>Key matched questions available for comparison:</p>
+<h2>AI reflection (required)</h2>
+<p><strong>Human first.</strong> Draft or plan this assignment yourselves before any AI touches it. That order is the point: it is the only way to see what AI actually adds — or quietly subtracts. Then use AI to improve your draft, and answer the four prompts below (2–4 sentences each, specific to THIS assignment):</p>
+<p>(a) The most important change we made after using AI was…
+(b) We accepted this change because…
+(c) We rejected or substantially revised the AI suggestion that…
+(d) One uncertainty or question that remains is…</p>
+<p>List the tools you used and for what. Generic answers ("AI helped us improve clarity") score zero on this category; name the actual change.</p>
+<!--appendix-->
+<h2>Appendix A — Report-skeleton checklist (fill this out and submit it)</h2>
+<p>Work through the sections in order; every unchecked box is points. Boxes marked with a deduction are the traps graders find first.</p>
+<p><strong>Front matter</strong></p>
+<ul>
+<li>[ ] Title page: report title, client, team members, date</li>
+<li>[ ] Table of contents matching the section order below</li>
+<li>[ ] Separate Table of RQs with page numbers (missing → −2)</li>
+</ul>
+<p><strong>Executive summary (written last)</strong></p>
+<ul>
+<li>[ ] 2–3 pages; stands alone without the rest of the report</li>
+<li>[ ] Background · methods · key findings · recommendations all present</li>
+<li>[ ] Third person — recurring "we/I" anywhere in the report → −2</li>
+</ul>
+<p><strong>Background &amp; objectives</strong></p>
+<ul>
+<li>[ ] Client context + interview summary</li>
+<li>[ ] Project objectives + numbered RQ list, same order as Results</li>
+</ul>
+<p><strong>Methods</strong></p>
+<ul>
+<li>[ ] Past-tense prose, no bullet fragments (present tense → −1)</li>
+<li>[ ] Questionnaire development + content overview + physical description</li>
+<li>[ ] Data-collection method + sampling plan with location rationale</li>
+<li>[ ] Sample arithmetic: invitations → refusals → nonqualified → final n, response rate</li>
+<li>[ ] Representativeness honestly assessed for both samples</li>
+</ul>
+<p><strong>Results</strong></p>
+<ul>
+<li>[ ] One block per RQ: ≤5-word heading, no "Research Question" in it</li>
+<li>[ ] Full RQ + questionnaire item(s) stated in each block</li>
+<li>[ ] Chart on same/next page; percents (count chart → −1 each); no pies (→ −2 each)</li>
+<li>[ ] ≥1 difference RQ (missing → −5) with χ²/t, df, p in a footnote</li>
+<li>[ ] Sample sizes reported with each result</li>
+</ul>
+<p><strong>Limitations, findings, recommendations</strong></p>
+<ul>
+<li>[ ] ≥3 limitations that bound inference; none is a project mishap</li>
+<li>[ ] Key findings tied back to the objectives</li>
+<li>[ ] Every recommendation: action + rationale + cited finding</li>
+</ul>
+<p><strong>Appendix</strong></p>
+<ul>
+<li>[ ] Verbatim fielded questionnaire — full copy, not a summary or link (missing → −5)</li>
+<li>[ ] RQ ↔ Question table (Appendix B), matching the final RQ list (missing → −2)</li>
+<li>[ ] Analysis output keyed to each RQ, in RQ order</li>
+</ul>
+<p><strong>Format</strong></p>
+<ul>
+<li>[ ] SlideDocs template; font ≤13 pt; body text left-aligned</li>
+<li>[ ] Third person, past tense, client addressed as Mr./Ms.</li>
+</ul>
+<h2>Appendix B — RQ ↔ Question table (fill this out)</h2>
+<p>One row per RQ. This table does double duty: with the page column it is your front-matter Table of RQs; in the appendix it maps every RQ to its questionnaire item(s) and test. Keep the page numbers current in the final PDF.</p>
+<!--landscape-->
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">Topic</th>
-<th style="text-align: left;">aytm column</th>
-<th style="text-align: left;">Student column</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Purchase interest at $23K</td>
-<td style="text-align: left;"><code>Q6_Purchase_Interest</code></td>
-<td style="text-align: left;"><code>aytm:Q6 \| Q1...</code></td>
-</tr>
-<tr>
-<td style="text-align: left;">Purchase likelihood (24-mo)</td>
-<td style="text-align: left;"><code>Q7_Purchase_Likelihood</code></td>
-<td style="text-align: left;"><code>aytm:Q7 \| Q2...</code></td>
-</tr>
-<tr>
-<td style="text-align: left;">Primary intended use</td>
-<td style="text-align: left;"><code>Q8_Intended_Use</code></td>
-<td style="text-align: left;"><code>aytm:Q8 \| Q3...</code></td>
-</tr>
-<tr>
-<td style="text-align: left;">Barrier severity (7 items)</td>
-<td style="text-align: left;"><code>Q9_Barrier_Cost</code> … <code>Q9_Barrier_ResaleValue</code></td>
-<td style="text-align: left;"><code>aytm:Q9_Cost \|</code> …</td>
-</tr>
-<tr>
-<td style="text-align: left;">Greatest single barrier</td>
-<td style="text-align: left;"><code>Q11_Greatest_Barrier</code></td>
-<td style="text-align: left;"><code>aytm:Q11 \| Q6...</code></td>
-</tr>
-<tr>
-<td style="text-align: left;">Concept appeal (5 concepts)</td>
-<td style="text-align: left;"><code>Q15_Concept1_Appeal</code> … <code>Q27_Concept5_Appeal</code></td>
-<td style="text-align: left;"><code>aytm:Q15_Concept1 \|</code> …</td>
-</tr>
-<tr>
-<td style="text-align: left;">Best overall concept</td>
-<td style="text-align: left;"><code>Q29_Best_Concept</code></td>
-<td style="text-align: left;"><code>aytm:Q29 \| Q14...</code></td>
-</tr>
-<tr>
-<td style="text-align: left;">Value driver ratings (5 items)</td>
-<td style="text-align: left;"><code>Q30_VD_PermitLight</code> … <code>Q30_VD_Showroom</code></td>
-<td style="text-align: left;"><code>aytm:Q30_PermitLight \|</code> …</td>
-</tr>
-<tr>
-<td style="text-align: left;">Most persuasive value driver</td>
-<td style="text-align: left;"><code>Q31_Most_Persuasive_VD</code></td>
-<td style="text-align: left;"><code>aytm:Q31 \| Q18...</code></td>
-</tr>
-<tr>
-<td style="text-align: left;">HOA status</td>
-<td style="text-align: left;"><code>Q35_HOA_Status</code></td>
-<td style="text-align: left;"><code>aytm:Q35 \| Q24...</code></td>
-</tr>
-<tr>
-<td style="text-align: left;">Outdoor recreation frequency</td>
-<td style="text-align: left;"><code>Q36_Outdoor_Recreation_Frequency</code></td>
-<td style="text-align: left;"><code>aytm:Q36 \| Q25...</code></td>
-</tr>
-</tbody>
-</table>
-<h3><strong>B. Side-by-Side Metrics Table</strong></h3>
-<p>Create a summary table comparing <strong>at least 5 core metrics</strong> across both sources. Required format:</p>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Metric</th>
-<th style="text-align: left;">Student Survey (n=___)</th>
-<th style="text-align: left;">aytm Panel (n=600)</th>
-<th style="text-align: left;">Convergent?</th>
-<th style="text-align: left;">Note</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Mean purchase interest</td>
-<td style="text-align: left;">[value]</td>
-<td style="text-align: left;">[value]</td>
-<td style="text-align: left;">[Yes/No]</td>
-<td style="text-align: left;">[brief note]</td>
-</tr>
-<tr>
-<td style="text-align: left;">Mean purchase likelihood</td>
-<td style="text-align: left;">[value]</td>
-<td style="text-align: left;">[value]</td>
-<td style="text-align: left;">[Yes/No]</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: left;">#1 intended use</td>
-<td style="text-align: left;">[category]</td>
-<td style="text-align: left;">[category]</td>
-<td style="text-align: left;">[Yes/No]</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: left;">Highest-severity barrier (mean)</td>
-<td style="text-align: left;">[barrier + score]</td>
-<td style="text-align: left;">[barrier + score]</td>
-<td style="text-align: left;">[Yes/No]</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: left;">#1 overall concept</td>
-<td style="text-align: left;">[concept]</td>
-<td style="text-align: left;">[concept]</td>
-<td style="text-align: left;">[Yes/No]</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: left;">Top value driver</td>
-<td style="text-align: left;">[driver]</td>
-<td style="text-align: left;">[driver]</td>
-<td style="text-align: left;">[Yes/No]</td>
-<td style="text-align: left;"></td>
-</tr>
-</tbody>
-</table>
-<h3><strong>C. Visual Comparison</strong></h3>
-<p>Create <strong>at least two comparison charts</strong> using the same metric shown side-by-side across sources. Recommended formats:</p>
-<ul>
-<li><strong>Grouped bar chart</strong> — one group per response option, one bar per source (good for distributions and categorical questions)</li>
-<li><strong>Side-by-side mean bar chart</strong> — one bar per source per metric (good for comparing means on scale questions)</li>
-</ul>
-<p>Use a <strong>consistent color</strong> to represent each source throughout all charts in this chapter (e.g., always blue = aytm, orange = student).</p>
-<h3><strong>D. Written Interpretation</strong></h3>
-<p>Write a <strong>1–2 page interpretation</strong> addressing all three of the following:</p>
-<p><strong>1. Where do the sources converge?</strong>
-Identify metrics where both sources produce similar findings. What does convergence suggest about the reliability of a finding — can Neo Smart Living act on it with more confidence?</p>
-<p><strong>2. Where do they diverge?</strong>
-Identify metrics where the sources disagree. For each divergence, propose a specific explanation drawing from:
-* <strong>Sampling differences</strong> — aytm screened for homeowners with outdoor space; student survey did not; aytm is national while student survey is SoCal (Inland Empire / eastern LA, majority Hispanic/Latino and Asian-American)
-* <strong>Instrument differences</strong> — professionally developed questions vs. student-designed survey
-* <strong>Sample composition</strong> — the aytm panel has more prior product research (27% vs. 10%) and older respondents; student networks reach first-exposure homeowners</p>
-<p><strong>3. Practical implications.</strong>
-What does this comparison teach Neo Smart Living about the SoCal market specifically vs. the national market? Which findings are robust across both sources and safe to act on? Which findings appear to be market-specific?</p>
-<h1><strong>Resources</strong></h1>
-<p><strong>PA7 shared data folder</strong> — [SHARED FOLDER LINK PLACEHOLDER]</p>
-<p>Contains: <code>aytm_CLEAN.csv</code>, <code>student_CLEAN.csv</code>, <code>Question_Mapping.csv</code></p>
-<p><strong>Analysis guides</strong></p>
-<ul>
-<li>
-<p><a href="https://www.notion.so/AI-Powered-Survey-Data-Analysis-and-Visualization-1d10c52fba5b806e9ceafc29977b57a3?pvs=21">GenAI-powered survey data analysis guide</a> (Notion)</p>
-</li>
-<li>
-<p>Descriptive Statistics lecture slides <em>(link on Canvas)</em> — means, frequencies, crosstabs (Google Drive)</p>
-</li>
-<li>
-<p>Excel helpsheet <em>(link on Canvas)</em> (Google Drive)</p>
-</li>
-<li>
-<p><a href="https://mailmissouri-my.sharepoint.com/:x:/g/personal/ylb3c_umsystem_edu/EeYgQWvbg3NHsFYaKMe4hqMBRXjaRjkU3IJ7W57lZMwyFA?e=ySDwtD">Analysis techniques spreadsheet</a></p>
-</li>
-<li>
-<p>Level of measurement common issues <em>(link on Canvas)</em> (Google Drive)</p>
-</li>
-<li>
-<p>Sample student projects — Results section, pp. 29–49 <em>(link on Canvas)</em> (Google Drive)</p>
-</li>
-</ul>
-<p><strong>Reference data sets (previous clients)</strong></p>
-<ul>
-<li>
-<p><a href="https://www.notion.so/GenAI-Policy-Survey-analysis-1d00c52fba5b80f395e5cce56330da8e?pvs=21">SWB GenAI Policy — survey and current data analysis</a> (Notion)</p>
-</li>
-<li>
-<p><a href="https://www.notion.so/Protein-Popcorn-Survey-distribution-and-analysis-1d00c52fba5b80f7ad04d0097f77aca1?pvs=21">Up Energy Protein Popcorn — survey and current data analysis</a> (Notion)</p>
-</li>
-</ul>
-<h1><strong>Grading Rubric</strong></h1>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Category</th>
-<th style="text-align: left;">Points</th>
-<th style="text-align: left;">Evaluation Criteria</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><strong>1. Research Question Analysis</strong></td>
-<td style="text-align: left;">50</td>
-<td style="text-align: left;">Are the correct statistical tests applied for each RQ? Do findings directly answer each research question and connect to the client’s needs? Are bar charts included for every RQ, clearly labeled, and consistently formatted? Are all 10+ RQs covered with pages numbered?</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>2. Hand Calculations</strong></td>
-<td style="text-align: left;">20</td>
-<td style="text-align: left;">Are complete hand calculations shown for one independent t-test and one two-way chi-square test? Are hypotheses stated, all arithmetic steps shown (including expected-frequency tables and cell-level χ² contributions), and conclusions stated in plain language?</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>3. Two-Source Comparison</strong></td>
-<td style="text-align: left;">30</td>
-<td style="text-align: left;">Does the chapter include a side-by-side metrics table, at least two comparison charts, and a 1–2 page written interpretation covering convergence, divergence, and practical implications for using multiple data sources?</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Total</strong></td>
-<td style="text-align: left;"><strong>100</strong></td>
-<td style="text-align: left;"></td>
-</tr>
-</tbody>
-</table>
-<h1><strong>AI Disclosure</strong></h1>
-<p>Disclose any use of AI tools in conducting your analysis or preparing this report. For each use, briefly describe:</p>
-<ul>
-<li>
-<p>Which AI tool was used</p>
-</li>
-<li>
-<p>What task it was used for (e.g., generating Excel formulas, interpreting statistical output, creating charts)</p>
-</li>
-<li>
-<p>How you modified or validated the AI output</p>
-</li>
-</ul></div></details><details id="pa8"><summary><span>PA8 — Term Project Presentation (7 min + Q&A)</span><span class="due">In class Wed Dec 2</span></summary><div class="pa-body"><p>IBM3302 Marketing Research</p>
-<p><strong>PA8</strong></p>
-<p>Term Project Presentation</p>
-<p>Course: <strong>IBM 3302 Marketing Research</strong></p>
-<p>Client: <strong>Neo Smart Living — Tahoe Mini ($23,000 prefab backyard unit, 117 sq ft)</strong></p>
-<p>Due Date: <strong>See Canvas</strong></p>
-<p>Submission: <strong>Upload to Canvas</strong></p>
-<h1><strong>Objective</strong></h1>
-<p>Present your research findings and recommendations in a professional, 7-minute recorded team presentation that demonstrates your understanding of the client’s problem, your methodology, your results, and the implications of the three-source data comparison. Note: we currently only have two sources – aytm survey &amp; google form student survey.</p>
-<h1><strong>Deliverables Checklist</strong></h1>
-<p>Submit the following <strong>one day before</strong> the scheduled presentation date:</p>
-<ul>
-<li>
-<p><strong>Presentation recording</strong> uploaded to YouTube (set to “unlisted” or “public” — never “private”)</p>
-</li>
-<li>
-<p><strong>YouTube URL</strong> submitted on Canvas </p>
-</li>
-<li>
-<p><strong>Slide deck</strong> (PowerPoint or Google Slides) submitted on Canvas</p>
-</li>
-<li>
-<p><strong>AI Disclosure</strong> documenting any AI tools used in preparing the presentation</p>
-</li>
-</ul>
-<h1><strong>Instructions</strong></h1>
-<h2><strong>Presentation Requirements</strong></h2>
-<h3><strong>Length</strong></h3>
-<p>Your presentation should aim for <strong>7 minutes</strong>. On presentation day, the recording will be played followed by a <strong>3 minute live Q\&amp;A session</strong>.</p>
-<h3><strong>Presentation Structure</strong></h3>
-<p>Organize your presentation into the following sections:</p>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">#</th>
-<th style="text-align: left;">Section</th>
-<th style="text-align: left;">Content</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">1</td>
-<td style="text-align: left;"><strong>Introduction &amp; Background</strong></td>
-<td style="text-align: left;">Introduce the client (Neo Smart Living), the product (Tahoe Mini), the marketing problem, and the research objectives. Provide enough context for the audience to understand why this research matters.</td>
-</tr>
-<tr>
-<td style="text-align: left;">2</td>
-<td style="text-align: left;"><strong>Research Design &amp; Methods</strong></td>
-<td style="text-align: left;">Describe your research questions, questionnaire design highlights, sampling plan, and data collection process. Briefly explain the three data sources (student-collected, Aytm panel, AI simulation).</td>
-</tr>
-<tr>
-<td style="text-align: left;">3</td>
-<td style="text-align: left;"><strong>Key Findings</strong></td>
-<td style="text-align: left;">Present the most important results from your data analysis. Focus on findings that directly address the client’s decision needs. Use charts, not dense tables. Prioritize clarity over comprehensiveness.</td>
-</tr>
-<tr>
-<td style="text-align: left;">4</td>
-<td style="text-align: left;"><strong>Three-Source Comparison</strong></td>
-<td style="text-align: left;">Dedicate 2–3 slides to the Simulated Market Research findings (see SMR section below).</td>
-</tr>
-<tr>
-<td style="text-align: left;">5</td>
-<td style="text-align: left;"><strong>Recommendations</strong></td>
-<td style="text-align: left;">Provide actionable recommendations to the client based on your findings. Be specific: which positioning concept, which media channel, which customer segment, etc.</td>
-</tr>
-<tr>
-<td style="text-align: left;">6</td>
-<td style="text-align: left;"><strong>Q\&amp;A</strong></td>
-<td style="text-align: left;">Be prepared to answer questions from the instructor and classmates about your methodology, findings, and recommendations.</td>
-</tr>
-</tbody>
-</table>
-<h3><strong>Recording &amp; Submission</strong></h3>
-<p>Record your presentation using <strong>Zoom or another screen recording tool</strong> (see Zoom Group Presentation Instructions on Google Drive). Follow these requirements:</p>
-<ul>
-<li>
-<p><strong>Screen recording is required</strong> — voice-over narration alone is not acceptable</p>
-</li>
-<li>
-<p><strong>All team members must show their faces</strong> during the presentation</p>
-</li>
-<li>
-<p>You may edit the video to enhance quality</p>
-</li>
-<li>
-<p>The group leader uploads to YouTube and submits the URL</p>
-</li>
-<li>
-<p>Set the video to <strong>“unlisted” or “public”</strong> — a “private” setting will prevent access and count as a late submission</p>
-</li>
-</ul>
-<p><strong>Note:</strong> Record your presentation ahead of time to avoid technical issues on presentation day. Team members can contribute in different ways — speaking time does not need to be exactly equal. Focus on delivering a high-quality presentation.</p>
-<h3><strong>Slide Design</strong></h3>
-<p>Review these resources while preparing your slides:</p>
-<ul>
-<li>
-<p><strong>Pointers on Presentations</strong> (Google Drive) — required reading on structure and delivery</p>
-</li>
-<li>
-<p><strong>Slide Design Tips</strong> (Google Slides) — visual design best practices</p>
-</li>
-<li>
-<p><strong>Sample Student Presentation Slides</strong> (Google Drive) — reference for formatting (note: the sample slides were too long for 15 minutes; be more concise)</p>
-</li>
-</ul>
-<h1><strong>Simulated Market Research Integration</strong></h1>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">🔬 Three-Source Comparison Slides (2–3 slides) Dedicate 2–3 slides to the Simulated Market Research comparison findings. These slides should stand as a self-contained mini-section within your presentation.</th>
+<th>RQ #</th>
+<th>RQ (≤5-word heading)</th>
+<th>aytm Q#</th>
+<th>Test / statistic</th>
+<th>Report page</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
-<p>Your Three-Source Comparison slides should cover:</p>
-<ol>
-<li>
-<p><strong>Methodology overview</strong> (1 slide): Briefly describe the three data sources, sample sizes, and any key instrument differences. Use a simple comparison table or three-column layout.</p>
-</li>
-<li>
-<p><strong>Key comparison findings</strong> (1–2 slides): Show 2–3 side-by-side comparison charts highlighting where sources converge and diverge. Narrate the “so what” — what do these comparisons mean for the reliability of your findings?</p>
-</li>
-<li>
-<p><strong>Practical implications</strong> (embedded in findings or recommendations): What does this comparison teach practitioners about when synthetic data or professional panels can supplement student-collected field research?</p>
-</li>
-</ol>
-<h1><strong>Grading Rubric</strong></h1>
-<p>Your presentation will be evaluated by the <strong>instructor and peer reviewers</strong> using the rubric below. You will receive a peer evaluation survey to complete for other teams’ presentations (do not evaluate your own team).</p>
+<!--/landscape--></div></details><details id="pmap-lab"><summary><span>PMap-Lab — Perceptual-Map Lab — Simulated Panel vs. Real Data (50 pts, team)</span><span class="due">Sun Nov 22</span></summary><div class="pa-body"><h1>PA_PMap Lab — Perceptual Maps: Simulated Panel vs. Real Data</h1>
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">Category</th>
-<th style="text-align: left;">Points</th>
-<th style="text-align: left;">Evaluation Criteria</th>
+<th></th>
+<th></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><strong>1. Presentation Style</strong></td>
-<td style="text-align: left;">20</td>
-<td style="text-align: left;">Voice quality, speaking confidence, level of preparation, professional demeanor, smooth transitions between speakers.</td>
+<td>Points</td>
+<td>50 (team lab)</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>2. Content &amp; Organization</strong></td>
-<td style="text-align: left;">30</td>
-<td style="text-align: left;">Logical flow of information, appropriate amount of content for 15 minutes, sufficient explanation of research methods, clear identification of key findings, quality of client recommendations.</td>
+<td>Due</td>
+<td>Sunday Nov 22, 11:59 PM</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>3. Three-Source Comparison</strong></td>
-<td style="text-align: left;">15</td>
-<td style="text-align: left;">Are the three data sources clearly explained? Are comparison charts effective? Does the team articulate practical implications for market research methodology?</td>
+<td>Work</td>
+<td>Team</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>4. Visual Aids</strong></td>
-<td style="text-align: left;">20</td>
-<td style="text-align: left;">Legibility of all visual elements, appropriate number of slides, effectiveness in communicating main points, adherence to slide design guidelines.</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>5. Creativity &amp; Engagement</strong></td>
-<td style="text-align: left;">10</td>
-<td style="text-align: left;">Engaging opening hook, sustained audience interest, creative use of visual aids, unique elements that enhance the presentation.</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>6. Q\&amp;A Response Quality</strong></td>
-<td style="text-align: left;">5</td>
-<td style="text-align: left;">Ability to answer questions clearly and accurately, demonstration of deep understanding of the project.</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Total</strong></td>
-<td style="text-align: left;"><strong>100</strong></td>
-<td style="text-align: left;"></td>
+<td>Submit</td>
+<td>Canvas — one PDF: memo ≤5 pages + exhibits + the filled Audit Box from Appendix A</td>
 </tr>
 </tbody>
 </table>
-<h1><strong>AI Disclosure</strong></h1>
-<p>Disclose any use of AI tools in preparing your presentation. For each use, briefly describe:</p>
+<p><strong>Where this fits:</strong> Lecture — Session 4.4 <em>Positioning &amp; Perceptual Maps</em> (week 12: Mon Nov 9 kickoff · Wed Nov 11 holiday — start async · Wed Nov 18 work session) → Practice — Summit Point round <strong>r14</strong> (<em>Audit PanelForge AI's synthetic-panel pitch</em>, due Mon Nov 16 — the warm-up: PanelForge's panel rated a brand that doesn't exist) → Now the real audit: this time the panel is ours.</p>
+<h2>The gist</h2>
+<p>Neo Smart Living knows <em>whether</em> people want the Tahoe Mini; this lab answers <em>where it sits in buyers' heads</em>. The instructor pre-ran a simulated LLM panel — two models, six products, six attributes, 0–10; data pack on Canvas, no API calls. Build the map from it, then do what a researcher must before showing a client anything: audit the panel against the real aytm evidence (n = 600). Simulated data writes the first draft; real people get the final word.</p>
+<h2>Steps</h2>
+<ol>
+<li><strong>Explain the method at manager altitude:</strong> what a perceptual map is, the decision it supports, and that this one runs on a <em>simulated</em> panel (one API call = one synthetic answer; temperature makes answers vary — a distribution of one is not data). Justify the six attributes — ≥2 justifications must cite real aytm numbers (e.g., cost = greatest barrier 59.7%; build quality = top driver 3.62 / 46.3%) — and name one attribute you'd add or cut next wave.</li>
+<li><strong>Make the frame-of-reference call:</strong> the pack holds six products but the map shows five — one is in the wrong category. Identify and exclude it, justifying in 3–5 sentences (revisit the Tahoe Mini stimulus: what is the product explicitly <em>not</em>?). The panel rated it fluently anyway — say why category definition is the researcher's job, not the panel's.</li>
+<li><strong>Execute — build the two exhibits</strong> (either path in Appendix B): the product × attribute means matrix (GPT-4.1 rows, five products, one decimal, sorted) and a 2-D map with a justified axis pair — axes labeled with wording + scale, all five products labeled, sourced title. Read it in attribute language (nearest rival, crowded region, open region) and check whether the second model ranks products the same on your axes — agreement = reliability, not validity.</li>
+<li><strong>Validate against reality:</strong> when the real aytm map posts on Canvas (week 12), fill the Panel Audit Box (Appendix A) with computed numbers: orderings and gaps, never raw levels (sim 0–10, real 1–5); variance compression = SD ÷ scale range, both sources; the sim's Tahoe value-for-money score vs. the real barrier evidence; the decoy failures generalized into one screening rule.</li>
+<li><strong>Deliver the verdict:</strong> ≥1 feature the real data confirms AND ≥1 it contradicts or cannot verify, ruling which source you follow each time. A validation section where the simulation never loses is graded as theater.</li>
+<li><strong>Advise:</strong> three positioning recommendations — "For [whom], the Tahoe Mini is the [category] that [POD]" — each citing a map position or cell value and tagged <strong>[Confirmed]</strong>, <strong>[Sim-only — verify before acting]</strong>, or <strong>[Overruled]</strong>. Not all three may be [Confirmed].</li>
+<li><em>Optional, +2 bonus:</em> rerun a small slice of the panel on your own API key; one paragraph on how far the Tahoe row moved (run-to-run reliability), CSV attached.</li>
+</ol>
+<h2>What to submit</h2>
 <ul>
-<li>
-<p>Which AI tool was used</p>
-</li>
-<li>
-<p>What task it was used for (e.g., generating slide outlines, creating charts, refining talking points)</p>
-</li>
-<li>
-<p>How you modified or validated the AI output</p>
-</li>
-</ul></div></details><details id="pa9"><summary><span>PA9 — Written Report (SlideDocs)</span><span class="due">Finals week, at the exam</span></summary><div class="pa-body"><p>Your client-ready report in SlideDocs format. Full guideline PDF, annotated exemplar report, and Slidedocs templates are on Canvas. The non-negotiable house rules: a separate Table of Research Questions; a standalone 2–3-page executive summary in third person; methods in prose (past tense) with sample size, response rate, and a representativeness assessment; one ≤5-word heading per RQ with its chart on the same or next page; <strong>no pie charts; percents, not counts</strong>; at least one differences RQ with the test statistic footnoted (χ²/t, df, p); limitations that are inference boundaries (not project problems); recommendations each backed by a finding; appendix with the verbatim questionnaire and an RQ↔question-number table.</p></div></details><details id="pmap-lab"><summary><span>PMap-Lab — Perceptual-Map Lab — Simulated Panel vs. Real Data (50 pts, team)</span><span class="due">Sun Nov 22</span></summary><div class="pa-body"><h1>PA_PMap_Lab — Positioning &amp; Perceptual Maps: Simulated Panel vs. Real Data (50 pts, team)</h1>
-<p><em>IBM3302 Weeks 12–13 · assigned at the Mon Nov 9 lecture · async kickoff Wed Nov 11 (campus holiday — no class) · in-class work session Wed Nov 18 · due </em><em>Sun Nov 22, 11:59 pm</em><em> on Canvas.</em>
-<em>Everything below is answerable </em><em>offline</em><em> from the data pack in this assignment's <code>shared/</code> folder plus the real aytm materials you already used in PA7. The instructor has already run the simulated panel for you — you never call an API. The bring-your-own-key rerun is </em><em>optional</em><em> and worth bonus only.</em></p>
-<p><strong>Deliverable:</strong> one team memo, <strong>max 5 pages</strong> (the half-page Panel Audit Box counts toward the 5; map exhibits and the means table do not), PDF on Canvas, team name + members on page 1. Where a question asks for numbers, cite them exactly as computed from the data pack. Follow the Session 5.1 AI Disclosure Standard.</p>
-<hr />
-<h2>Situation</h2>
-<p>Neo Smart Living knows <em>whether</em> people want the Tahoe Mini (you analyzed that in PA7). What they don't know is <em>where the Tahoe Mini sits in buyers' heads relative to the competition</em> — the positioning question. A traditional brand-perception study across five competitors would cost thousands in panel fees. So we did what Li, Castelo, Katona, and Sarvary (2024, <em>Marketing Science</em>) proposed: we asked a large language model to play the survey panel.</p>
-<p>The instructor pre-ran a synthetic panel of LLM "respondents" (GPT-4.1 and Gemini 2.5 Flash, 10 ratings per product × attribute cell each, temperature 1.0) rating six prefab backyard products on six attributes, 0–10. The results are in <code>shared/neo_panel_ratings.csv</code>.</p>
-<p>Your job: build Neo's competitive perceptual map from the simulated panel, then do what a real researcher must do before showing a client anything — <strong>audit the panel against reality</strong>. The real aytm evidence (n = 600) is your ground truth: the real perceptual-map exhibit posts to Canvas during week 12, and you already hold <code>aytm_CLEAN.csv</code> and the KEY_INSIGHTS numbers from PA7. Course rule, one more time: <strong>simulated data writes the first draft; real people get the final word.</strong></p>
-<h2>The products in the data pack</h2>
+<li>[ ] Memo ≤5 pages: Explain → Execute takeaways → Panel Audit Box → Advise (map and means table don't count toward the 5)</li>
+<li>[ ] Exhibit: means matrix</li>
+<li>[ ] Exhibit: labeled perceptual map — build path stated</li>
+<li>[ ] Panel Audit Box (Appendix A), computed numbers in every row</li>
+<li>[ ] AI reflection (below)</li>
+<li>[ ] Bonus only: rerun paragraph + raw CSV</li>
+</ul>
+<h2>How you'll be graded</h2>
 <table>
 <thead>
 <tr>
-<th>Product</th>
-<th>Maker</th>
-<th>Note</th>
+<th>Category</th>
+<th>Weight</th>
+<th>Strong work looks like</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Tahoe Mini</td>
-<td>Neo Smart Living</td>
-<td>our client</td>
+<td>Explain</td>
+<td>20%</td>
+<td>Method a client could repeat back; simulation status plain; ≥2 attribute justifications cite real aytm numbers; decoy excluded with a category-definition argument plus the researcher-owns-the-frame point</td>
 </tr>
 <tr>
-<td>WorkPod</td>
-<td>Autonomous</td>
-<td></td>
+<td>Execute</td>
+<td>30%</td>
+<td>Matrix correct (right model, right five, sorted); map labeled with justified axes and sourced title; reading in attribute language, not "the empty corner"; cross-model ordering check with the reliability-not-validity caveat</td>
 </tr>
 <tr>
-<td>Signature Series</td>
-<td>Studio Home</td>
-<td></td>
+<td>Validate</td>
+<td>30%</td>
+<td>Audit Box numeric throughout: orderings not levels, SD ÷ range for both sources, decoy generalized to a screening rule; verdict names ≥1 confirmed AND ≥1 contradicted feature with a source ruling</td>
 </tr>
 <tr>
-<td>Modern Shed</td>
-<td>Modern Shed</td>
-<td></td>
+<td>Advise</td>
+<td>10%</td>
+<td>Three target/frame/POD recommendations, each with cited map evidence and a defensible tag; not all [Confirmed]</td>
 </tr>
 <tr>
-<td>Kwik Room</td>
-<td>Kanga Modern</td>
-<td></td>
-</tr>
-<tr>
-<td><strong>Casita</strong></td>
-<td><strong>BOXABL</strong></td>
-<td><strong>careful — see Part 1</strong></td>
+<td>Process &amp; AI reflection</td>
+<td>10%</td>
+<td>Human-first draft documented; the four reflection prompts answered specifically, not generically</td>
 </tr>
 </tbody>
 </table>
-<h2>The six attributes</h2>
-<p>Each panel item read: <em>"This product is known for [attribute]"</em> (0 = does not describe it at all, 10 = describes it perfectly).</p>
-<ol>
-<li>solid build quality and durability</li>
-<li>modern design and curb appeal</li>
-<li>a comfortable, productive workspace</li>
-<li>good value for the money</li>
-<li>fast, hassle-free delivery and installation</li>
-<li>being a brand buyers trust</li>
-</ol>
-<h2>Schedule</h2>
+<h2>AI reflection (required)</h2>
+<p><strong>Human first.</strong> Draft or plan this assignment yourselves before any AI touches it. That order is the point: it is the only way to see what AI actually adds — or quietly subtracts. Then use AI to improve your draft, and answer the four prompts below (2–4 sentences each, specific to THIS assignment):</p>
+<p>(a) The most important change we made after using AI was…
+(b) We accepted this change because…
+(c) We rejected or substantially revised the AI suggestion that…
+(d) One uncertainty or question that remains is…</p>
+<p>List the tools you used and for what. Generic answers ("AI helped us improve clarity") score zero on this category; name the actual change.</p>
+<p>One twist: this lab's <em>subject</em> is AI output — these prompts cover how you used AI to build and write the memo, not the panel data itself.</p>
+<!--appendix-->
+<h2>Appendix A — Panel Audit Box (fill this out; half a page, boxed, inside the memo)</h2>
 <table>
 <thead>
 <tr>
-<th>Date</th>
-<th>What happens</th>
+<th>Check</th>
+<th>Simulated panel says</th>
+<th>Real data says</th>
+<th>Verdict</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Mon Nov 9 (lecture)</td>
-<td>Positioning, frame of reference, perceptual maps; teams get this brief + data pack</td>
+<td><strong>Levels vs. ordering</strong> — compare product orderings and gaps only (sim 0–10, real 1–5; never raw levels)</td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
-<td>Wed Nov 11 (holiday — async)</td>
-<td>Kickoff on your own: download the pack, open the CSV, complete Part 1 as a team thread</td>
+<td><strong>Variance compression</strong> — within-cell SD ÷ 10 (sim) vs. comparable item SD ÷ 4 (real); what would compression distort (segments, top-2-box, "polarizing" attributes)?</td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
-<td>week 12, on Canvas</td>
-<td>Instructor posts the <strong>real aytm perceptual-map exhibit</strong> (announcement + Files)</td>
+<td><strong>Wrong-category decoy</strong> — which product, why excluded, and what the panel's fluent rating of it proves</td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
-<td>Wed Nov 18 (work session)</td>
-<td>Build/validate in class with instructor support — bring your draft map</td>
-</tr>
-<tr>
-<td>Sun Nov 22, 11:59 pm</td>
-<td>Memo + exhibits due on Canvas</td>
+<td><strong>Value for money (Tahoe)</strong> — sim's Tahoe value score vs. real barrier evidence (cost greatest barrier 59.7%; "too expensive" median $20,000 vs. the $23,000 price)</td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
-<hr />
-<h2>Part 1 — EXPLAIN (10 pts)</h2>
-<p>Write the client-facing setup (≈1 page):</p>
-<p><strong>1a. The method, at manager altitude.</strong> What a perceptual map is, what decision it supports, and what data feeds it — 4–6 sentences a smart non-researcher can follow. Say explicitly that the ratings come from a <em>simulated</em> LLM panel and what that means (one API call = one synthetic respondent answer; temperature 1.0 so answers vary — a distribution of one is not data).</p>
-<p><strong>1b. Why these six attributes.</strong> Justify the attribute set. At least <strong>two</strong> justifications must cite real evidence you already hold — e.g., build quality is the top value driver in the aytm study (mean 3.62, picked #1 by 46.3%), total cost is the single greatest barrier (59.7%), install speed is the #2 driver. Also name <strong>one attribute you would add or cut</strong> for a future wave, with a reason.</p>
-<p><strong>1c. The frame-of-reference call.</strong> The data pack contains <strong>six</strong> products, but the map should show <strong>five</strong>. One product is in the wrong category. Identify it, justify excluding it from the map in 3–5 sentences (hint: revisit the Tahoe Mini stimulus from PA7 — what is the product explicitly <em>not</em>?), and answer: the panel rated it fluently anyway — <strong>why is category definition the researcher's job and not the panel's?</strong></p>
-<h2>Part 2 — EXECUTE (15 pts)</h2>
-<p>Build the map from <code>shared/neo_panel_ratings.csv</code>. Two exhibits are required, plus a takeaway:</p>
-<p><strong>2a. The means matrix.</strong> Product × attribute table of mean ratings (one decimal), from the <strong>GPT-4.1</strong> rows, excluded product removed. Sort rows by overall mean.</p>
-<p><strong>2b. The map.</strong> A 2-D scatter of the five Category-A products. Pick two attributes as your axes and <strong>justify the pair in one sentence</strong> (a value-vs-quality style pairing gives the classic map, but any defensible pair works). Requirements: both axes labeled with the attribute wording and scale, every product labeled on the plot, title states the data source ("simulated panel, GPT-4.1").</p>
-<p><strong>2c. Read the map.</strong> In 3–5 sentences: Tahoe Mini's nearest rival, the most crowded region, and the most promising open region — described in attribute language ("high value / mid design"), not just "the empty corner."</p>
-<p><strong>2d. Cross-model check.</strong> The pack includes Gemini 2.5 Flash means too. One or two sentences: do the two models <strong>rank the products in the same order</strong> on your two axis attributes? (Agreement across models is a reliability signal, not a validity one — say which.)</p>
-<p><strong>Build path A — Excel/Sheets (no code):</strong> Insert → PivotTable on the raw CSV; Rows = brand, Columns = attribute, Values = Average of rating; filter <code>model</code> to <code>gpt41</code>; delete the excluded product's row; round to one decimal. Map: copy the two axis columns to a clean range → Insert → Scatter → add data labels (Chart Elements → Data Labels → Value From Cells → brand names).</p>
-<p><strong>Build path B — Python (provided snippet):</strong></p>
+<p><strong>Map checklist (before you export):</strong></p>
+<ul>
+<li>[ ] Both axes labeled with attribute wording + 0–10 scale</li>
+<li>[ ] All five products labeled on the plot; decoy off the map, exclusion argued in the memo</li>
+<li>[ ] Axis pair justified in one sentence</li>
+<li>[ ] Title names the data source and model</li>
+<li>[ ] Verdict row names ≥1 confirmed AND ≥1 contradicted/unverifiable feature</li>
+</ul>
+<h2>Appendix B — The data pack and the two build paths</h2>
+<p><strong>The pack (on Canvas):</strong> <code>neo_panel_ratings.csv</code> — one row per synthetic rating (columns: model <code>gpt41</code>/<code>gemini25</code>, brand, attribute, rating 0–10) — plus <code>neo_panel_ratings_spread.csv</code> (per-cell means and SDs, for the variance check). <strong>Six products:</strong> Tahoe Mini (Neo Smart Living — our client), WorkPod (Autonomous), Signature Series (Studio Home), Modern Shed, Kwik Room (Kanga Modern), and Casita (BOXABL — careful: see Step 2). <strong>Six attributes</strong>, each rated as <em>"This product is known for [attribute]"</em>: solid build quality and durability · modern design and curb appeal · a comfortable, productive workspace · good value for the money · fast, hassle-free delivery and installation · being a brand buyers trust.</p>
+<p><strong>Path A — Excel/Sheets (no code):</strong> Insert → PivotTable on the raw CSV; Rows = brand, Columns = attribute, Values = Average of rating; filter <code>model</code> to <code>gpt41</code>; delete the excluded product's row; round to one decimal. Map: copy your two axis columns to a clean range → Insert → Scatter → add data labels (Chart Elements → Data Labels → Value From Cells → brand names).</p>
+<p><strong>Path B — Python (provided snippet):</strong></p>
 <p>```python
 import pandas as pd, matplotlib.pyplot as plt</p>
 <p>df = pd.read_csv("neo_panel_ratings.csv")
 df = df[df.model == "gpt41"]
-df = df[df.brand != "???"]          # your Part 1c exclusion — name it and justify it in the memo</p>
+df = df[df.brand != "???"]          # your Step 2 exclusion — name it and justify it in the memo</p>
 <p>m = df.pivot_table(index="brand", columns="attribute",
                    values="rating", aggfunc="mean").round(1)
-print(m)                             # exhibit 2a</p>
-<p>x = "good value for the money"       # your justified axis pair (2b)
+print(m)                             # exhibit: means matrix</p>
+<p>x = "good value for the money"       # your justified axis pair
 y = "solid build quality and durability"
 ax = m.plot.scatter(x=x, y=y, s=60)
 for b, r in m.iterrows():
@@ -1430,80 +2583,10 @@ for b, r in m.iterrows():
 ax.set_title("Prefab backyard studios — simulated panel (GPT-4.1), 0–10")
 plt.savefig("pmap.png", dpi=200, bbox_inches="tight")
 ```</p>
-<p>Either path earns full credit. Ambitious teams may average the two models or run a PCA map instead of a two-attribute map — fine, <strong>if</strong> the axes are still named and interpreted.</p>
-<h2>Part 3 — VALIDATE (15 pts)</h2>
-<p>This is the part clients never ask for and always need. When the real aytm map posts in week 12, put it next to yours and audit the panel. Your memo must include a <strong>half-page "Panel Audit Box"</strong> (boxed or shaded section) answering, with numbers:</p>
-<p><strong>3a. Levels vs. ordering.</strong> The sim scale is 0–10; the real items are 1–5 — so never compare raw levels across sources. Compare <strong>orderings and gaps</strong>. Then the acid test: what did the sim give Tahoe Mini on <em>good value for the money</em>? The real study says price is the product's defining problem — greatest barrier for 59.7%, and the median "too expensive" price ($20,000) sits <em>below</em> the actual $23,000 price. If your sim scored Tahoe's value at 5+/10, name the pitfall (you met it in the SimMR unit as the optimism gap) and quantify the contradiction.</p>
-<p><strong>3b. Variance compression.</strong> Real respondents disagree; synthetic ones cluster. Using <code>neo_panel_ratings_spread.csv</code> (or your own SDs from the raw file), report the typical within-cell SD for the sim and divide by the scale range (10). Do the same for one comparable real aytm item (SD ÷ 4). Is the simulated panel more compressed, and what analysis would that distort (hint: anything that depends on spread — segments, top-2-box, "polarizing" attributes)?</p>
-<p><strong>3c. The trap, revisited.</strong> In simternship round 14, PanelForge AI happily rated GlenHaven Structures — a brand that does not exist. Here, the panel fluently rated a wrong-category product. Two sentences: what do these two failures have in common, and what standing screen does a researcher need before trusting <em>any</em> panel, human or synthetic?</p>
-<p><strong>3d. The verdict.</strong> Name at least <strong>one map feature the real data confirms</strong> and at least <strong>one it contradicts or cannot verify</strong>, and state which source you follow in each case and why. A validation section in which the simulation never loses is not validation — it will be graded as such.</p>
-<h2>Part 4 — ADVISE (10 pts)</h2>
-<p>Three positioning recommendations for Neo Smart Living, ≈1 page total. Each recommendation must have three parts:</p>
-<ol>
-<li><strong>The claim</strong>, in positioning language — target, frame of reference, point of difference ("For [whom], the Tahoe Mini is the [category] that [POD]").</li>
-<li><strong>The map evidence</strong> — a specific position, gap, or cell value from your exhibits, cited by number.</li>
-<li><strong>A validation tag</strong> — one of: <strong>[Confirmed]</strong> (real data agrees — cite it), <strong>[Sim-only — verify before acting]</strong> (say what cheap test would verify it), or <strong>[Overruled]</strong> (real data disagrees; your recommendation follows the real data — cite both).</li>
-</ol>
-<p>At least one of the three tags must not be [Confirmed] — if everything converged perfectly, revisit Part 3.</p>
-<hr />
-<h2>Optional extension (BYO API key, +2 bonus max)</h2>
-<p>With your own key (OpenAI or OpenRouter), rerun a slice of the panel: edit <code>shared/collect_neo_ratings.py</code> down to 2–3 reps on one model (≈100 calls, well under $1) and compare your run's means and SDs for the Tahoe Mini row against the shipped pack. One paragraph: how much did the cells move, and what does that say about run-to-run reliability of synthetic panels? Include your raw CSV with the submission.</p>
-<h2>Submission checklist (one PDF + attachments, one per team)</h2>
-<ul>
-<li>[ ] Memo ≤ 5 pages: Explain → Execute takeaways → Panel Audit Box → Advise</li>
-<li>[ ] Exhibit: means matrix (2a)</li>
-<li>[ ] Exhibit: labeled perceptual map (2b) — build path stated</li>
-<li>[ ] Panel Audit Box present, with computed numbers (3a–3d)</li>
-<li>[ ] AI Disclosure per the Session 5.1 standard</li>
-<li>[ ] (bonus only) rerun paragraph + raw CSV</li>
-</ul>
-<h2>Rubric (50 pts — expanded bands in the grading SOP)</h2>
-<table>
-<thead>
-<tr>
-<th>Category</th>
-<th style="text-align: center;">Pts</th>
-<th>Full credit looks like</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Explain</strong></td>
-<td style="text-align: center;">10</td>
-<td>Method explained at manager altitude incl. what "simulated panel" means; ≥2 attribute justifications cite real aytm numbers; wrong-category product identified and excluded with a category-definition argument, plus the "why the panel can't make this call" point</td>
-</tr>
-<tr>
-<td><strong>Execute</strong></td>
-<td style="text-align: center;">15</td>
-<td>Correct means matrix (right model, right five products, sorted); map with labeled axes/scale, all five products labeled, justified axis pair, sourced title; reading names nearest rival + open region in attribute language; cross-model ordering check with the reliability-not-validity caveat</td>
-</tr>
-<tr>
-<td><strong>Validate</strong></td>
-<td style="text-align: center;">15</td>
-<td>Audit Box compares orderings not raw levels; the Tahoe value-for-money contradiction quantified and the pitfall named; variance compression computed as SD ÷ range for both sources; trap lesson generalized to a screening rule; verdict names ≥1 confirmed AND ≥1 contradicted/unverifiable feature with a source ruling</td>
-</tr>
-<tr>
-<td><strong>Advise</strong></td>
-<td style="text-align: center;">10</td>
-<td>Three recommendations in target/frame/POD form, each citing a specific map position or cell value, each carrying a defensible validation tag; not all tags [Confirmed]</td>
-</tr>
-<tr>
-<td><strong>Total</strong></td>
-<td style="text-align: center;"><strong>50</strong></td>
-<td></td>
-</tr>
-<tr>
-<td><em>Bonus</em></td>
-<td style="text-align: center;"><em>+2</em></td>
-<td><em>Rerun executed; movement of means/SDs reported and interpreted as run-to-run reliability</em></td>
-</tr>
-</tbody>
-</table>
-<p>Standing deductions (full list in the SOP): map without labeled axes <strong>−2</strong> · no exclusion justification for the wrong-category product <strong>−3</strong> · validation section that never disagrees with the sim <strong>−5</strong> · recommendation without cited map evidence <strong>−3 each</strong> · missing AI Disclosure <strong>−3</strong> · memo over 5 pages <strong>−2</strong>.</p>
-<p><em>Grading feedback follows course convention: 2–4 sentences per category, anchored in rubric language, naming what is present and what is missing.</em></p></div></details>
+<p>Either path earns full credit. Averaging the two models or running a PCA map instead is fine — <strong>if</strong> the axes are still named and interpreted.</p></div></details>
 
 <h2>Resources</h2>
-<div class="card"><h3>Data for analysis (PA6–PA7)</h3><ul><li>aytm national survey, cleaned (n = 600) — <code>aytm_CLEAN.csv</code></li><li>Prior-cohort student survey, cleaned — <code>student_CLEAN.csv</code></li><li>Column matching between the two — <code>Question_Mapping.csv</code></li><li>aytm KEY INSIGHTS summary (PDF) + auto-report</li></ul><p>→ Data folder <em>(on Canvas)</em></p></div><div class="card"><h3>Questionnaire toolkit (PA4)</h3><ul><li>Worksheets A &amp; B (RQ → item mapping)</li><li>Questionnaire Design Cheat Sheet</li><li>Specimen questionnaires: Nike running shoe · dishwasher · USPS</li><li>Data Analysis Plan cheat sheet (also used for PA6)</li></ul><p>→ Toolkit folder <em>(on Canvas)</em></p></div><div class="card"><h3>Fielding kit (PA5/PA5.5)</h3><ul><li>Official survey link + QR flyer</li><li>Sampling-plan worked example + checklist</li></ul><p>→ Official survey <em>(on Canvas)</em></p></div><div class="card"><h3>Report & presentation models (PA8/PA9)</h3><ul><li>Annotated SlideDoc research report (exemplar)</li><li>Slidedocs report templates (PPTX)</li><li>aytm survey analysis example slide doc</li></ul><p>→ Models folder <em>(on Canvas)</em></p></div>
+<div class="card"><h3>Data for analysis (PA6–PA7)</h3><ul><li>aytm national survey, cleaned (n = 600) — <code>aytm_CLEAN.csv</code></li><li>Prior-cohort student survey, cleaned — <code>student_CLEAN.csv</code></li><li>Column matching between the two — <code>Question_Mapping.csv</code></li><li>aytm KEY INSIGHTS summary (PDF) + auto-report</li></ul><p>→ Data folder <em>(on Canvas)</em></p></div><div class="card"><h3>Questionnaire toolkit (PA4)</h3><ul><li>RQ → Item Map template — embedded in the PA4 assignment doc (one table, both directions)</li><li>Questionnaire Design Cheat Sheet</li><li>Specimen questionnaires: Nike running shoe · dishwasher · USPS</li><li>Data Analysis Plan cheat sheet (also used for PA6)</li></ul><p>→ Toolkit folder <em>(on Canvas)</em></p></div><div class="card"><h3>Fielding kit (PA5/PA5.5)</h3><ul><li>Official survey link + QR flyer</li><li>Sampling-plan worked example + checklist</li></ul><p>→ Official survey <em>(on Canvas)</em></p></div><div class="card"><h3>Report & presentation models (PA8/PA9)</h3><ul><li>Annotated SlideDoc research report (exemplar)</li><li>Slidedocs report templates (PPTX)</li><li>aytm survey analysis example slide doc</li></ul><p>→ Models folder <em>(on Canvas)</em></p></div>
 
 <h2>Released after grading</h2>
 <p>These are posted to Canvas after the corresponding assignment is graded — study them; they are the standard your next deliverable is graded against.</p>
