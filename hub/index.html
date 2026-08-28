@@ -5,21 +5,28 @@
 <title>IBM3302 Course Hub — Fall 2026</title><style>
 :root{--pine:#1B5E4B;--amber:#D98E32;--ink:#212B36;--paper:#F4F1EA;--gray:#5B6770}
 *{box-sizing:border-box}body{margin:0;font-family:-apple-system,'Segoe UI',Arial,sans-serif;color:var(--ink);background:#fff;line-height:1.55}
-header{background:var(--pine);color:#fff;padding:2.2rem 1.5rem}
+header{background:var(--pine);color:#fff;padding:2.2rem 1.5rem 1.6rem}
 header h1{margin:0 0 .3rem;font-size:1.7rem}header p{margin:.2rem 0;color:var(--paper)}
 header a{color:#FFD9A0}
+nav{position:sticky;top:0;z-index:10;background:var(--pine);border-top:1px solid rgba(255,255,255,.25);padding:.5rem 1.5rem;display:flex;gap:1.3rem;flex-wrap:wrap}
+nav a{color:#fff;text-decoration:none;font-weight:600;font-size:.92rem}
+nav a:hover{color:#FFD9A0}
 main{max-width:1000px;margin:0 auto;padding:1rem 1.5rem 4rem}
-h2{color:var(--pine);border-bottom:3px solid var(--amber);padding-bottom:.3rem;margin-top:2.4rem}
+h2{color:var(--pine);border-bottom:3px solid var(--amber);padding-bottom:.3rem;margin-top:2.4rem;scroll-margin-top:3.4rem}
 table{border-collapse:collapse;width:100%;font-size:.9rem;margin:1rem 0}
 th{background:var(--pine);color:#fff;text-align:left;padding:.45rem .6rem}
 td{border-bottom:1px solid #ddd;padding:.45rem .6rem;vertical-align:top}
 tr:nth-child(even) td{background:var(--paper)}
-details{border:1px solid #d8d3c8;border-radius:8px;margin:.7rem 0;background:#fff}
+details{border:1px solid #d8d3c8;border-radius:8px;margin:.7rem 0;background:#fff;scroll-margin-top:3.4rem}
 details[open]{box-shadow:0 2px 8px rgba(0,0,0,.07)}
 summary{cursor:pointer;padding:.8rem 1rem;font-weight:600;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
 summary .due{color:var(--amber);font-weight:600;white-space:nowrap}
 .pa-body{padding:0 1.2rem 1rem;border-top:1px solid #eee}
 .pa-body table{font-size:.85rem}
+.pa-body h1{display:none}
+.pa-body h2{font-size:1.05rem;color:var(--ink);border-bottom:1px solid #e4dfd4;margin-top:1.3rem;padding-bottom:.15rem}
+.pa-body h3{font-size:.95rem;color:var(--ink);margin-bottom:.3rem}
+.sim-body h1{display:none}
 .card{background:var(--paper);border-radius:8px;padding:1rem 1.2rem;margin:.8rem 0}
 .card h3{margin:.1rem 0 .5rem;color:var(--pine);font-size:1.02rem}
 .card ul{margin:.3rem 0 .5rem 1.2rem;padding:0}
@@ -31,18 +38,19 @@ footer{color:var(--gray);font-size:.8rem;text-align:center;padding:2rem}
 <header>
 <h1>IBM3302 Marketing Research — Course Hub</h1>
 <p>Fall 2026 · Mon &amp; Wed 2:30–3:45 PM · In person, Bldg 98C Rm 5-006 · Dr. Yufan (Frank) Lin</p>
-<p>Client: Neo Smart Living — Tahoe Mini · <a href="../">Simternship app</a> · Canvas <em>(on Canvas)</em></p>
+<p>Client: Neo Smart Living — Tahoe Mini · <a href="../">Simternship app</a> · <a href="https://canvas.cpp.edu/courses/146768">Canvas</a></p>
 </header>
+<nav><a href="#schedule">Schedule</a><a href="#term-project">Term project</a><a href="#cases">Mini-cases</a><a href="#simulation">Simulation</a><a href="#resources">Resources</a></nav>
 <main>
-<div class="note"><strong>How to use this page:</strong> everything you <em>submit</em> lives on Canvas (assignments, quizzes, completion codes). This hub is the reading room — one link that always has the current schedule, assignment briefs (each with a downloadable fillable Word version), and resource pointers. Bookmark it.</div>
+<div class="note"><strong>How to use this page:</strong> this hub is the reading room — one link that always has the current schedule, every assignment brief (each with a downloadable fillable Word version), the simulation guide, and resource pointers. Everything you <em>submit</em> lives on Canvas (assignments, quizzes, results files). Wednesday hands-on sessions run off this page — roughly 20 minutes each of mini-case, simulation, and PA practice — so bring it up in class. Bookmark it.</div>
 
-<h2>Weekly schedule</h2>
+<h2 id="schedule">Weekly schedule</h2>
 <p>Holidays: Labor Day Mon Sep 7 · Veterans Day Wed Nov 11. Rounds are due at the Wednesday class unless noted; project assignments (PAs) are due Sundays 11:59 PM. <strong>Flipped format, fully in person:</strong> most lectures have a recording posted on Canvas ahead of class — watch it before the meeting it's assigned for. <strong>Q1–Q12 = in-person quiz at the start of Monday class</strong> on the assigned recording(s); 5 pts each, best 10 of 12 count, no makeups. Final presentations are in class Week 14; the final exam (Mon Nov 30) is in person.</p>
-<table><tr><th>Wk</th><th>Mon — Lecture</th><th>Wed — Hands-on</th><th>Rounds</th><th>Due</th></tr><tr><td><strong>1</strong></td><td>Aug 24 — What is marketing research + the course arc</td><td>Aug 26 · App onboarding; teams (5) + case draw (Cases 2–6)</td><td>Rounds 1–2 (Wed)</td><td><strong>PA0/PA1</strong></td></tr><tr><td><strong>2</strong></td><td>Aug 31 — <strong>Q1</strong> · Secondary data · PA2 briefed</td><td>Sep 2 · <strong>Guest: research librarian</strong> + PA2 team time</td><td>Rounds 3–4</td><td><strong></strong></td></tr><tr><td><strong>3</strong></td><td><s>Sep 7</s> Labor Day — —</td><td>Sep 9 · Problem definition; <strong>voice-mode case workshop</strong> (Case 1, textbook chapter + headphones); Stukent-sim taste-test (ungraded)</td><td>—</td><td><strong>PA2 · Sun Sep 13</strong></td></tr><tr><td><strong>4</strong></td><td>Sep 14 — <strong>Q2+Q3</strong> · Round 5 debrief; <strong>Case 1 — instructor demo</strong>; PA3 briefed + workshop</td><td>Sep 16 · <strong>Case 2 (Team 1)</strong> + work day — interview extraction + PA3 drafting</td><td>Round 5 (Mon)</td><td><strong>PA3 · Sun Sep 20</strong></td></tr><tr><td><strong>5</strong></td><td>Sep 21 — <strong>Q4</strong> · Qualitative research + focus groups (+PA2 debrief)</td><td>Sep 23 · Live focus-group role-play; <strong>Case 3 (Team 2)</strong></td><td>Round 6 (Round 7 assigned)</td><td><strong></strong></td></tr><tr><td><strong>6</strong></td><td>Sep 28 — <strong>Q5</strong> · Questionnaire design + measurement (+PA3 debrief); PA4 briefed</td><td>Sep 30 · RQ→Item Map clinic; item repair; <strong>Case 4 (Team 3)</strong>; <strong>mid-semester course eval</strong></td><td>Rounds 7–9</td><td><strong>PA4 · Sun Oct 4</strong></td></tr><tr><td><strong>7</strong></td><td>Oct 5 — <strong>Q6</strong> · Sampling: theory, size, implementation; PA5 briefed</td><td>Oct 7 · Fielding QA + consent; <strong>Case 5 (Team 4)</strong>; pitch rehearsal</td><td>Round 10</td><td><strong>PA5 · Sun Oct 11 · PA5.5 opens</strong></td></tr><tr><td><strong>8</strong></td><td>Oct 12 — <strong>Q7</strong> · Descriptives + the data analysis plan (+PA4/PA5 debrief); PA6 briefed</td><td>Oct 14 · RQ-card clinic; open-end coding; <strong>Case 6 (Team 5)</strong></td><td>Round 11</td><td><strong></strong></td></tr><tr><td><strong>9</strong></td><td>Oct 19 — <strong>Q8</strong> · t-tests + effect sizes</td><td>Oct 21 · t-test lab + hand calculation</td><td>Round 12 (part)</td><td><strong>PA6 · Sun Oct 25</strong></td></tr><tr><td><strong>10</strong></td><td>Oct 26 — <strong>Q9</strong> · AI in marketing research + disclosure ethics</td><td>Oct 28 · AI survey-analysis lab</td><td>—</td><td><strong>PA5.5 closes Sun Nov 1</strong></td></tr><tr><td><strong>11</strong></td><td>Nov 2 — <strong>Q10</strong> · Chi-square + cross-tabs (+PA6 debrief); PA7 briefed</td><td>Nov 4 · Round 12; PA7 workshop</td><td>Round 12 (complete)</td><td><strong>PA7 · Sun Nov 8</strong></td></tr><tr><td><strong>12</strong></td><td>Nov 9 — <strong>Q11</strong> · Positioning, perceptual maps &amp; synthetic-respondent maps — lab + extension kickoff</td><td><s>Nov 11</s> Veterans Day — lab launches async</td><td>Round 13 (by Mon Nov 16)</td><td><strong></strong></td></tr><tr><td><strong>13</strong></td><td>Nov 16 — <strong>Q12</strong> · Insights &amp; report writing (+PA7 debrief); PA8/PA9 briefed</td><td>Nov 18 · <strong>Guest: MR industry expert on AI</strong> + Final-Report round + presentation work time</td><td>Round 14 (Wed)</td><td><strong>PMap workbook (→ PA8 exhibit) · Sun Nov 22</strong></td></tr><tr><td><strong>14</strong></td><td>Nov 23 — <strong>FINAL PRESENTATIONS day 1</strong> (3 teams)</td><td>Nov 25 · <strong>FINAL PRESENTATIONS day 2</strong> (2 teams) + exam-review wrap</td><td>—</td><td><strong>Self-paced exam review posted</strong></td></tr><tr><td><strong>15</strong></td><td>Nov 30 — <strong>FINAL EXAM (in person)</strong></td><td>Dec 2 · PA9 report workshop (+presentation &amp; lab debrief); <strong>end-of-semester course eval</strong></td><td>—</td><td><strong>Exam · Mon Nov 30</strong></td></tr><tr><td><strong>Finals</strong></td><td>Dec 7–13 — <strong>PA9 written report due</strong> (Canvas, at the registrar's M/W 2:30 slot)</td><td>—</td><td>—</td><td><strong>PA9 at the slot</strong></td></tr></table>
+<table><tr><th>Wk</th><th>Mon</th><th>Wed — Hands-on</th><th>Rounds</th><th>Due</th></tr><tr><td><strong>1</strong></td><td>Aug 24 — <strong>Lecture (live):</strong> What is marketing research + the course arc</td><td>Aug 26 — <strong>Hands-on:</strong> app onboarding, teams (5), case draw (Cases 2–6)</td><td>RFP practice (Rounds 1–2)</td><td><strong>PA0 (bio)</strong></td></tr><tr><td><strong>2</strong></td><td>Aug 31 — <strong>Q1</strong> · <strong>Lecture (live):</strong> Secondary data · <strong>PA2 briefed</strong></td><td>Sep 2 — <strong>Guest 1: research librarian</strong> + PA2 team time</td><td>Neo RFP (Round 3) · Secondary research (Round 4)</td><td><strong><strong>PA1 team contract · Sun Sep 6</strong></strong></td></tr><tr><td><strong>3</strong></td><td><em>Labor Day</em></td><td>Sep 9 — <strong>Flipped:</strong> problem definition discussion + <strong>voice-mode case workshop</strong> (AI tutor on Case 1, textbook chapter in hand) + Stukent-sim taste-test (~20 min, ungraded)</td><td>—</td><td><strong><strong>PA2 · Sun Sep 13</strong></strong></td></tr><tr><td><strong>4</strong></td><td>Sep 14 — <strong>Q2 + Q3</strong> · Round 5 debrief · <strong>Case 1 — instructor demo (in person)</strong> · <strong>PA3 briefed</strong> + workshop</td><td>Sep 16 — <strong>Case 2 (Team 1)</strong> + work day (interview extraction, PA3 drafting)</td><td>Define the Research Problem (Round 5) — Mon · sim checkpoint 1 (Mon)</td><td><strong><strong>PA3 · Sun Sep 20</strong></strong></td></tr><tr><td><strong>5</strong></td><td>Sep 21 — <strong>Q4</strong> · <strong>Flipped:</strong> qualitative research <em>(+PA2 debrief)</em> · <strong>PA3.5 briefed</strong></td><td>Sep 23 — <strong>Hands-on:</strong> live focus group + <strong>Case 3 (Team 2)</strong></td><td>Moderator&#x27;s guide (Round 6); transcript round assigned</td><td><strong><strong>PA3.5 · Sun Sep 27</strong></strong></td></tr><tr><td><strong>6</strong></td><td>Sep 28 — <strong>Q5</strong> · <strong>Flipped:</strong> questionnaire + measurement <em>(+PA3 debrief)</em> · <strong>PA4 briefed</strong></td><td>Sep 30 — <strong>Hands-on:</strong> RQ→Item Map clinic + item repair + <strong>Case 4 (Team 3)</strong> + <strong>📋 mid-semester eval</strong></td><td>Transcript analysis (Round 7) · Survey builds (Rounds 8–9)</td><td><strong><strong>PA4 · Sun Oct 4</strong></strong></td></tr><tr><td><strong>7</strong></td><td>Oct 5 — <strong>Q6</strong> · <strong>Flipped:</strong> sampling — theory, size, implementation · <strong>PA5 briefed</strong></td><td>Oct 7 — <strong>Hands-on:</strong> fielding QA + consent + <strong>Case 5 (Team 4)</strong> + pitch rehearsal</td><td>Sampling plan + fielding QA (Round 10)</td><td><strong><strong>PA5 · Sun Oct 11</strong>; PA5.5 opens; sim checkpoint 2 (Sun)</strong></td></tr><tr><td><strong>8</strong></td><td>Oct 12 — <strong>Q7</strong> · <strong>Flipped:</strong> descriptives + data analysis plan <em>(+PA4/PA5 debrief)</em> · <strong>PA6 briefed</strong></td><td>Oct 14 — <strong>Hands-on:</strong> RQ-card clinic + open-end coding + <strong>Case 6 (Team 5)</strong></td><td>Code open-ends (Round 11)</td><td><strong>—</strong></td></tr><tr><td><strong>9</strong></td><td>Oct 19 — <strong>Q8</strong> · <strong>Flipped:</strong> t-tests + effect sizes</td><td>Oct 21 — <strong>Hands-on:</strong> t-test lab + hand calculation</td><td>Analyze the Neo Survey — part (Round 12)</td><td><strong><strong>PA6 · Sun Oct 25</strong></strong></td></tr><tr><td><strong>10</strong></td><td>Oct 26 — <strong>Q9</strong> · <strong>Flipped:</strong> AI in MR + disclosure ethics</td><td>Oct 28 — <strong>Hands-on:</strong> AI survey-analysis lab</td><td>—</td><td><strong><strong>PA5.5 closes Sun Nov 1</strong></strong></td></tr><tr><td><strong>11</strong></td><td>Nov 2 — <strong>Q10</strong> · <strong>Flipped:</strong> chi-square + cross-tabs <em>(+PA6 debrief)</em> · <strong>PA7 briefed</strong></td><td>Nov 4 — <strong>Hands-on:</strong> Analyze-the-Neo-Survey round (full) + PA7 workshop</td><td>Analyze the Neo Survey — complete (Round 12)</td><td><strong><strong>PA7 · Sun Nov 8</strong></strong></td></tr><tr><td><strong>12</strong></td><td>Nov 9 — <strong>Q11</strong> · <strong>Lecture (live):</strong> positioning, perceptual maps &amp; synthetic-respondent maps (lab + extension kickoff) · <strong>PMap lab briefed</strong></td><td><em>Veterans Day</em> — lab launch async</td><td>Audit the Synthetic Panel (Round 13) — by Mon Nov 16</td><td><strong>—</strong></td></tr><tr><td><strong>13</strong></td><td>Nov 16 — <strong>Q12</strong> · <strong>Lecture (live):</strong> insights &amp; report writing <em>(+PA7 debrief)</em> · <strong>PA8/PA9 briefed</strong></td><td>Nov 18 — <strong>Guest 2: MR industry expert on AI</strong> + Final-Report round + lab/presentation work time</td><td>Build the Final Report (Round 14) — Wed</td><td><strong>PMap workbook → PA8 exhibit · sim final submission (graded) · Sun Nov 22</strong></td></tr><tr><td><strong>14</strong></td><td>Nov 23 — <strong>FINAL PRESENTATIONS day 1 (3 teams, in person)</strong></td><td>Nov 25 — <strong>FINAL PRESENTATIONS day 2 (2 teams)</strong> + exam review wrap (~25 min)</td><td>—</td><td><strong>Self-paced exam review posted</strong></td></tr><tr><td><strong>15</strong></td><td>Nov 30 — <strong>FINAL EXAM (in person)</strong></td><td>Dec 2 — <strong>Hands-on:</strong> PA9 report workshop — fold in presentation feedback <em>(+presentation &amp; lab debrief + 📋 end-of-semester eval)</em></td><td>—</td><td><strong>—</strong></td></tr><tr><td><strong>F</strong></td><td><strong>Finals slot (registrar M/W 2:30, Dec 7–13): PA9 written report due (Canvas submission at the slot)</strong></td><td></td><td>—</td><td><strong><strong>PA9 at the slot</strong></strong></td></tr></table>
 
-<h2>Term project — assignment briefs</h2>
-<p>Click any assignment to read the full brief. The Canvas assignment page is always the submission point and the version of record for due dates.</p>
-<details id="pa0-pa1"><summary><span>PA0-PA1 — Getting Started — Bio, Teams & Case Draw</span><span class="due">Week 1</span></summary><div class="pa-body"><p><strong>⬇ <a href="files/PA0-PA1.docx" download>Download the fillable Word version</a></strong> — the templates in the appendix are meant to be filled out in this doc.</p><p>Submit your short bio + photo on Canvas (PA0). In Wednesday's class you'll form project teams and draw your mini-case — your team's case number is your team identity for the term. Then fill and sign the team contract (PA1, template below — captain uploads it by Sun Aug 30). Create your simternship account and finish Rounds 1–2 before Wednesday.</p></div></details><details id="pa2"><summary><span>PA2 — Secondary Research — AI Market Scan + Source Audit</span><span class="due">Sun Sep 13</span></summary><div class="pa-body"><p><strong>⬇ <a href="files/PA2.docx" download>Download the fillable Word version</a></strong> — the templates in the appendix are meant to be filled out in this doc.</p><h1>PA2 — Secondary Research &amp; Source Audit</h1>
+<h2 id="term-project">Term project — assignment briefs</h2>
+<p>Click any assignment to read the full brief. Each PA shows its Canvas points (they sum to the 50-pt term-project strand; every brief is graded on its /100 rubric, then scaled). The Canvas assignment page is always the submission point and the version of record for due dates.</p>
+<details id="pa0-pa1"><summary><span>PA0-PA1 — Getting Started — Bio, Teams & Case Draw</span><span class="due">completion · PA0 Wk 1 · contract Sun Sep 6</span></summary><div class="pa-body"><p><strong>⬇ <a href="files/PA0-PA1.docx" download>Download the fillable Word version</a></strong> — the templates in the appendix are meant to be filled out in this doc.</p><p>Submit your short bio + photo on Canvas (PA0). In Wednesday's class you'll form project teams and draw your mini-case — your team's case number is your team identity for the term. Then meet as a team, agree on your working norms, and fill and sign the team contract (PA1, template below — the captain uploads it by <strong>Sun Sep 6</strong>). Create your simternship account and finish Rounds 1–2 before Wednesday.</p></div></details><details id="pa2"><summary><span>PA2 — Secondary Research — AI Market Scan + Source Audit</span><span class="due">5 pts · Sun Sep 13</span></summary><div class="pa-body"><p><strong>⬇ <a href="files/PA2.docx" download>Download the fillable Word version</a></strong> — the templates in the appendix are meant to be filled out in this doc.</p><h1>PA2 — Secondary Research &amp; Source Audit</h1>
 <table>
 <thead>
 <tr>
@@ -53,7 +61,7 @@ footer{color:var(--gray);font-size:.8rem;text-align:center;padding:2rem}
 <tbody>
 <tr>
 <td>Points</td>
-<td>100 (term-project component)</td>
+<td>5 (term project — graded on the /100 rubric below, scaled to 5 pts)</td>
 </tr>
 <tr>
 <td>Due</td>
@@ -343,7 +351,7 @@ footer{color:var(--gray);font-size:.8rem;text-align:center;padding:2rem}
 <blockquote>
 <p>Build a comparison table of companies selling prefab backyard studios / office pods in the US (no plumbing, roughly 90–200 sq ft). Columns: company, product, floor area, <strong>advertised base price</strong>, what that price excludes (delivery, foundation, electrical, installation), estimated completed cost if reported anywhere, buying model, and warranty. Separate a second table for <em>adjacent</em> products that look price-comparable but are a different category (expandable container homes, foldable ADUs, travel trailers). Cite the specific product page or article for every price, with the date you accessed it. Where prices conflict between sources, show both and note the conflict.</p>
 </blockquote>
-<p>The first output will miss exclusions and mix categories — good AI use here means you iterate, demand per-claim citations, and treat everything as unverified draft until it survives your audit.</p></div></details><details id="pa3"><summary><span>PA3 — Problem Definition, Objectives & Research Questions</span><span class="due">Sun Sep 20</span></summary><div class="pa-body"><p><strong>⬇ <a href="files/PA3.docx" download>Download the fillable Word version</a></strong> — the templates in the appendix are meant to be filled out in this doc.</p><h1>PA3 — Define the Research Problem &amp; Research Questions</h1>
+<p>The first output will miss exclusions and mix categories — good AI use here means you iterate, demand per-claim citations, and treat everything as unverified draft until it survives your audit.</p></div></details><details id="pa3"><summary><span>PA3 — Problem Definition, Objectives & Research Questions</span><span class="due">5 pts · Sun Sep 20</span></summary><div class="pa-body"><p><strong>⬇ <a href="files/PA3.docx" download>Download the fillable Word version</a></strong> — the templates in the appendix are meant to be filled out in this doc.</p><h1>PA3 — Define the Research Problem &amp; Research Questions</h1>
 <table>
 <thead>
 <tr>
@@ -354,7 +362,7 @@ footer{color:var(--gray);font-size:.8rem;text-align:center;padding:2rem}
 <tbody>
 <tr>
 <td>Points</td>
-<td>100 (term-project component)</td>
+<td>5 (term project — graded on the /100 rubric below, scaled to 5 pts)</td>
 </tr>
 <tr>
 <td>Due</td>
@@ -679,7 +687,7 @@ footer{color:var(--gray);font-size:.8rem;text-align:center;padding:2rem}
 <td>Second person — that's questionnaire wording, not a manager's question; no type label; no named variables; generic enough to fit any company</td>
 </tr>
 </tbody>
-</table></div></details><details id="pa4"><summary><span>PA4 — Design a Questionnaire (+ PA4.5 Revise & Resubmit)</span><span class="due">Sun Oct 4</span></summary><div class="pa-body"><p><strong>⬇ <a href="files/PA4.docx" download>Download the fillable Word version</a></strong> — the templates in the appendix are meant to be filled out in this doc.</p><h1>PA4 — Design a Questionnaire (+ PA4.5 Revise &amp; Resubmit)</h1>
+</table></div></details><details id="pa3.5"><summary><span>PA3.5 — Focus Group Practice — Your Own Live Zoom Group</span><span class="due">4 pts · Sun Sep 27</span></summary><div class="pa-body"><p><strong>⬇ <a href="files/PA3.5.docx" download>Download the fillable Word version</a></strong> — the templates in the appendix are meant to be filled out in this doc.</p><h1>PA3.5 — Focus Group Practice</h1>
 <table>
 <thead>
 <tr>
@@ -690,7 +698,171 @@ footer{color:var(--gray);font-size:.8rem;text-align:center;padding:2rem}
 <tbody>
 <tr>
 <td>Points</td>
-<td>100 (term-project component)</td>
+<td>4 (term project — graded on the /100 rubric below, scaled to 4 pts)</td>
+</tr>
+<tr>
+<td>Due</td>
+<td>Sunday Sep 27, 11:59 PM</td>
+</tr>
+<tr>
+<td>Work</td>
+<td>Team — every member recruits one participant</td>
+</tr>
+<tr>
+<td>Submit</td>
+<td>Canvas — one PDF (screener table + 1-page debrief memo + guide as run) with the recording link and gallery screenshot inside</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Where this fits:</strong> Lecture — Session 2.2 <em>Qualitative Research</em> (week 5) → Practice — Summit Point <strong>Round 6</strong> <em>Moderator's Guide</em> + Wednesday's live in-class role-play → Now the real thing: your team moderates real people.</p>
+<h2>The gist</h2>
+<p>Your team runs its <strong>own live focus group on Zoom</strong> — real recruited participants, your Round-6 moderator's guide adapted for the Tahoe Mini, cameras on. Wednesday's class session shows you how it's done; this weekend you do it yourselves. What you hear becomes raw material for PA4: the words real people use for space, price, and hesitation are exactly what your questionnaire's answer options must capture.</p>
+<h2>Steps</h2>
+<ol>
+<li><strong>Recruit — one participant per member.</strong> Each of you invites one <em>qualified</em> friend or family member: passes the Neo screeners (homeowner, or a renter with usable outdoor space, who would at least consider adding living/work space). Record each person's screener answers in Appendix A. No classmates, no members of other teams.</li>
+<li><strong>Schedule one Zoom session</strong> with <strong>at least 3 participants attending together</strong> (aim for all recruits; 3 is the floor — a group, not an interview). Pick two moderators; everyone else observes and takes notes.</li>
+<li><strong>Adapt your Round-6 guide</strong> to 20–30 minutes: icebreaker → general space needs → the Tahoe Mini concept → price reactions (don't anchor first) → close.</li>
+<li><strong>Run it, cameras on, and record.</strong> Open exactly as Round 6 taught: neutral host framing and <strong>consent to record stated on tape</strong>. Capture one gallery-view screenshot showing all participants and the Zoom timestamp.</li>
+<li><strong>Debrief as a team within 24 hours:</strong> the top 3 themes, one thing that surprised you, and — the payoff — <strong>at least 3 closed-ended answer options</strong> for PA4 phrased in the participants' own words.</li>
+<li><strong>Write the 1-page memo</strong> (Appendix B) and assemble the PDF: screener table, memo, gallery screenshot, recording link (shareable), and the guide as you actually ran it.</li>
+</ol>
+<h2>What to submit</h2>
+<ul>
+<li>[ ] Screener table — one row per recruited participant, all cells filled (Appendix A)</li>
+<li>[ ] 1-page debrief memo: themes, surprise, ≥3 PA4 answer options in participants' words (Appendix B)</li>
+<li>[ ] Recording link (view access enabled) + gallery-view screenshot with visible timestamp and ≥3 participants</li>
+<li>[ ] The moderator's guide as run (attach at the end)</li>
+<li>[ ] AI reflection (below)</li>
+</ul>
+<h2>How you'll be graded</h2>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Weight</th>
+<th>Strong work looks like</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Recruiting &amp; qualification</td>
+<td>20%</td>
+<td>One participant per member, each screener row complete; participants genuinely fit the Neo target — not "my roommate said yes"</td>
+</tr>
+<tr>
+<td>Moderation craft</td>
+<td>25%</td>
+<td>Neutral opening + consent on tape; funnel from general to specific; price asked without anchoring; dominant talkers managed</td>
+</tr>
+<tr>
+<td>Themes → PA4 options</td>
+<td>30%</td>
+<td>Themes tied to specific moments in the session; the 3+ answer options quote or closely track participant language, ready to paste into PA4</td>
+</tr>
+<tr>
+<td>Evidence of a live group session</td>
+<td>15%</td>
+<td>Working recording link; gallery screenshot with ≥3 outside participants, cameras on, timestamp visible — a real group ran, live</td>
+</tr>
+<tr>
+<td>Process &amp; AI reflection</td>
+<td>10%</td>
+<td>Human-first draft documented; the four reflection prompts answered specifically, not generically</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Why the recording and screenshot matter:</strong> an AI can write a plausible transcript in seconds; it cannot put three real people in a Zoom gallery. The live-session evidence is what makes this practice count.</p>
+<h2>AI reflection (required)</h2>
+<p><strong>Human first.</strong> Draft or plan this assignment yourselves before any AI touches it. That order is the point: it is the only way to see what AI actually adds — or quietly subtracts. Then use AI to improve your draft, and answer the four prompts below (2–4 sentences each, specific to THIS assignment):</p>
+<p>(a) The most important change we made after using AI was…
+(b) We accepted this change because…
+(c) We rejected or substantially revised the AI suggestion that…
+(d) One uncertainty or question that remains is…</p>
+<p>List the tools you used and for what. Generic answers ("AI helped us improve clarity") score zero on this category; name the actual change.</p>
+<!--appendix-->
+<h2>Appendix A — Participant screener table (fill this out)</h2>
+<p>One row per recruited participant. Use first name + last initial only.</p>
+<!--landscape-->
+<table>
+<thead>
+<tr>
+<th>Participant (first name + initial)</th>
+<th>Recruited by (member)</th>
+<th>Homeowner or renter?</th>
+<th>Usable outdoor space? (yes/no — describe briefly)</th>
+<th>Would consider adding living/work space? (yes/maybe/no)</th>
+<th>Attended the session?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<!--/landscape-->
+
+<p>Participants marked "no" on both screener questions don't qualify — recruit a replacement rather than padding the table.</p>
+<h2>Appendix B — Debrief memo template (~1 page)</h2>
+<p><strong>Session logistics:</strong> date/time · length · # participants attending · moderators</p>
+<p><strong>Top 3 themes</strong> (each: the theme in one sentence + the moment or quote that showed it)</p>
+<p>1.
+2.
+3.</p>
+<p><strong>One thing that surprised us:</strong></p>
+<p><strong>Answer options for PA4</strong> (≥3 closed-ended options, phrased in participants' own words, each tagged with the question topic it would serve — e.g., barrier, use case, price reaction):</p>
+<p>1.
+2.
+3.</p>
+<p><strong>What we'd do differently as moderators:</strong></p></div></details><details id="pa4"><summary><span>PA4 — Design a Questionnaire (+ PA4.5 Revise & Resubmit)</span><span class="due">6 pts · Sun Oct 4</span></summary><div class="pa-body"><p><strong>⬇ <a href="files/PA4.docx" download>Download the fillable Word version</a></strong> — the templates in the appendix are meant to be filled out in this doc.</p><h1>PA4 — Design a Questionnaire (+ PA4.5 Revise &amp; Resubmit)</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Points</td>
+<td>6 (term project — graded on the /100 rubric below, scaled to 6 pts)</td>
 </tr>
 <tr>
 <td>Due</td>
@@ -972,7 +1144,7 @@ footer{color:var(--gray);font-size:.8rem;text-align:center;padding:2rem}
 </tr>
 </tbody>
 </table>
-<p>The Q6 row is the map doing its job: a grammatical, plausible question that does <strong>not</strong> measure its RQ. Your Evaluation column exists to catch exactly this.</p></div></details><details id="pa5"><summary><span>PA5 — Sampling Plan (Group)</span><span class="due">Sun Oct 11</span></summary><div class="pa-body"><p><strong>⬇ <a href="files/PA5.docx" download>Download the fillable Word version</a></strong> — the templates in the appendix are meant to be filled out in this doc.</p><h1>PA5 — Design the Sampling Plan</h1>
+<p>The Q6 row is the map doing its job: a grammatical, plausible question that does <strong>not</strong> measure its RQ. Your Evaluation column exists to catch exactly this.</p></div></details><details id="pa5"><summary><span>PA5 — Sampling Plan (Group)</span><span class="due">4 pts · Sun Oct 11</span></summary><div class="pa-body"><p><strong>⬇ <a href="files/PA5.docx" download>Download the fillable Word version</a></strong> — the templates in the appendix are meant to be filled out in this doc.</p><h1>PA5 — Design the Sampling Plan</h1>
 <table>
 <thead>
 <tr>
@@ -983,7 +1155,7 @@ footer{color:var(--gray);font-size:.8rem;text-align:center;padding:2rem}
 <tbody>
 <tr>
 <td>Points</td>
-<td>100 (term-project component)</td>
+<td>4 (term project — graded on the /100 rubric below, scaled to 4 pts)</td>
 </tr>
 <tr>
 <td>Due</td>
@@ -1224,7 +1396,7 @@ footer{color:var(--gray);font-size:.8rem;text-align:center;padding:2rem}
 </tr>
 </tbody>
 </table>
-<!--/landscape--></div></details><details id="pa5.5"><summary><span>PA5.5 — Complete Data Collection (Individual, 5 surveys)</span><span class="due">Opens Wk 7 · closes Sun Nov 1</span></summary><div class="pa-body"><p><strong>⬇ <a href="files/PA5.5.docx" download>Download the fillable Word version</a></strong> — the templates in the appendix are meant to be filled out in this doc.</p><h1>PA5.5 — Complete Your Data Collection</h1>
+<!--/landscape--></div></details><details id="pa5.5"><summary><span>PA5.5 — Complete Data Collection (Individual, 5 surveys)</span><span class="due">3 pts · Opens Wk 7 · closes Sun Nov 1</span></summary><div class="pa-body"><p><strong>⬇ <a href="files/PA5.5.docx" download>Download the fillable Word version</a></strong> — the templates in the appendix are meant to be filled out in this doc.</p><h1>PA5.5 — Complete Your Data Collection</h1>
 <table>
 <thead>
 <tr>
@@ -1235,7 +1407,7 @@ footer{color:var(--gray);font-size:.8rem;text-align:center;padding:2rem}
 <tbody>
 <tr>
 <td>Points</td>
-<td>100 (term-project component)</td>
+<td>3 (term project — graded on the /100 rubric below, scaled to 3 pts)</td>
 </tr>
 <tr>
 <td>Due</td>
@@ -1378,7 +1550,7 @@ footer{color:var(--gray);font-size:.8rem;text-align:center;padding:2rem}
 </tr>
 </tbody>
 </table>
-<p>Response rate = 11 ÷ 27 = <strong>40.7%</strong>. Four different numbers: 8 contacts never qualified, 8 qualified people never finished, and one complete skipped the name question — so only 10 counted. Keep yours this distinct.</p></div></details><details id="pa6"><summary><span>PA6 — Data Analysis Plan</span><span class="due">Sun Oct 25</span></summary><div class="pa-body"><p><strong>⬇ <a href="files/PA6.docx" download>Download the fillable Word version</a></strong> — the templates in the appendix are meant to be filled out in this doc.</p><h1>PA6 — Data Analysis Plan</h1>
+<p>Response rate = 11 ÷ 27 = <strong>40.7%</strong>. Four different numbers: 8 contacts never qualified, 8 qualified people never finished, and one complete skipped the name question — so only 10 counted. Keep yours this distinct.</p></div></details><details id="pa6"><summary><span>PA6 — Data Analysis Plan</span><span class="due">5 pts · Sun Oct 25</span></summary><div class="pa-body"><p><strong>⬇ <a href="files/PA6.docx" download>Download the fillable Word version</a></strong> — the templates in the appendix are meant to be filled out in this doc.</p><h1>PA6 — Data Analysis Plan</h1>
 <table>
 <thead>
 <tr>
@@ -1389,7 +1561,7 @@ footer{color:var(--gray);font-size:.8rem;text-align:center;padding:2rem}
 <tbody>
 <tr>
 <td>Points</td>
-<td>100 (term-project component)</td>
+<td>5 (term project — graded on the /100 rubric below, scaled to 5 pts)</td>
 </tr>
 <tr>
 <td>Due</td>
@@ -1708,7 +1880,7 @@ footer{color:var(--gray);font-size:.8rem;text-align:center;padding:2rem}
 </tr>
 </tbody>
 </table>
-<!--/landscape--></div></details><details id="pa7"><summary><span>PA7 — Data Analysis Report</span><span class="due">Sun Nov 8</span></summary><div class="pa-body"><p><strong>⬇ <a href="files/PA7.docx" download>Download the fillable Word version</a></strong> — the templates in the appendix are meant to be filled out in this doc.</p><h1>PA7 — Data Analysis Report</h1>
+<!--/landscape--></div></details><details id="pa7"><summary><span>PA7 — Data Analysis Report</span><span class="due">6 pts · Sun Nov 8</span></summary><div class="pa-body"><p><strong>⬇ <a href="files/PA7.docx" download>Download the fillable Word version</a></strong> — the templates in the appendix are meant to be filled out in this doc.</p><h1>PA7 — Data Analysis Report</h1>
 <table>
 <thead>
 <tr>
@@ -1719,7 +1891,7 @@ footer{color:var(--gray);font-size:.8rem;text-align:center;padding:2rem}
 <tbody>
 <tr>
 <td>Points</td>
-<td>100 (term-project component)</td>
+<td>6 (term project — graded on the /100 rubric below, scaled to 6 pts)</td>
 </tr>
 <tr>
 <td>Due</td>
@@ -1964,7 +2136,7 @@ footer{color:var(--gray);font-size:.8rem;text-align:center;padding:2rem}
 </tr>
 </tbody>
 </table>
-<!--/landscape--></div></details><details id="pa8"><summary><span>PA8 — Term Project Presentation + AI Extension (18 min + Q&A)</span><span class="due">In class Week 14 · Mon Nov 23 / Wed Nov 25</span></summary><div class="pa-body"><p><strong>⬇ <a href="files/PA8.docx" download>Download the fillable Word version</a></strong> — the templates in the appendix are meant to be filled out in this doc.</p><h1>PA8 — Term Project Presentation</h1>
+<!--/landscape--></div></details><details id="pa8"><summary><span>PA8 — Term Project Presentation + AI Extension (18 min + Q&A)</span><span class="due">7 pts · In class Week 14 · Mon Nov 23 / Wed Nov 25</span></summary><div class="pa-body"><p><strong>⬇ <a href="files/PA8.docx" download>Download the fillable Word version</a></strong> — the templates in the appendix are meant to be filled out in this doc.</p><h1>PA8 — Term Project Presentation</h1>
 <table>
 <thead>
 <tr>
@@ -1975,7 +2147,7 @@ footer{color:var(--gray);font-size:.8rem;text-align:center;padding:2rem}
 <tbody>
 <tr>
 <td>Points</td>
-<td>100 (term-project component)</td>
+<td>7 (term project — graded on the /100 rubric below, scaled to 7 pts)</td>
 </tr>
 <tr>
 <td>Due</td>
@@ -2138,7 +2310,7 @@ footer{color:var(--gray);font-size:.8rem;text-align:center;padding:2rem}
 <td></td>
 </tr>
 </tbody>
-</table></div></details><details id="pa9"><summary><span>PA9 — Written Report (SlideDocs)</span><span class="due">Finals week · registrar slot Dec 7–13 (Canvas)</span></summary><div class="pa-body"><p><strong>⬇ <a href="files/PA9.docx" download>Download the fillable Word version</a></strong> — the templates in the appendix are meant to be filled out in this doc.</p><h1>PA9 — Final Written Report</h1>
+</table></div></details><details id="pa9"><summary><span>PA9 — Written Report (SlideDocs)</span><span class="due">5 pts · Finals week · registrar slot Dec 7–13 (Canvas)</span></summary><div class="pa-body"><p><strong>⬇ <a href="files/PA9.docx" download>Download the fillable Word version</a></strong> — the templates in the appendix are meant to be filled out in this doc.</p><h1>PA9 — Final Written Report</h1>
 <table>
 <thead>
 <tr>
@@ -2149,7 +2321,7 @@ footer{color:var(--gray);font-size:.8rem;text-align:center;padding:2rem}
 <tbody>
 <tr>
 <td>Points</td>
-<td>100 (term-project component)</td>
+<td>5 (term project — graded on the /100 rubric below, scaled to 5 pts)</td>
 </tr>
 <tr>
 <td>Due</td>
@@ -2435,7 +2607,7 @@ footer{color:var(--gray);font-size:.8rem;text-align:center;padding:2rem}
 </tr>
 </tbody>
 </table>
-<!--/landscape--></div></details><details id="pmap-lab"><summary><span>PMap-Lab — Perceptual-Map Lab — Working Guide for the PA8 AI Extension (not separately graded)</span><span class="due">Workbook done by Sun Nov 22</span></summary><div class="pa-body"><p><strong>⬇ <a href="files/PMap-Lab.docx" download>Download the fillable Word version</a></strong> — the templates in the appendix are meant to be filled out in this doc.</p><h1>PA_PMap Lab — Perceptual Maps: Simulated Panel vs. Real Data</h1>
+<!--/landscape--></div></details><details id="pmap-lab"><summary><span>PMap-Lab — Perceptual-Map Lab — Working Guide for the PA8 AI Extension (not separately graded)</span><span class="due">in PA8 · Workbook done by Sun Nov 22</span></summary><div class="pa-body"><p><strong>⬇ <a href="files/PMap-Lab.docx" download>Download the fillable Word version</a></strong> — the templates in the appendix are meant to be filled out in this doc.</p><h1>PA_PMap Lab — Perceptual Maps: Simulated Panel vs. Real Data</h1>
 <table>
 <thead>
 <tr>
@@ -2598,9 +2770,9 @@ plt.savefig("pmap.png", dpi=200, bbox_inches="tight")
 ```</p>
 <p>Either path earns full credit. Averaging the two models or running a PCA map instead is fine — <strong>if</strong> the axes are still named and interpreted.</p></div></details>
 
-<h2>Mini-case discussions</h2>
+<h2 id="cases">Mini-case discussions</h2>
 <p>Six cases in order: <strong>Case 1 is the instructor's in-person demo</strong> (models the format); <strong>Cases 2–6 are presented by student teams on Wednesdays — Team N presents Case N+1</strong>. Prep every case by <strong>talking with the AI voice tutor</strong> (ChatGPT voice mode — the starter prompt and the assigned textbook chapter are in each case handout) — workshop in Week 3. Presenting teams get a 20-minute block (15 min + 5 min Q&amp;A) and present <strong>fresh</strong>: teach the case's key idea clearly enough that classmates could apply it, and add at least one thing that goes <strong>beyond the assigned recording</strong>; the presentation is <strong>20 pts, team-graded</strong>. <strong>Every team solves every case</strong>: submit the filled write-up from the case handout (one PDF per team, on Canvas) before the start of that case's class — <strong>5 pts per case</strong>, every team including the presenters, all graded on the same instrument. Handouts below, each with a fillable Word download.</p>
-<details id="case1"><summary><span>Case1 — A Bigger Bookshop? — instructor demo</span><span class="due">Mon Sep 14</span></summary><div class="pa-body"><p><strong>⬇ <a href="files/Case1.docx" download>Download the fillable Word version</a></strong> — the templates in the appendix are meant to be filled out in this doc.</p><h1>Case 1 — A Bigger Bookshop?</h1>
+<details id="case1"><summary><span>Case1 — A Bigger Bookshop? — instructor demo</span><span class="due">5 pts · Mon Sep 14</span></summary><div class="pa-body"><p><strong>⬇ <a href="files/Case1.docx" download>Download the fillable Word version</a></strong> — the templates in the appendix are meant to be filled out in this doc.</p><h1>Case 1 — A Bigger Bookshop?</h1>
 <table>
 <thead>
 <tr>
@@ -2785,7 +2957,7 @@ plt.savefig("pmap.png", dpi=200, bbox_inches="tight")
 <td></td>
 </tr>
 </tbody>
-</table></div></details><details id="case2"><summary><span>Case2 — Research Questions — Team 1 presents</span><span class="due">Wed Sep 16</span></summary><div class="pa-body"><p><strong>⬇ <a href="files/Case2.docx" download>Download the fillable Word version</a></strong> — the templates in the appendix are meant to be filled out in this doc.</p><h1>Case 2 — Research Questions</h1>
+</table></div></details><details id="case2"><summary><span>Case2 — Research Questions — Team 1 presents</span><span class="due">5 + 20 pts · Wed Sep 16</span></summary><div class="pa-body"><p><strong>⬇ <a href="files/Case2.docx" download>Download the fillable Word version</a></strong> — the templates in the appendix are meant to be filled out in this doc.</p><h1>Case 2 — Research Questions</h1>
 <table>
 <thead>
 <tr>
@@ -2994,7 +3166,7 @@ plt.savefig("pmap.png", dpi=200, bbox_inches="tight")
 <td></td>
 </tr>
 </tbody>
-</table></div></details><details id="case3"><summary><span>Case3 — Marketing Research Methods — Team 2 presents</span><span class="due">Wed Sep 23</span></summary><div class="pa-body"><p><strong>⬇ <a href="files/Case3.docx" download>Download the fillable Word version</a></strong> — the templates in the appendix are meant to be filled out in this doc.</p><h1>Case 3 — Marketing Research Methods</h1>
+</table></div></details><details id="case3"><summary><span>Case3 — Marketing Research Methods — Team 2 presents</span><span class="due">5 + 20 pts · Wed Sep 23</span></summary><div class="pa-body"><p><strong>⬇ <a href="files/Case3.docx" download>Download the fillable Word version</a></strong> — the templates in the appendix are meant to be filled out in this doc.</p><h1>Case 3 — Marketing Research Methods</h1>
 <table>
 <thead>
 <tr>
@@ -3184,7 +3356,7 @@ plt.savefig("pmap.png", dpi=200, bbox_inches="tight")
 <td></td>
 </tr>
 </tbody>
-</table></div></details><details id="case4"><summary><span>Case4 — Survey Question — Team 3 presents</span><span class="due">Wed Sep 30</span></summary><div class="pa-body"><p><strong>⬇ <a href="files/Case4.docx" download>Download the fillable Word version</a></strong> — the templates in the appendix are meant to be filled out in this doc.</p><h1>Case 4 — Survey Question</h1>
+</table></div></details><details id="case4"><summary><span>Case4 — Survey Question — Team 3 presents</span><span class="due">5 + 20 pts · Wed Sep 30</span></summary><div class="pa-body"><p><strong>⬇ <a href="files/Case4.docx" download>Download the fillable Word version</a></strong> — the templates in the appendix are meant to be filled out in this doc.</p><h1>Case 4 — Survey Question</h1>
 <table>
 <thead>
 <tr>
@@ -3358,7 +3530,7 @@ Was the room clean? Yes / No · Was the room comfortable? Yes / No · Was the st
 <td></td>
 </tr>
 </tbody>
-</table></div></details><details id="case5"><summary><span>Case5 — Mediacom Sampling — Team 4 presents</span><span class="due">Wed Oct 7</span></summary><div class="pa-body"><p><strong>⬇ <a href="files/Case5.docx" download>Download the fillable Word version</a></strong> — the templates in the appendix are meant to be filled out in this doc.</p><h1>Case 5 — Mediacom Sampling</h1>
+</table></div></details><details id="case5"><summary><span>Case5 — Mediacom Sampling — Team 4 presents</span><span class="due">5 + 20 pts · Wed Oct 7</span></summary><div class="pa-body"><p><strong>⬇ <a href="files/Case5.docx" download>Download the fillable Word version</a></strong> — the templates in the appendix are meant to be filled out in this doc.</p><h1>Case 5 — Mediacom Sampling</h1>
 <table>
 <thead>
 <tr>
@@ -3530,7 +3702,7 @@ Was the room clean? Yes / No · Was the room comfortable? Yes / No · Was the st
 <td></td>
 </tr>
 </tbody>
-</table></div></details><details id="case6"><summary><span>Case6 — Red Lion (Data Collection) — Team 5 presents</span><span class="due">Wed Oct 14</span></summary><div class="pa-body"><p><strong>⬇ <a href="files/Case6.docx" download>Download the fillable Word version</a></strong> — the templates in the appendix are meant to be filled out in this doc.</p><h1>Case 6 — Red Lion (Data Collection)</h1>
+</table></div></details><details id="case6"><summary><span>Case6 — Red Lion (Data Collection) — Team 5 presents</span><span class="due">5 + 20 pts · Wed Oct 14</span></summary><div class="pa-body"><p><strong>⬇ <a href="files/Case6.docx" download>Download the fillable Word version</a></strong> — the templates in the appendix are meant to be filled out in this doc.</p><h1>Case 6 — Red Lion (Data Collection)</h1>
 <table>
 <thead>
 <tr>
@@ -3712,12 +3884,65 @@ Was the room clean? Yes / No · Was the room comfortable? Yes / No · Was the st
 </tbody>
 </table></div></details>
 
-<h2>Resources</h2>
-<div class="card"><h3>Submitting your simternship scores</h3><ul><li>Your scores live in <em>your browser</em> — after every round, click <strong>Results → Download progress backup</strong> (a cleared browser or new device starts empty; Restore backup brings it all back)</li><li>At each checkpoint on Canvas: <strong>Results → Download results file</strong>, then upload the JSON to the matching Canvas assignment</li><li>The final submission after Round 14 is the graded one: your overall weighted % × 0.5 (round weights are applied by the app)</li><li>The file carries a verification code — an edited file scores 0</li></ul><p>→ Canvas checkpoints <em>(on Canvas)</em></p></div><div class="card"><h3>Data for analysis (PA6–PA7)</h3><ul><li>aytm national survey, cleaned (n = 600) — <code>aytm_CLEAN.csv</code></li><li>Prior-cohort student survey, cleaned — <code>student_CLEAN.csv</code></li><li>Column matching between the two — <code>Question_Mapping.csv</code></li><li>aytm KEY INSIGHTS summary (PDF) + auto-report</li></ul><p>→ Data folder <em>(on Canvas)</em></p></div><div class="card"><h3>Questionnaire toolkit (PA4)</h3><ul><li>RQ → Item Map template — embedded in the PA4 assignment doc (one table, both directions)</li><li>Questionnaire Design Cheat Sheet</li><li>Specimen questionnaires: Nike running shoe · dishwasher · USPS</li><li>Data Analysis Plan cheat sheet (also used for PA6)</li></ul><p>→ Toolkit folder <em>(on Canvas)</em></p></div><div class="card"><h3>Fielding kit (PA5/PA5.5)</h3><ul><li>Official survey link + QR flyer</li><li>Sampling-plan worked example + checklist</li></ul><p>→ Official survey <em>(on Canvas)</em></p></div><div class="card"><h3>Report & presentation models (PA8/PA9)</h3><ul><li>Annotated SlideDoc research report (exemplar)</li><li>Slidedocs report templates (PPTX)</li><li>aytm survey analysis example slide doc</li></ul><p>→ Models folder <em>(on Canvas)</em></p></div>
+<h2 id="simulation">Simulation — the Summit Point simternship</h2>
+<div class="sim-body"><h1>Simternship — How It Works &amp; How You Submit Scores</h1>
+<p>Your simternship runs at <strong>Summit Point Research Group</strong>, our simulated research agency (<a href="https://lyf718718.github.io/mktg-research-sim/">open the app</a>). Fourteen rounds, one per skill: each round rehearses a research task <em>before</em> the graded project assignment that needs it — RFPs, secondary research, problem definition, a moderator's guide, survey builds, sampling, open-end coding, survey analysis, a synthetic-panel audit, and a final report. From Round 4 on you work the <strong>same client and the same real survey data (n = 600) as your term project</strong> — the sim stays one step ahead of you all semester. The whole strand is worth <strong>50 points (individual)</strong>.</p>
+<h2>Playing the rounds</h2>
+<ul>
+<li><strong>Pace with the schedule, don't run ahead.</strong> Rounds are due at the class meeting listed on the schedule; each Monday debrief assumes you've played exactly the rounds due — playing ahead spoils the debriefs and teaches the skill out of order.</li>
+<li><strong>Submitting a round is final</strong> — like handing a deliverable to a client. Read the feedback from Marcus (your mentor) after each round; it explains <em>why</em> the best option wins, and that reasoning is what shows up on quizzes.</li>
+<li><strong>Rounds are weighted, not equal</strong> (the two timed builders — the moderator's guide and the final report — count most). The app applies the weights for you; your Results page always shows your overall weighted %.</li>
+<li><strong>Back up after every round: Results → Download progress backup.</strong> Your scores live only in your browser — a cleared browser, a private window, or a different device starts from zero. <em>Restore backup</em> brings everything back.</li>
+</ul>
+<h2>Submitting your scores — three checkpoint assignments on Canvas</h2>
+<p>At each checkpoint, open the app: <strong>Results → Download results file</strong>, then upload that JSON file to the matching Canvas assignment. The file contains your scores only (never your answers). Each export covers <em>all</em> rounds played so far, so you always upload just your latest file.</p>
+<table>
+<thead>
+<tr>
+<th>Checkpoint</th>
+<th>Covers</th>
+<th>Due</th>
+<th>Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Checkpoint 1</td>
+<td>Rounds 1–5</td>
+<td>Mon Sep 14, start of class</td>
+<td>0 — required pacing check</td>
+</tr>
+<tr>
+<td>Checkpoint 2</td>
+<td>Rounds 1–10</td>
+<td>Sun Oct 11, 11:59 PM</td>
+<td>0 — required pacing check</td>
+</tr>
+<tr>
+<td><strong>Final submission</strong></td>
+<td>All 14 rounds</td>
+<td><strong>Sun Nov 22, 11:59 PM</strong></td>
+<td><strong>50 — your overall weighted % × 0.5</strong></td>
+</tr>
+</tbody>
+</table>
+<p>The two 0-point checkpoints are how I catch a lost browser or a pacing problem <em>while it can still be fixed</em> — skipping them risks discovering at Thanksgiving that your scores are gone. Only the final submission is graded.</p>
+<p><strong>Integrity:</strong> every results file carries a verification code computed from your name, ID, and scores. An edited file shows as tampered and scores 0. Option order is shuffled per student, so copying someone's click sequence doesn't work — but discussing the <em>reasoning</em> after a round closes is encouraged.</p>
+<p><strong>If something breaks</strong> (a round won't load, a score looks wrong, your browser lost everything and you have no backup): email me before the deadline with a screenshot — don't keep replaying.</p></div>
 
-<h2>Released after grading</h2>
+<h2 id="resources">Resources</h2>
+<div class="card"><h3>Data for analysis (PA6–PA7)</h3><ul><li>aytm national survey, cleaned (n = 600) — <code>aytm_CLEAN.csv</code></li><li>Prior-cohort student survey, cleaned — <code>student_CLEAN.csv</code></li><li>Column matching between the two — <code>Question_Mapping.csv</code></li><li>aytm KEY INSIGHTS summary (PDF) + auto-report</li></ul><p>→ Data folder <em>(on Canvas)</em></p></div><div class="card"><h3>Questionnaire toolkit (PA4)</h3><ul><li>RQ → Item Map template — embedded in the PA4 assignment doc (one table, both directions)</li><li>Questionnaire Design Cheat Sheet</li><li>Specimen questionnaires: Nike running shoe · dishwasher · USPS</li><li>Data Analysis Plan cheat sheet (also used for PA6)</li></ul><p>→ Toolkit folder <em>(on Canvas)</em></p></div><div class="card"><h3>Fielding kit (PA5/PA5.5)</h3><ul><li>Official survey link + QR flyer</li><li>Sampling-plan worked example + checklist</li></ul><p>→ Official survey <em>(on Canvas)</em></p></div><div class="card"><h3>Report & presentation models (PA8/PA9)</h3><ul><li>Annotated SlideDoc research report (exemplar)</li><li>Slidedocs report templates (PPTX)</li><li>aytm survey analysis example slide doc</li></ul><p>→ Models folder <em>(on Canvas)</em></p></div>
+
+<h2 id="released">Released after grading</h2>
 <p>These are posted to Canvas after the corresponding assignment is graded — study them; they are the standard your next deliverable is graded against.</p>
 <ul><li>PA3 ideal answer key (research objectives + RQs) and the faculty-revised ideal survey instrument</li><li>PA4 model questionnaire (A-level answer key) + common-mistakes repair guide</li><li>PA6 answer key (A-level data analysis plan)</li><li>PA7 answer key (full statistics + figures, PDF)</li><li>A/B/C anchor examples for PA3, PA4, PA6, PA7, PA9 — what separates an A from a B from a C</li></ul>
 </main>
-<footer>IBM3302 · Cal Poly Pomona · generated 2026-08-27 from the course source of record — report broken links to Dr. Lin</footer>
+<footer>IBM3302 · Cal Poly Pomona · generated 2026-08-28 from the course source of record — report broken links to Dr. Lin</footer>
+<script>
+function hubOpenHash(){var h=decodeURIComponent(location.hash.slice(1));if(!h)return;
+var el=document.getElementById(h);if(!el)return;
+var d=el.closest("details");if(d)d.setAttribute("open","");
+el.scrollIntoView({block:"start"});}
+window.addEventListener("hashchange",hubOpenHash);hubOpenHash();
+</script>
 </body></html>
