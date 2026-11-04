@@ -1,0 +1,54 @@
+column (same in both files),aytm_Q,question / meaning,level,answered_aytm,answered_S26,answered_F26,coding_notes
+Respondent_ID,—,Row ID,ID,600/600,256/256,62/62,A_### aytm · S26_### / F26_### student
+Source,—,Which file the row comes from,Nominal,600/600,256/256,62/62,aytm / student — stack the two files and use this as the grouping variable
+Wave,—,Fielding wave,Nominal,600/600,256/256,62/62,"aytm = panel, Mar 2026 · S26 = Spring 2026 class survey, Mar 12–29 2026 · F26 = Fall 2026 PA5.5 wave, Oct 12–Nov 2 2026"
+Analysis_Sample,—,Course default sample,Flag,600/600,256/256,62/62,Yes = outdoor space Yes/possibly AND attention check passed. Filter Analysis_Sample = Yes unless you justify otherwise
+PQ1_Property_Feasibility,PQ1,Outdoor space for a 9×13 ft structure,Nominal,600/600,256/256,62/62,aytm screened 'No' out; S26 kept 36 'No' answers (Analysis_Sample = No); F26 screened 'No' out
+Q2_Prior_Consideration,Q2,Prior consideration of a backyard structure,Nominal,600/600,256/256,62/62,
+Q3_Category_Interest,Q3,General interest in a compact backyard unit (2 yrs),Interval 1–5,600/600,256/256,62/62,1 = Not interested … 5 = Extremely interested; stored as text labels at 1 and 5 (aytm export format) — recode to numbers 1–5 before averaging
+Q6_Purchase_Interest,Q6,"Purchase interest at ~$23,000",Interval 1–5,600/600,256/256,62/62,1 = Not interested … 5 = Extremely interested; stored as text labels at 1 and 5 (aytm export format) — recode to numbers 1–5 before averaging
+Q7_Purchase_Likelihood,Q7,"Purchase likelihood, next 24 months",Interval 1–5,600/600,256/256,62/62,1 = Definitely would not … 5 = Definitely would purchase; stored as text labels at 1 and 5 (aytm export format) — recode to numbers 1–5 before averaging
+Q8_Intended_Use,Q8,Primary intended use,Nominal,600/600,256/256,62/62,Write-ins → 'Other (please specify)'
+Q8_Intended_Use_Other,Q8,Write-in text for Other,Text,64/600,14/256,2/62,
+Q9_Barrier_Cost,Q9,Barrier severity: total cost,Interval 1–5,600/600,256/256,62/62,1 = Would not reduce my likelihood … 5 = Would strongly reduce; stored as text labels at 1 and 5 (aytm export format) — recode to numbers 1–5 before averaging
+Q9_Barrier_HOA,Q9,Barrier severity: HOA / community rules,Interval 1–5,600/600,256/256,62/62,same anchors; stored as text labels at 1 and 5 (aytm export format) — recode to numbers 1–5 before averaging
+Q9_Barrier_Permit,Q9,Barrier severity: permit uncertainty,Interval 1–5,600/600,256/256,62/62,same anchors; stored as text labels at 1 and 5 (aytm export format) — recode to numbers 1–5 before averaging
+Q9_Barrier_Space,Q9,Barrier severity: limited space / access,Interval 1–5,600/600,256/256,62/62,same anchors; stored as text labels at 1 and 5 (aytm export format) — recode to numbers 1–5 before averaging
+Q9_Barrier_Financing,Q9,Barrier severity: lack of financing,Interval 1–5,600/600,256/256,62/62,same anchors; stored as text labels at 1 and 5 (aytm export format) — recode to numbers 1–5 before averaging
+Q9_Barrier_BuildQuality,Q9,Barrier severity: build quality / durability,Interval 1–5,600/600,256/256,62/62,same anchors; stored as text labels at 1 and 5 (aytm export format) — recode to numbers 1–5 before averaging
+Q9_Barrier_ResaleValue,Q9,Barrier severity: resale value,Interval 1–5,600/600,256/256,62/62,same anchors; stored as text labels at 1 and 5 (aytm export format) — recode to numbers 1–5 before averaging
+Q9_Barrier_Other,Q10,Other concern (open-ended),Text,465/600,50/256,7/62,Qualitative only
+Q11_Greatest_Barrier,Q11,Single greatest barrier,Nominal,600/600,256/256,62/62,Write-ins → 'Other (please specify)'
+Q11_Greatest_Barrier_Other,Q11,Write-in text for Other,Text,36/600,3/256,1/62,
+Q12_Attention_Check,Q12,Attention check (correct = Moderately interested),Nominal,600/600,256/256,62/62,aytm: all 600 passed
+Q15_Concept1_Appeal,Q15,Concept 1 Home Office — appeal,Interval 1–5,600/600,256/256,62/62,1 = Not at all appealing … 5 = Extremely appealing; stored as text labels at 1 and 5 (aytm export format) — recode to numbers 1–5 before averaging
+Q16_Concept1_PurchaseLikelihood,Q16,Concept 1 — purchase likelihood,Interval 1–5,600/600,256/256,62/62,1 = Definitely would not … 5 = Definitely would purchase; stored as text labels at 1 and 5 (aytm export format) — recode to numbers 1–5 before averaging
+Q18_Concept2_Appeal,Q18,Concept 2 Guest Suite / STR — appeal,Interval 1–5,600/600,256/256,62/62,stored as text labels at 1 and 5 (aytm export format) — recode to numbers 1–5 before averaging
+Q19_Concept2_PurchaseLikelihood,Q19,Concept 2 — purchase likelihood,Interval 1–5,600/600,256/256,62/62,stored as text labels at 1 and 5 (aytm export format) — recode to numbers 1–5 before averaging
+Q21_Concept3_Appeal,Q21,Concept 3 Wellness / Studio — appeal,Interval 1–5,600/600,256/256,62/62,stored as text labels at 1 and 5 (aytm export format) — recode to numbers 1–5 before averaging
+Q22_Concept3_PurchaseLikelihood,Q22,Concept 3 — purchase likelihood,Interval 1–5,600/600,256/256,62/62,stored as text labels at 1 and 5 (aytm export format) — recode to numbers 1–5 before averaging
+Q24_Concept4_Appeal,Q24,Concept 4 Adventure / Community — appeal,Interval 1–5,600/600,256/256,62/62,stored as text labels at 1 and 5 (aytm export format) — recode to numbers 1–5 before averaging
+Q25_Concept4_PurchaseLikelihood,Q25,Concept 4 — purchase likelihood,Interval 1–5,600/600,256/256,62/62,stored as text labels at 1 and 5 (aytm export format) — recode to numbers 1–5 before averaging
+Q27_Concept5_Appeal,Q27,Concept 5 Simplicity — appeal,Interval 1–5,600/600,256/256,62/62,stored as text labels at 1 and 5 (aytm export format) — recode to numbers 1–5 before averaging
+Q28_Concept5_PurchaseLikelihood,Q28,Concept 5 — purchase likelihood,Interval 1–5,600/600,256/256,62/62,stored as text labels at 1 and 5 (aytm export format) — recode to numbers 1–5 before averaging
+Q29_Best_Concept,Q29,Concept that most motivates purchase,Nominal,600/600,256/256,62/62,aytm labels in both files. aytm rotated concept order; the student Forms showed them in fixed order
+Q30_VD_PermitLight,Q30,Value driver: permit-light sizing,Interval 1–5,600/600,256/256,62/62,1 = Does not increase … 5 = Very strongly increases; stored as text labels at 1 and 5 (aytm export format) — recode to numbers 1–5 before averaging
+Q30_VD_InstallSpeed,Q30,Value driver: installation speed,Interval 1–5,600/600,256/256,62/62,same anchors; stored as text labels at 1 and 5 (aytm export format) — recode to numbers 1–5 before averaging
+Q30_VD_BuildQuality,Q30,Value driver: build quality,Interval 1–5,600/600,256/256,62/62,same anchors; stored as text labels at 1 and 5 (aytm export format) — recode to numbers 1–5 before averaging
+Q30_VD_SmartTech,Q30,Value driver: smart technology,Interval 1–5,600/600,256/256,62/62,same anchors; stored as text labels at 1 and 5 (aytm export format) — recode to numbers 1–5 before averaging
+Q30_VD_Showroom,Q30,Value driver: showroom,Interval 1–5,600/600,256/256,62/62,same anchors; stored as text labels at 1 and 5 (aytm export format) — recode to numbers 1–5 before averaging
+Q31_Most_Persuasive_VD,Q31,Most persuasive value driver,Nominal,600/600,256/256,62/62,Write-ins → 'Other (please specify)'
+Q31_Most_Persuasive_VD_Other,Q31,Write-in text for Other,Text,57/600,22/256,1/62,
+Q32_Sponsorship_Trust,Q32,Effect of outdoor-club partnerships on trust / interest,Interval 1–5,600/600,256/256,62/62,1 = Decrease a lot … 3 = No change … 5 = Increase a lot; stored as text labels at 1 and 5 (aytm export format) — recode to numbers 1–5 before averaging
+Q33_Outreach_Channels,Q33,Outreach channels that would get attention (up to 3),Multi-select,599/600,256/256,62/62,Comma-separated; count a channel with 'contains'. 'None of the above' could not be made exclusive on the Forms
+Q33_Outreach_Other,Q33,Write-in text for Other,Text,8/600,4/256,0/62,
+Q35_HOA_Status,Q35,Home is in an HOA,Nominal,600/600,256/256,62/62,
+Q36_Outdoor_Recreation_Frequency,Q36,Outdoor recreation frequency,Ordinal,600/600,256/256,62/62,Never / A few times a year / About once a month / 2–3 times per month / Weekly or more
+Q37_Club_Memberships,Q37,Outdoor club memberships,Multi-select,598/600,256/256,62/62,"'No, I am not part…' = not a member; anything starting 'Yes -' = member"
+Q37_Club_Other,Q37,Write-in club text,Text,8/600,12/256,0/62,
+Q38_Final_Feedback,Q38,Final comments (open-ended),Text,493/600,31/256,21/62,Qualitative only
+Gender,panel,Gender,Nominal,600/600,256/256,62/62,"aytm panel has Female / Male only; student also Non-binary, Prefer not to say"
+Age_Group,panel,Age band,Ordinal,600/600,256/256,62/62,18–24 / 25–34 / 35–44 / 45–54 / 55–64 / 65 or older — use this to compare across all rows
+Household_Income,panel,Household income,Ordinal,600/600,256/256,62/62,"Under $50,000 / $50,000 - $74,999 / $75,000 - $99,999 / $100,000 - $199,999 / $200,000 or more (aytm's finer low brackets and the student's finer high brackets were merged)"
+Hispanic_Origin,panel,"Hispanic, Latino or Spanish origin",Nominal,600/600,256/256,62/62,S26 derived from its combined race/ethnicity item
+Race_Ethnicity,panel,Race / ethnicity (combined),Nominal,600/600,256/256,62/62,Hispanic / Latino (any race) · White · Black / African American · Asian-American · Other / multiple races · Prefer not to say
